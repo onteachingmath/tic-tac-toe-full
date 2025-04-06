@@ -283,9 +283,10 @@ document.addEventListener('DOMContentLoaded', () => {
         question: currentQuestion.question_latex,
         correct: currentQuestion.correct_answer,
         chosen,
-        explanation: currentQuestion.explanation
+        explanation: currentQuestion.explanation,
+        image: currentQuestion.image || ""
       });
-  
+      
       // Feedback
       gameFeedback.innerHTML = match
         ? `✅ Player ${mode === '2p' ? (playerTurn === 'X' ? 'O' : 'X') : 'X'} is correct!`
@@ -343,9 +344,12 @@ document.addEventListener('DOMContentLoaded', () => {
       const plainChosen = latexToPlainText(entry.chosen || '');
       const plainCorrect = latexToPlainText(entry.correct || '');
       const plainExplanation = latexToPlainText(entry.explanation || '');
+      const imageHtml = entry.image ? `<img src="${entry.image}" style="max-width: 100%; margin: 10px 0;">` : '';
+    
       return `
         <div class="question-block">
           <p><strong>Q${index + 1}:</strong> ${plainQ}</p>
+          ${imageHtml}
           <p><strong>Your Answer:</strong> ${plainChosen}</p>
           <p><strong>Correct Answer:</strong> ${plainCorrect}</p>
           <p><em>${plainExplanation}</em></p>
@@ -353,6 +357,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       `;
     }).join('');
+    
     
     printWindow.document.write(`
       <html>
