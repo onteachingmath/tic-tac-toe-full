@@ -125,11 +125,17 @@ const modeControl = document.getElementById('modeControl');
       }
     });
 
-    questions = Array.from(uniqueMap.values());
     if (questions.length < 9) {
-      alert("Not enough questions to start a game. Minimum is 9.");
+      alert("Not enough questions for this topic. Please choose another subject.");
+      showScreen(screenSubject);  // 👈 Take them back to subject selection
+      gameBoard.innerHTML = '';
+      gameControls.classList.add('hidden');
+      gameFeedback.innerHTML = '';
+      questionPanel.classList.add('hidden');
       return;
     }
+    
+    
 
     board = ["", "", "", "", "", "", "", "", ""];
     gameLog = [];
