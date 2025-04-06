@@ -36,7 +36,21 @@ document.addEventListener('DOMContentLoaded', () => {
   let hintsUsed = 0;
   let scores = { X: 0, O: 0, TIE: 0 };
   let gameLog = [];
-
+  function latexToPlainText(latex) {
+    return latex
+      .replace(/\\frac{([^}]+)}{([^}]+)}/g, '($1/$2)')   // Convert \frac{a}{b} to (a/b)
+      .replace(/\\pi/g, 'π')                             // Replace \pi with π
+      .replace(/\\theta/g, 'θ')                          // Replace \theta with θ
+      .replace(/\\sin/g, 'sin')                          // Replace \sin with sin
+      .replace(/\\cos/g, 'cos')                          // Replace \cos with cos
+      .replace(/\\tan/g, 'tan')                          // Replace \tan with tan
+      .replace(/\\left|\\right|\\ /g, '')                // Remove \left, \right, and escaped spaces
+      .replace(/[{}]/g, '')                              // Remove all curly braces
+      .replace(/\\\\/g, '')                              // Remove double backslashes
+      .replace(/\$/g, '')                                // Remove dollar signs (if any)
+      .trim();
+  }
+  
   function updateScoreboard() {
     document.getElementById('xScore').textContent = scores.X;
     document.getElementById('oScore').textContent = scores.O;
@@ -129,13 +143,34 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function handleCellClick(cell) {
+    // Prevent clicking on already answered cells
     if (cell.classList.contains('answered')) return;
+  
+    // Disable all cells immediately once a cell is clicked
+    document.querySelectorAll('.cell').forEach(cell => {
+      cell.style.pointerEvents = 'none';  // Disable pointer events on all cells
+    });
+  
+    // Mark the clicked cell
     currentCell = cell;
     currentCellIndex = parseInt(cell.dataset.index);
     currentQuestion = getRandomQuestion();
     displayQuestion(currentQuestion);
     questionPanel.classList.remove('hidden');
+    
+    // Lock the selected cell visually
+    currentCell.style.backgroundColor = '#e0f0ff';  // Selected cell color
+  
+    // Re-enable the cells only after the answer is selected
+    setTimeout(() => {
+      document.querySelectorAll('.cell').forEach(cell => {
+        cell.style.pointerEvents = 'auto';  // Re-enable pointer events
+      });
+    }, 1000);  // Adjust time as needed
   }
+  
+  
+  
 
   function getRandomQuestion() {
     const index = Math.floor(Math.random() * questions.length);
@@ -313,15 +348,23 @@ document.addEventListener('DOMContentLoaded', () => {
   downloadPdfBtn.addEventListener('click', () => {
     const printWindow = window.open('', '_blank');
 
-    let questionsHtml = gameLog.map((entry, index) => `
-      <div class="question-block">
-        <p><strong>Q${index + 1}:</strong> ${entry.question}</p>
-        <p><strong>Your Answer:</strong> ${entry.chosen}</p>
-        <p><strong>Correct Answer:</strong> ${entry.correct}</p>
-        <p><em>${entry.explanation || ''}</em></p>
-        <hr>
-      </div>
-    `).join('');
+    let questionsHtml = gameLog.map((entry, index) => {
+      const plainQ = latexToPlainText(entry.question);
+      const plainChosen = latexToPlainText(entry.chosen || '');
+      const plainCorrect = latexToPlainText(entry.correct || '');
+      const plainExplanation = latexToPlainText(entry.explanation || '');
+      return `
+        <div class="question-block">
+          <p><strong>Q${index + 1}:</strong> ${plainQ}</p>
+          <p><strong>Your Answer:</strong> ${plainChosen}</p>
+          <p><strong>Correct Answer:</strong> ${plainCorrect}</p>
+          <p><em>${plainExplanation}</em></p>
+          <hr>
+        </div>
+      `;
+    }).join('');
+    
+    
 
     printWindow.document.write(`
       <html>
