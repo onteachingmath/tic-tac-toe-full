@@ -108,7 +108,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const uniqueMap = new Map();
     filtered.forEach(q => {
-      const baseText = q.question_latex.split(" (variant")[0].trim();
+      const baseText = q.question_latex.includes("(variant")
+  ? q.question_latex.split(" (variant")[0].trim()
+  : q.question_latex;
+
       if (!uniqueMap.has(baseText)) {
         uniqueMap.set(baseText, q);
       }
