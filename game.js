@@ -145,30 +145,41 @@ document.addEventListener('DOMContentLoaded', () => {
   function handleCellClick(cell) {
     // Prevent clicking on already answered cells
     if (cell.classList.contains('answered')) return;
-  
-    // Disable all cells immediately once a cell is clicked
-    document.querySelectorAll('.cell').forEach(cell => {
-      cell.style.pointerEvents = 'none';  // Disable pointer events on all cells
-    });
-  
+
     // Mark the clicked cell
     currentCell = cell;
     currentCellIndex = parseInt(cell.dataset.index);
     currentQuestion = getRandomQuestion();
     displayQuestion(currentQuestion);
     questionPanel.classList.remove('hidden');
-    
-    // Lock the selected cell visually
-    currentCell.style.backgroundColor = '#e0f0ff';  // Selected cell color
   
-    // Re-enable the cells only after the answer is selected
-    setTimeout(() => {
-      document.querySelectorAll('.cell').forEach(cell => {
-        cell.style.pointerEvents = 'auto';  // Re-enable pointer events
-      });
-    }, 1000);  // Adjust time as needed
-  }
-  
+    // Normalize the selected and correct answers to remove extra spaces
+    const chosen = currentCell.dataset.answer.trim(); // Trim the selected answer
+    const correct = currentQuestion.correct_answer.trim(); // Trim the correct answer
+
+    // Normalize both answers (remove spaces and make lowercase for case-insensitivity)
+    const normalizeAnswer = (answer) => answer.replace(/\s+/g, '').toLowerCase();
+
+    // Compare the normalized answers
+    const match = normalizeAnswer(chosen) === normalizeAnswer(correct);
+
+    // Mark the cell as answered
+    currentCell.classList.add('answered');
+
+    // Update the cell color based on whether the answer was correct or not
+    currentCell.style.backgroundColor = match ? '#c8f7c5' : '#f7c5c5';  // Green for correct, red for incorrect
+
+    // Show feedback
+    gameFeedback.innerHTML = match ? "✅ Correct!" : `❌ Incorrect. Correct answer: ${correct}`;
+    renderMathInElement(gameFeedback);
+    questionPanel.classList.add('hidden');
+
+    // No need to disable or lock the cells, just proceed normally
+}
+
+
+
+
   
   
 
