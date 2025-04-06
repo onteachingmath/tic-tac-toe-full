@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let hintsUsed = 0;
   let scores = { X: 0, O: 0, TIE: 0 };
   let gameLog = [];
+
   function latexToPlainText(latex) {
     return latex
       .replace(/\\frac{([^}]+)}{([^}]+)}/g, '($1/$2)')   // Convert \frac{a}{b} to (a/b)
@@ -143,45 +144,24 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function handleCellClick(cell) {
-    // Prevent clicking on already answered cells
-    if (cell.classList.contains('answered')) return;
+    // Prevent clicking on already answered cells unless it was incorrectly answered
+    if (cell.classList.contains('answered') && !cell.classList.contains('incorrect')) return;
 
-    // Mark the clicked cell
     currentCell = cell;
     currentCellIndex = parseInt(cell.dataset.index);
-    currentQuestion = getRandomQuestion();
+
+    // Reuse stored question if incorrect, otherwise get a new one
+    if (cell.classList.contains('incorrect')) {
+      currentQuestion = JSON.parse(cell.dataset.question);
+    } else {
+      currentQuestion = getRandomQuestion();
+    }
+
     displayQuestion(currentQuestion);
     questionPanel.classList.remove('hidden');
-  
-    // Normalize the selected and correct answers to remove extra spaces
-    const chosen = currentCell.dataset.answer.trim(); // Trim the selected answer
-    const correct = currentQuestion.correct_answer.trim(); // Trim the correct answer
-
-    // Normalize both answers (remove spaces and make lowercase for case-insensitivity)
-    const normalizeAnswer = (answer) => answer.replace(/\s+/g, '').toLowerCase();
-
-    // Compare the normalized answers
-    const match = normalizeAnswer(chosen) === normalizeAnswer(correct);
-
-    // Mark the cell as answered
-    currentCell.classList.add('answered');
-
-    // Update the cell color based on whether the answer was correct or not
-    currentCell.style.backgroundColor = match ? '#c8f7c5' : '#f7c5c5';  // Green for correct, red for incorrect
-
-    // Show feedback
-    gameFeedback.innerHTML = match ? "✅ Correct!" : `❌ Incorrect. Correct answer: ${correct}`;
-    renderMathInElement(gameFeedback);
-    questionPanel.classList.add('hidden');
-
-    // No need to disable or lock the cells, just proceed normally
-}
-
-
-
-
-  
-  
+    currentCell.style.backgroundColor = '#d3d3d3'; // Grey for selected
+    currentCell.textContent = ''; // No X or O yet
+  }
 
   function getRandomQuestion() {
     const index = Math.floor(Math.random() * questions.length);
@@ -204,7 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
       btn.innerHTML = `\\(${ans}\\)`;         // show LaTeX like \frac{4}{5}
       renderMathInElement(btn);              // render it cleanly
-      btn.dataset.rawAnswer = ans;           // ✅ save the original LaTeX text
+      btn.dataset.rawAnswer = ans;           // save the original LaTeX text
       btn.classList.add('answer-option');
       btn.style.transition = 'background-color 0.2s';
     
@@ -216,13 +196,12 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.classList.add('selected');
         btn.style.backgroundColor = '#cce5ff';
     
-        currentCell.dataset.answer = btn.dataset.rawAnswer; // ✅ use raw string for checking
+        currentCell.dataset.answer = btn.dataset.rawAnswer; // use raw string for checking
       });
     
       answerChoices.appendChild(btn);
     });
     
-
     renderMathInElement(questionText);
     setupSubmitListener();
   }
@@ -260,12 +239,12 @@ document.addEventListener('DOMContentLoaded', () => {
     clone.addEventListener('click', () => {
       const chosen = currentCell.dataset.answer;
       const correct = currentQuestion.correct_answer;
-      const match = chosen && (chosen.replace(/\s+/g, '') === correct.replace(/\s+/g, ''));
+      const match = chosen && (chosen.replace(/\s+/g, '').toLowerCase() === correct.replace(/\s+/g, '').toLowerCase());
   
       // Default: don't place a mark yet
       let markPlaced = false;
   
-      // ✅ 1-PLAYER LOGIC
+      // 1-PLAYER LOGIC
       if (mode === '1p') {
         const mark = match ? 'X' : 'O';
         board[currentCellIndex] = mark;
@@ -275,25 +254,25 @@ document.addEventListener('DOMContentLoaded', () => {
         markPlaced = true;
       }
   
-      // ✅ 2-PLAYER LOGIC
+      // 2-PLAYER LOGIC
       else if (mode === '2p') {
         if (match) {
-          board[currentCellIndex] = playerTurn;
-          currentCell.textContent = playerTurn;
           currentCell.classList.add('answered');
-          currentCell.style.backgroundColor = '#c8f7c5'; // green for correct
-          markPlaced = true;
+          currentCell.style.backgroundColor = '#c8f7c5'; // Green for correct
+          currentCell.textContent = playerTurn; // Assign X or O
+          board[currentCellIndex] = playerTurn; // Update board
+          playerTurn = playerTurn === 'X' ? 'O' : 'X'; // Switch turns
         } else {
-          // ❌ Do not lock the cell on wrong answer
-          currentCell.style.backgroundColor = '#f7c5c5'; // just give feedback color
+          currentCell.style.backgroundColor = '#ffffff'; // Reset to white
+          currentCell.textContent = ''; // Clear content
+          currentCell.classList.remove('answered'); // Ensure selectable
+          currentCell.classList.add('incorrect'); // Mark as incorrect
+          currentCell.dataset.question = JSON.stringify(currentQuestion); // Store question
         }
-        
-  
-        // Always switch turns in 2p mode
-        playerTurn = playerTurn === 'X' ? 'O' : 'X';
+        gameInfo.textContent = `Subject: ${subject}  |  Topic: ${topic}  |  Player: ${playerTurn}`;
       }
   
-      // ✅ Shared logging
+      // Shared logging
       gameLog.push({
         question: currentQuestion.question_latex,
         correct: currentQuestion.correct_answer,
@@ -301,14 +280,14 @@ document.addEventListener('DOMContentLoaded', () => {
         explanation: currentQuestion.explanation
       });
   
-      // ✅ Feedback
+      // Feedback
       gameFeedback.innerHTML = match
-        ? "✅ Correct!"
+        ? `✅ Player ${mode === '2p' ? (playerTurn === 'X' ? 'O' : 'X') : 'X'} is correct!`
         : `❌ Incorrect. Correct answer: ${correct}<br>${currentQuestion.explanation}<br><em>Keep going — you're learning!</em>`;
       renderMathInElement(gameFeedback);
       questionPanel.classList.add('hidden');
   
-      // ✅ Win check only if a mark was placed
+      // Win check only if a mark was placed
       const winner = checkWin();
       if (winner) {
         scores[winner]++;
@@ -325,14 +304,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.cell').forEach(cell => cell.classList.add('answered'));
         return;
       }
-  
-      // ✅ Update game info for 2-player mode
-      if (mode === '2p') {
-        gameInfo.textContent = `Subject: ${subject}  |  Topic: ${topic}  |  Player: ${playerTurn}`;
-      }
     });
   }
-  
 
   hintButton.addEventListener('click', () => {
     if (hintsUsed >= 2) {
@@ -375,8 +348,6 @@ document.addEventListener('DOMContentLoaded', () => {
       `;
     }).join('');
     
-    
-
     printWindow.document.write(`
       <html>
       <head>
