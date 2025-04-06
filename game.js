@@ -20,9 +20,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const gameInfo = document.getElementById('gameInfo');
   const restartBtn = document.getElementById('restartBtn');
   const newTopicBtn = document.getElementById('newTopicBtn');
+  const changeModeBtn = document.getElementById('changeModeBtn');
+const modeControl = document.getElementById('modeControl');
+
   const gameControls = document.getElementById('gameControls');
   const downloadPdfBtn = document.getElementById('downloadPdfBtn');
 
+  changeModeBtn.addEventListener('click', () => {
+    mode = null; // reset the mode
+    showScreen(screenMode); // return to mode selection
+  });
+  
   let fullQuestionBank = [];
   let mode = null;
   let subject = null;
@@ -129,6 +137,8 @@ document.addEventListener('DOMContentLoaded', () => {
     showScreen(screenGame);
     document.getElementById('scoreWrapper').classList.remove('hidden');
     gameControls.classList.remove('hidden');
+    modeControl.classList.remove('hidden');
+
     gameFeedback.innerHTML = '';
     hintsUsed = 0;
     playerTurn = 'X';
@@ -328,13 +338,17 @@ document.addEventListener('DOMContentLoaded', () => {
     startGame();
   });
 
-  newTopicBtn.addEventListener('click', () => {
-    showScreen(screenSubject);
+  changeModeBtn.addEventListener('click', () => {
+    mode = null; // Reset mode
+    showScreen(screenMode); // Go back to mode selection screen
     gameBoard.innerHTML = '';
     questionPanel.classList.add('hidden');
     gameFeedback.innerHTML = '';
     gameControls.classList.add('hidden');
+    modeControl.classList.add('hidden'); // Hide the mode button until next game
   });
+  
+
 
   downloadPdfBtn.addEventListener('click', () => {
     const printWindow = window.open('', '_blank');
