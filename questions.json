@@ -4867,5 +4867,439 @@
       "2 \\frac{2}{9}",
       "\\frac{32}{27}"
     ]
-  }
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -5 + 3 \\)",
+    "correct_answer": "-2",
+    "hint": "Think of a number line. Move 5 units left from 0, then 3 units right.",
+    "explanation": "Starting at -5, moving 3 units to the right lands at -2.",
+    "incorrect_answers": [
+      "8",
+      "-8",
+      "2"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( 19 - -20 \\)",
+    "correct_answer": "39",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "19 - -20 = 39",
+    "incorrect_answers": [
+      "41",
+      "38",
+      "40"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( 0 - 0 \\)",
+    "correct_answer": "0",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "0 - 0 = 0",
+    "incorrect_answers": [
+      "1",
+      "-2",
+      "3"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( 16 + 10 \\)",
+    "correct_answer": "26",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "16 + 10 = 26",
+    "incorrect_answers": [
+      "25",
+      "28",
+      "24"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -17 - -8 \\)",
+    "correct_answer": "-9",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "-17 - -8 = -9",
+    "incorrect_answers": [
+      "-8",
+      "-12",
+      "-6"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -1 - -2 \\)",
+    "correct_answer": "1",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "-1 - -2 = 1",
+    "incorrect_answers": [
+      "0",
+      "2",
+      "4"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -3 - 11 \\)",
+    "correct_answer": "-14",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "-3 - 11 = -14",
+    "incorrect_answers": [
+      "-13",
+      "-17",
+      "-15"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -20 + 3 \\)",
+    "correct_answer": "-17",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "-20 + 3 = -17",
+    "incorrect_answers": [
+      "-18",
+      "-14",
+      "-19"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( 19 + -11 \\)",
+    "correct_answer": "8",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "19 + -11 = 8",
+    "incorrect_answers": [
+      "5",
+      "10",
+      "6"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( 17 + 16 \\)",
+    "correct_answer": "33",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "17 + 16 = 33",
+    "incorrect_answers": [
+      "32",
+      "36",
+      "35"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( 6 - 18 \\)",
+    "correct_answer": "-12",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "6 - 18 = -12",
+    "incorrect_answers": [
+      "-13",
+      "-14",
+      "-9"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -3 + 19 \\)",
+    "correct_answer": "16",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "-3 + 19 = 16",
+    "incorrect_answers": [
+      "19",
+      "13",
+      "18"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( 1 + -4 \\)",
+    "correct_answer": "-3",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "1 + -4 = -3",
+    "incorrect_answers": [
+      "-4",
+      "-1",
+      "-5"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -7 + -10 \\)",
+    "correct_answer": "-17",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "-7 + -10 = -17",
+    "incorrect_answers": [
+      "-18",
+      "-14",
+      "-15"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( 11 + 12 \\)",
+    "correct_answer": "23",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "11 + 12 = 23",
+    "incorrect_answers": [
+      "26",
+      "22",
+      "24"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -4 + -2 \\)",
+    "correct_answer": "-6",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "-4 + -2 = -6",
+    "incorrect_answers": [
+      "-9",
+      "-5",
+      "-7"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -7 - 5 \\)",
+    "correct_answer": "-12",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "-7 - 5 = -12",
+    "incorrect_answers": [
+      "-13",
+      "-11",
+      "-10"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( 2 - -4 \\)",
+    "correct_answer": "6",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "2 - -4 = 6",
+    "incorrect_answers": [
+      "5",
+      "8",
+      "4"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( 9 + -16 \\)",
+    "correct_answer": "-7",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "9 + -16 = -7",
+    "incorrect_answers": [
+      "-9",
+      "-4",
+      "-10"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( 7 + -15 \\)",
+    "correct_answer": "-8",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "7 + -15 = -8",
+    "incorrect_answers": [
+      "-9",
+      "-11",
+      "-10"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -7 - 17 \\)",
+    "correct_answer": "-24",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "-7 - 17 = -24",
+    "incorrect_answers": [
+      "-27",
+      "-21",
+      "-22"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( 20 + 13 \\)",
+    "correct_answer": "33",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "20 + 13 = 33",
+    "incorrect_answers": [
+      "32",
+      "30",
+      "35"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( 18 + -12 \\)",
+    "correct_answer": "6",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "18 + -12 = 6",
+    "incorrect_answers": [
+      "9",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -14 + -18 \\)",
+    "correct_answer": "-32",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "-14 + -18 = -32",
+    "incorrect_answers": [
+      "-34",
+      "-35",
+      "-30"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -15 - -4 \\)",
+    "correct_answer": "-11",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "-15 - -4 = -11",
+    "incorrect_answers": [
+      "-8",
+      "-12",
+      "-10"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( 14 + -7 \\)",
+    "correct_answer": "7",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "14 + -7 = 7",
+    "incorrect_answers": [
+      "9",
+      "8",
+      "4"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -7 - -5 \\)",
+    "correct_answer": "-2",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "-7 - -5 = -2",
+    "incorrect_answers": [
+      "1",
+      "-5",
+      "-1"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( 4 - -20 \\)",
+    "correct_answer": "24",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "4 - -20 = 24",
+    "incorrect_answers": [
+      "21",
+      "22",
+      "26"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -14 + -6 \\)",
+    "correct_answer": "-20",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "-14 + -6 = -20",
+    "incorrect_answers": [
+      "-17",
+      "-19",
+      "-22"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -10 + 1 \\)",
+    "correct_answer": "-9",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "-10 + 1 = -9",
+    "incorrect_answers": [
+      "-8",
+      "-11",
+      "-10"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Signed Number Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "Evaluate: \\( -9 + -11 \\)",
+    "correct_answer": "-20",
+    "hint": "Use a number line or remember the rules for adding/subtracting negatives.",
+    "explanation": "-9 + -11 = -20",
+    "incorrect_answers": [
+      "-18",
+      "-23",
+      "-19"
+    ]
+  }  
 ]
