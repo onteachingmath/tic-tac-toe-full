@@ -44,6 +44,8 @@ const modeControl = document.getElementById('modeControl');
   let hintsUsed = 0;
   let scores = { X: 0, O: 0, TIE: 0 };
   let gameLog = [];
+  window.multiGameSession = true;
+
 
   function latexToPlainText(latex) {
     return latex
@@ -139,7 +141,10 @@ const modeControl = document.getElementById('modeControl');
 
 
     board = ["", "", "", "", "", "", "", "", ""];
-    gameLog = [];
+    if (!window.multiGameSession) {
+      gameLog = [];
+    }
+    
     createBoard();
     showScreen(screenGame);
     document.getElementById('scoreWrapper').classList.remove('hidden');
@@ -355,7 +360,15 @@ const modeControl = document.getElementById('modeControl');
     modeControl.classList.add('hidden'); // Hide the mode button until next game
   });
   
-
+  newTopicBtn.addEventListener('click', () => {
+    showScreen(screenSubject); // Go back to subject selection
+    gameBoard.innerHTML = '';
+    questionPanel.classList.add('hidden');
+    gameFeedback.innerHTML = '';
+    gameControls.classList.add('hidden');
+    modeControl.classList.add('hidden'); // Hide the player mode button
+  });
+  
 
   downloadPdfBtn.addEventListener('click', () => {
     const printWindow = window.open('', '_blank');
