@@ -1,5 +1,709 @@
 [
   {
+    "subject": "ACT Prep",
+    "topic": "FULL BLOWN REVIEW",
+    "difficulty": "easy",
+    "question_latex": "Select the correct answer for the question in the image. [Q1]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide1.JPG",
+    "correct_answer": "B",
+    "incorrect_answers": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "hint": ".",
+    "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q2]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide2.JPG",
+  "correct_answer": "E",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q3]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide3.JPG",
+  "correct_answer": "A",
+  "incorrect_answers": [
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q4]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide4.JPG",
+  "correct_answer": "A",
+  "incorrect_answers": [
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q5]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide5.JPG",
+  "correct_answer": "A",
+  "incorrect_answers": [
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q6]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide6.JPG",
+  "correct_answer": "E",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q7]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide7.JPG",
+  "correct_answer": "B",
+  "incorrect_answers": [
+    "A",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q8]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide8.JPG",
+  "correct_answer": "B",
+  "incorrect_answers": [
+    "A",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q9]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide9.JPG",
+  "correct_answer": "E",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q10]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide10.JPG",
+  "correct_answer": "C",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q11]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide11.JPG",
+  "correct_answer": "E",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q12]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide12.JPG",
+  "correct_answer": "C",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q13]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide13.JPG",
+  "correct_answer": "C",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q14]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide17.JPG",
+  "correct_answer": "C",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q15]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide27.JPG",
+  "correct_answer": "C",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q16]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide28.JPG",
+  "correct_answer": "C",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q17]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide29.JPG",
+  "correct_answer": "C",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q18]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide34.JPG",
+  "correct_answer": "C",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q19]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide36.JPG",
+  "correct_answer": "C",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q20]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide37.JPG",
+  "correct_answer": "C",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q21]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide14.JPG",
+  "correct_answer": "D",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q22]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide14.JPG",
+  "correct_answer": "B",
+  "incorrect_answers": [
+    "A",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q23]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide16.JPG",
+  "correct_answer": "D",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q24]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide23.JPG",
+  "correct_answer": "D",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q25]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide24.JPG",
+  "correct_answer": "D",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q26]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide25.JPG",
+  "correct_answer": "D",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q27]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide26.JPG",
+  "correct_answer": "D",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q28]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide32.JPG",
+  "correct_answer": "D",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q29]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide33.JPG",
+  "correct_answer": "D",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q30]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide38.JPG",
+  "correct_answer": "D",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q31]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide41.JPG",
+  "correct_answer": "D",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q32]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide18.JPG",
+  "correct_answer": "B",
+  "incorrect_answers": [
+    "A",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q33]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide19.JPG",
+  "correct_answer": "B",
+  "incorrect_answers": [
+    "A",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q34]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide22.JPG",
+  "correct_answer": "B",
+  "incorrect_answers": [
+    "A",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q35]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide30.JPG",
+  "correct_answer": "B",
+  "incorrect_answers": [
+    "A",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q36]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide44.JPG",
+  "correct_answer": "B",
+  "incorrect_answers": [
+    "A",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q37]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide45.JPG",
+  "correct_answer": "B",
+  "incorrect_answers": [
+    "A",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q38]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide21.JPG",
+  "correct_answer": "A",
+  "incorrect_answers": [
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q39]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide31.JPG",
+  "correct_answer": "A",
+  "incorrect_answers": [
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q40]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide35.JPG",
+  "correct_answer": "A",
+  "incorrect_answers": [
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q41]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide39.JPG",
+  "correct_answer": "A",
+  "incorrect_answers": [
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q42]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide40.JPG",
+  "correct_answer": "A",
+  "incorrect_answers": [
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q43]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide42.JPG",
+  "correct_answer": "E",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
+  "subject": "ACT Prep",
+  "topic": "FULL BLOWN REVIEW",
+  "difficulty": "easy",
+  "question_latex": "Select the correct answer for the question in the image. [Q44]",
+  "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/images/Slide43.JPG",
+  "correct_answer": "E",
+  "incorrect_answers": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "hint": ".",
+  "explanation": ""
+},
+{
     "subject": "Algebra 1",
     "topic": "Slope",
     "difficulty": "easy",
@@ -3448,6 +4152,20 @@
       "(x + 2)(x + 8)",
       "(x - 4)(x + 4)",
       "(x + 4)(x - 4)"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Factoring Quadratic",
+    "difficulty": "medium",
+    "question_latex": "Factor the quadratic: \\( x^2 + 5x + 6 \\)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add up to 5.",
+    "explanation": "The two numbers are 2 and 3. So, the factorization is \\( (x + 2)(x + 3) \\).",
+    "incorrect_answers": [
+      "(x + 1)(x + 6)",
+      "(x - 1)(x + 6)",
+      "(x + 4)(x + 2)"
     ]
   },
   {
