@@ -264,7 +264,6 @@ document.addEventListener('DOMContentLoaded', () => {
           currentCell.style.backgroundColor = '#c8f7c5'; // Green for correct
           currentCell.textContent = playerTurn; // Assign X or O
           board[currentCellIndex] = playerTurn; // Update board
-          playerTurn = playerTurn === 'X' ? 'O' : 'X'; // Switch turns
         } else {
           currentCell.style.backgroundColor = '#ffffff'; // Reset to white
           currentCell.textContent = ''; // Clear content
@@ -272,6 +271,10 @@ document.addEventListener('DOMContentLoaded', () => {
           currentCell.classList.add('incorrect'); // Mark as incorrect
           currentCell.dataset.question = JSON.stringify(currentQuestion); // Store question
         }
+        
+        // ✅ Always switch players after each 2p turn
+        playerTurn = playerTurn === 'X' ? 'O' : 'X';
+        
         gameInfo.textContent = `Subject: ${subject}  |  Topic: ${topic}  |  Player: ${playerTurn}`;
       }
   
