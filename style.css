@@ -9,7 +9,7 @@ body {
 
 /* Game Title */
 h1, h2 {
-  color: #037b7b;
+  color: #002d5a;
   text-align: center;
 }
 
@@ -36,13 +36,13 @@ h1, h2 {
 }
 
 .cell:hover {
-  background-color: #e3f8f8;
-  border-color: #037b7b;
+  background-color: #e1e8f0;
+  border-color: #002d5a;
 }
 
 /* Buttons */
 button, .button {
-  background-color: #037b7b;
+  background-color: #002d5a;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -54,7 +54,7 @@ button, .button {
 }
 
 button:hover, .button:hover {
-  background-color: #025e5e;
+  background-color: #001d3d;
 }
 
 /* Quiz Box */
@@ -82,7 +82,7 @@ button:hover, .button:hover {
 }
 
 .answer-btn:hover {
-  background-color: #d4f0f0;
+  background-color: #dbe3f2;
 }
 
 .answer-btn.correct {
@@ -115,7 +115,7 @@ button:hover, .button:hover {
 #game-result {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #037b7b;
+  color: #002d5a;
   text-align: center;
   margin-top: 20px;
 }
