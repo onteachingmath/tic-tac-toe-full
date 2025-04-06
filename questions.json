@@ -1,0 +1,3373 @@
+[
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)?",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "3.0",
+      "1.0",
+      "4.0"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)?",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5?",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "11.0",
+      "9.0",
+      "12.0"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10?",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "8.0",
+      "6.0",
+      "9.0"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)?",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 1)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "3.0",
+      "4.0",
+      "1.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 2)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "1.0",
+      "4.0",
+      "3.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 3)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "4.0",
+      "3.0",
+      "1.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 4)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "3.0",
+      "1.0",
+      "4.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 5)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "3.0",
+      "1.0",
+      "4.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 6)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "4.0",
+      "3.0",
+      "1.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 7)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "1.0",
+      "3.0",
+      "4.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 8)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "4.0",
+      "1.0",
+      "3.0"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 1)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong C",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 2)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 3)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong C",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 4)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 5)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 6)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 7)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong B",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 8)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong C",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 1)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "12.0",
+      "9.0",
+      "11.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 2)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "12.0",
+      "11.0",
+      "9.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 3)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "9.0",
+      "12.0",
+      "11.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 4)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "9.0",
+      "12.0",
+      "11.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 5)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "9.0",
+      "12.0",
+      "11.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 6)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "11.0",
+      "12.0",
+      "9.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 7)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "11.0",
+      "9.0",
+      "12.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 8)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "11.0",
+      "12.0",
+      "9.0"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 1)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 2)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 3)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 4)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong B",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 5)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong C",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 6)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 7)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 8)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 1)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong B",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 2)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 3)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 4)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 5)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 6)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 7)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong C",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 8)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 1)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "9.0",
+      "8.0",
+      "6.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 2)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "6.0",
+      "9.0",
+      "8.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 3)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "9.0",
+      "6.0",
+      "8.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 4)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "9.0",
+      "8.0",
+      "6.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 5)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "9.0",
+      "8.0",
+      "6.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 6)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "9.0",
+      "8.0",
+      "6.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 7)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "8.0",
+      "9.0",
+      "6.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 8)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "6.0",
+      "8.0",
+      "9.0"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 1)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 2)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 3)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 4)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong C",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 5)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong B",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 6)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong C",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 7)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 8)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope of the red line shown in the image?",
+    "image": "images/find_slope_example.jpg",
+    "correct_answer": "2",
+    "incorrect_answers": ["1", "4", "1/2"],
+    "hint": "Count rise over run using points on the red line.",
+    "explanation": "From the graph, rise = 2 and run = 1, so slope = 2/1 = 2."
+  },  
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of the line passing through the points (2, 3) and (6, 7)?",
+    "correct_answer": "1",
+    "incorrect_answers": [
+      "2",
+      "3",
+      "0"
+    ],
+    "hint": "Use the slope formula: (y2 - y1)/(x2 - x1)",
+    "explanation": "Slope = (7 - 3)/(6 - 2) = 4/4 = 1"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of the line y = 5x - 4?",
+    "correct_answer": "5",
+    "incorrect_answers": [
+      "-5",
+      "-4",
+      "4"
+    ],
+    "hint": "In y = mx + b, m is the slope.",
+    "explanation": "The coefficient of x is the slope: m = 5"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of the line 3x + 2y = 6?",
+    "correct_answer": "-3/2",
+    "incorrect_answers": [
+      "3/2",
+      "2/3",
+      "-2/3"
+    ],
+    "hint": "Convert to y = mx + b form.",
+    "explanation": "2y = -3x + 6 \u2192 y = (-3/2)x + 3"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of a line parallel to y = -2x + 1?",
+    "correct_answer": "-2",
+    "incorrect_answers": [
+      "2",
+      "1/2",
+      "-1/2"
+    ],
+    "hint": "Parallel lines have equal slopes.",
+    "explanation": "Slope of the given line is -2, so parallel slope is -2"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of a line perpendicular to y = 3x + 4?",
+    "correct_answer": "-1/3",
+    "incorrect_answers": [
+      "1/3",
+      "-3",
+      "3"
+    ],
+    "hint": "Use the negative reciprocal of the given slope.",
+    "explanation": "Slope of the given line is 3, so perpendicular slope is -1/3"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of the line passing through (-1, -2) and (2, 4)?",
+    "correct_answer": "2",
+    "incorrect_answers": [
+      "3",
+      "-2",
+      "1"
+    ],
+    "hint": "Use slope = (y2 - y1) / (x2 - x1)",
+    "explanation": "Slope = (4 - (-2)) / (2 - (-1)) = 6 / 3 = 2"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "A line passes through the origin and the point (4, 8). What is its slope?",
+    "correct_answer": "2",
+    "incorrect_answers": [
+      "4",
+      "1",
+      "0"
+    ],
+    "hint": "Use the slope formula with (0,0) and (4,8)",
+    "explanation": "Slope = (8 - 0)/(4 - 0) = 8 / 4 = 2"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "If a line passes through (0, 5) and has a slope of 3, what is the equation of the line?",
+    "correct_answer": "y = 3x + 5",
+    "incorrect_answers": [
+      "y = 5x + 3",
+      "y = -3x + 5",
+      "y = 3x - 5"
+    ],
+    "hint": "Use y = mx + b and substitute m = 3 and b = 5.",
+    "explanation": "Using slope 3 and y-intercept 5 \u2192 y = 3x + 5"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)?",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "3.0",
+      "1.0",
+      "4.0"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)?",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5?",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "11.0",
+      "9.0",
+      "12.0"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10?",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "8.0",
+      "6.0",
+      "9.0"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)?",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 1)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "3.0",
+      "4.0",
+      "1.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 2)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "1.0",
+      "4.0",
+      "3.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 3)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "4.0",
+      "3.0",
+      "1.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 4)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "3.0",
+      "1.0",
+      "4.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 5)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "3.0",
+      "1.0",
+      "4.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 6)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "4.0",
+      "3.0",
+      "1.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 7)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "1.0",
+      "3.0",
+      "4.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 8)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "4.0",
+      "1.0",
+      "3.0"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 1)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong C",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 2)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 3)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong C",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 4)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 5)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 6)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 7)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong B",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 8)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong C",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 1)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "12.0",
+      "9.0",
+      "11.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 2)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "12.0",
+      "11.0",
+      "9.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 3)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "9.0",
+      "12.0",
+      "11.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 4)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "9.0",
+      "12.0",
+      "11.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 5)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "9.0",
+      "12.0",
+      "11.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 6)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "11.0",
+      "12.0",
+      "9.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 7)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "11.0",
+      "9.0",
+      "12.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 8)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "11.0",
+      "12.0",
+      "9.0"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 1)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 2)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 3)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 4)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong B",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 5)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong C",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 6)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 7)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 8)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 1)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong B",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 2)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 3)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 4)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 5)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 6)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 7)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong C",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 8)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 1)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "9.0",
+      "8.0",
+      "6.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 2)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "6.0",
+      "9.0",
+      "8.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 3)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "9.0",
+      "6.0",
+      "8.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 4)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "9.0",
+      "8.0",
+      "6.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 5)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "9.0",
+      "8.0",
+      "6.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 6)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "9.0",
+      "8.0",
+      "6.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 7)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "8.0",
+      "9.0",
+      "6.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 8)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "6.0",
+      "8.0",
+      "9.0"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 1)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 2)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 3)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 4)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong C",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 5)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong B",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 6)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong C",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 7)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 8)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope of the red line shown in the image?",
+    "image": "images/find_slope_example.jpg",
+    "correct_answer": "2",
+    "incorrect_answers": ["1", "4", "1/2"],
+    "hint": "Count rise over run using points on the red line.",
+    "explanation": "From the graph, rise = 2 and run = 1, so slope = 2/1 = 2."
+  },  
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of the line passing through the points (2, 3) and (6, 7)?",
+    "correct_answer": "1",
+    "incorrect_answers": [
+      "2",
+      "3",
+      "0"
+    ],
+    "hint": "Use the slope formula: (y2 - y1)/(x2 - x1)",
+    "explanation": "Slope = (7 - 3)/(6 - 2) = 4/4 = 1"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of the line y = 5x - 4?",
+    "correct_answer": "5",
+    "incorrect_answers": [
+      "-5",
+      "-4",
+      "4"
+    ],
+    "hint": "In y = mx + b, m is the slope.",
+    "explanation": "The coefficient of x is the slope: m = 5"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of the line 3x + 2y = 6?",
+    "correct_answer": "-3/2",
+    "incorrect_answers": [
+      "3/2",
+      "2/3",
+      "-2/3"
+    ],
+    "hint": "Convert to y = mx + b form.",
+    "explanation": "2y = -3x + 6 \u2192 y = (-3/2)x + 3"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of a line parallel to y = -2x + 1?",
+    "correct_answer": "-2",
+    "incorrect_answers": [
+      "2",
+      "1/2",
+      "-1/2"
+    ],
+    "hint": "Parallel lines have equal slopes.",
+    "explanation": "Slope of the given line is -2, so parallel slope is -2"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of a line perpendicular to y = 3x + 4?",
+    "correct_answer": "-1/3",
+    "incorrect_answers": [
+      "1/3",
+      "-3",
+      "3"
+    ],
+    "hint": "Use the negative reciprocal of the given slope.",
+    "explanation": "Slope of the given line is 3, so perpendicular slope is -1/3"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of the line passing through (-1, -2) and (2, 4)?",
+    "correct_answer": "2",
+    "incorrect_answers": [
+      "3",
+      "-2",
+      "1"
+    ],
+    "hint": "Use slope = (y2 - y1) / (x2 - x1)",
+    "explanation": "Slope = (4 - (-2)) / (2 - (-1)) = 6 / 3 = 2"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "A line passes through the origin and the point (4, 8). What is its slope?",
+    "correct_answer": "2",
+    "incorrect_answers": [
+      "4",
+      "1",
+      "0"
+    ],
+    "hint": "Use the slope formula with (0,0) and (4,8)",
+    "explanation": "Slope = (8 - 0)/(4 - 0) = 8 / 4 = 2"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "If a line passes through (0, 5) and has a slope of 3, what is the equation of the line?",
+    "correct_answer": "y = 3x + 5",
+    "incorrect_answers": [
+      "y = 5x + 3",
+      "y = -3x + 5",
+      "y = 3x - 5"
+    ],
+    "hint": "Use y = mx + b and substitute m = 3 and b = 5.",
+    "explanation": "Using slope 3 and y-intercept 5 \u2192 y = 3x + 5"
+  }, 
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)?",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "3.0",
+      "1.0",
+      "4.0"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)?",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5?",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "11.0",
+      "9.0",
+      "12.0"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10?",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "8.0",
+      "6.0",
+      "9.0"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)?",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 1)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "3.0",
+      "4.0",
+      "1.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 2)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "1.0",
+      "4.0",
+      "3.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 3)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "4.0",
+      "3.0",
+      "1.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 4)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "3.0",
+      "1.0",
+      "4.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 5)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "3.0",
+      "1.0",
+      "4.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 6)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "4.0",
+      "3.0",
+      "1.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 7)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "1.0",
+      "3.0",
+      "4.0"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 8)",
+    "correct_answer": "2",
+    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
+    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
+    "incorrect_answers": [
+      "4.0",
+      "1.0",
+      "3.0"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 1)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong C",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 2)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 3)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong C",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 4)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 5)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 6)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 7)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong B",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 8)",
+    "correct_answer": "\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong C",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 1)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "12.0",
+      "9.0",
+      "11.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 2)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "12.0",
+      "11.0",
+      "9.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 3)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "9.0",
+      "12.0",
+      "11.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 4)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "9.0",
+      "12.0",
+      "11.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 5)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "9.0",
+      "12.0",
+      "11.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 6)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "11.0",
+      "12.0",
+      "9.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 7)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "11.0",
+      "9.0",
+      "12.0"
+    ]
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Special Right Triangles",
+    "difficulty": "medium",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 8)",
+    "correct_answer": "10",
+    "hint": "Use the ratio 1:\u221a3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "incorrect_answers": [
+      "11.0",
+      "12.0",
+      "9.0"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 1)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 2)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 3)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 4)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong B",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 5)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong C",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 6)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 7)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 8)",
+    "correct_answer": "3x^2",
+    "hint": "Use the power rule: \\( nx^{n-1} \\)",
+    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 1)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong B",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 2)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 3)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong B",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 4)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 5)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 6)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 7)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong C",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 8)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for two numbers that multiply to 6 and add to 5",
+    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 1)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "9.0",
+      "8.0",
+      "6.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 2)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "6.0",
+      "9.0",
+      "8.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 3)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "9.0",
+      "6.0",
+      "8.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 4)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "9.0",
+      "8.0",
+      "6.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 5)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "9.0",
+      "8.0",
+      "6.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 6)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "9.0",
+      "8.0",
+      "6.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 7)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "8.0",
+      "9.0",
+      "6.0"
+    ]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 8)",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
+    "incorrect_answers": [
+      "6.0",
+      "8.0",
+      "9.0"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 1)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 2)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong A",
+      "Wrong C"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 3)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 4)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong A",
+      "Wrong C",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 5)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong B",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 6)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong B",
+      "Wrong C",
+      "Wrong A"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 7)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Math Facts",
+    "topic": "Fraction Arithmetic",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 8)",
+    "correct_answer": "\\frac{3}{4}",
+    "hint": "Convert to a common denominator",
+    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
+    "incorrect_answers": [
+      "Wrong C",
+      "Wrong A",
+      "Wrong B"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "difficulty": "easy",
+    "question_latex": "What is the slope of the red line shown in the image?",
+    "image": "images/find_slope_example.jpg",
+    "correct_answer": "2",
+    "incorrect_answers": ["1", "4", "1/2"],
+    "hint": "Count rise over run using points on the red line.",
+    "explanation": "From the graph, rise = 2 and run = 1, so slope = 2/1 = 2."
+  },  
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of the line passing through the points (2, 3) and (6, 7)?",
+    "correct_answer": "1",
+    "incorrect_answers": [
+      "2",
+      "3",
+      "0"
+    ],
+    "hint": "Use the slope formula: (y2 - y1)/(x2 - x1)",
+    "explanation": "Slope = (7 - 3)/(6 - 2) = 4/4 = 1"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of the line y = 5x - 4?",
+    "correct_answer": "5",
+    "incorrect_answers": [
+      "-5",
+      "-4",
+      "4"
+    ],
+    "hint": "In y = mx + b, m is the slope.",
+    "explanation": "The coefficient of x is the slope: m = 5"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of the line 3x + 2y = 6?",
+    "correct_answer": "-3/2",
+    "incorrect_answers": [
+      "3/2",
+      "2/3",
+      "-2/3"
+    ],
+    "hint": "Convert to y = mx + b form.",
+    "explanation": "2y = -3x + 6 \u2192 y = (-3/2)x + 3"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of a line parallel to y = -2x + 1?",
+    "correct_answer": "-2",
+    "incorrect_answers": [
+      "2",
+      "1/2",
+      "-1/2"
+    ],
+    "hint": "Parallel lines have equal slopes.",
+    "explanation": "Slope of the given line is -2, so parallel slope is -2"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of a line perpendicular to y = 3x + 4?",
+    "correct_answer": "-1/3",
+    "incorrect_answers": [
+      "1/3",
+      "-3",
+      "3"
+    ],
+    "hint": "Use the negative reciprocal of the given slope.",
+    "explanation": "Slope of the given line is 3, so perpendicular slope is -1/3"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "What is the slope of the line passing through (-1, -2) and (2, 4)?",
+    "correct_answer": "2",
+    "incorrect_answers": [
+      "3",
+      "-2",
+      "1"
+    ],
+    "hint": "Use slope = (y2 - y1) / (x2 - x1)",
+    "explanation": "Slope = (4 - (-2)) / (2 - (-1)) = 6 / 3 = 2"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "A line passes through the origin and the point (4, 8). What is its slope?",
+    "correct_answer": "2",
+    "incorrect_answers": [
+      "4",
+      "1",
+      "0"
+    ],
+    "hint": "Use the slope formula with (0,0) and (4,8)",
+    "explanation": "Slope = (8 - 0)/(4 - 0) = 8 / 4 = 2"
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Slope",
+    "question_latex": "If a line passes through (0, 5) and has a slope of 3, what is the equation of the line?",
+    "correct_answer": "y = 3x + 5",
+    "incorrect_answers": [
+      "y = 5x + 3",
+      "y = -3x + 5",
+      "y = 3x - 5"
+    ],
+    "hint": "Use y = mx + b and substitute m = 3 and b = 5.",
+    "explanation": "Using slope 3 and y-intercept 5 \u2192 y = 3x + 5"
+  },
+  
+  
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( 4\\frac{1}{2} \\) to an improper fraction.",
+      "correct_answer": "\\frac{9}{2}",
+      "incorrect_answers": [
+        "\\frac{7}{2}",
+        "\\frac{5}{1}",
+        "\\frac{11}{2}"
+      ],
+      "hint": "Multiply the whole number by the denominator and add the numerator.",
+      "explanation": "4 × 2 + 1 = 9 → \\( \\frac{9}{2} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( 4\\frac{4}{5} \\) to an improper fraction.",
+      "correct_answer": "\\frac{24}{5}",
+      "incorrect_answers": [
+        "\\frac{22}{5}",
+        "\\frac{26}{5}",
+        "\\frac{5}{1}"
+      ],
+      "hint": "Multiply the whole number by the denominator and add the numerator.",
+      "explanation": "4 × 5 + 4 = 24 → \\( \\frac{24}{5} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( 3\\frac{1}{3} \\) to an improper fraction.",
+      "correct_answer": "\\frac{10}{3}",
+      "incorrect_answers": [
+        "\\frac{11}{3}",
+        "\\frac{8}{3}",
+        "\\frac{3}{1}"
+      ],
+      "hint": "Multiply the whole number by the denominator and add the numerator.",
+      "explanation": "3 × 3 + 1 = 10 → \\( \\frac{10}{3} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( 2\\frac{3}{4} \\) to an improper fraction.",
+      "correct_answer": "\\frac{11}{4}",
+      "incorrect_answers": [
+        "\\frac{9}{4}",
+        "\\frac{13}{4}",
+        "\\frac{5}{2}"
+      ],
+      "hint": "Multiply the whole number by the denominator and add the numerator.",
+      "explanation": "2 × 4 + 3 = 11 → \\( \\frac{11}{4} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( 2\\frac{3}{8} \\) to an improper fraction.",
+      "correct_answer": "\\frac{19}{8}",
+      "incorrect_answers": [
+        "\\frac{5}{2}",
+        "\\frac{17}{8}",
+        "\\frac{21}{8}"
+      ],
+      "hint": "Multiply the whole number by the denominator and add the numerator.",
+      "explanation": "2 × 8 + 3 = 19 → \\( \\frac{19}{8} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( 3\\frac{3}{6} \\) to an improper fraction.",
+      "correct_answer": "\\frac{21}{6}",
+      "incorrect_answers": [
+        "\\frac{11}{3}",
+        "\\frac{10}{3}",
+        "\\frac{23}{6}"
+      ],
+      "hint": "Multiply the whole number by the denominator and add the numerator.",
+      "explanation": "3 × 6 + 3 = 21 → \\( \\frac{21}{6} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( 1\\frac{4}{5} \\) to an improper fraction.",
+      "correct_answer": "\\frac{9}{5}",
+      "incorrect_answers": [
+        "\\frac{7}{5}",
+        "\\frac{8}{5}",
+        "\\frac{2}{1}"
+      ],
+      "hint": "Multiply the whole number by the denominator and add the numerator.",
+      "explanation": "1 × 5 + 4 = 9 → \\( \\frac{9}{5} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( 2\\frac{2}{4} \\) to an improper fraction.",
+      "correct_answer": "\\frac{10}{4}",
+      "incorrect_answers": [
+        "\\frac{9}{4}",
+        "\\frac{3}{1}",
+        "\\frac{11}{4}"
+      ],
+      "hint": "Multiply the whole number by the denominator and add the numerator.",
+      "explanation": "2 × 4 + 2 = 10 → \\( \\frac{10}{4} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( 5\\frac{3}{5} \\) to an improper fraction.",
+      "correct_answer": "\\frac{28}{5}",
+      "incorrect_answers": [
+        "\\frac{29}{5}",
+        "\\frac{26}{5}",
+        "\\frac{27}{5}"
+      ],
+      "hint": "Multiply the whole number by the denominator and add the numerator.",
+      "explanation": "5 × 5 + 3 = 28 → \\( \\frac{28}{5} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( 4\\frac{2}{3} \\) to an improper fraction.",
+      "correct_answer": "\\frac{14}{3}",
+      "incorrect_answers": [
+        "\\frac{13}{3}",
+        "\\frac{16}{3}",
+        "\\frac{4}{1}"
+      ],
+      "hint": "Multiply the whole number by the denominator and add the numerator.",
+      "explanation": "4 × 3 + 2 = 14 → \\( \\frac{14}{3} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( 5\\frac{1}{6} \\) to an improper fraction.",
+      "correct_answer": "\\frac{31}{6}",
+      "incorrect_answers": [
+        "\\frac{16}{3}",
+        "\\frac{5}{1}",
+        "\\frac{29}{6}"
+      ],
+      "hint": "Multiply the whole number by the denominator and add the numerator.",
+      "explanation": "5 × 6 + 1 = 31 → \\( \\frac{31}{6} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( 2\\frac{1}{3} \\) to an improper fraction.",
+      "correct_answer": "\\frac{7}{3}",
+      "incorrect_answers": [
+        "\\frac{3}{1}",
+        "\\frac{8}{3}",
+        "\\frac{2}{1}"
+      ],
+      "hint": "Multiply the whole number by the denominator and add the numerator.",
+      "explanation": "2 × 3 + 1 = 7 → \\( \\frac{7}{3} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( \\frac{3}{2} \\) to a mixed number.",
+      "correct_answer": "1\\frac{1}{2}",
+      "incorrect_answers": [
+        "0",
+        "3",
+        "2"
+      ],
+      "hint": "Divide the numerator by the denominator. The quotient is the whole number; the remainder is the numerator.",
+      "explanation": "3 ÷ 2 = 1 remainder 1 → \\( 1\\frac{1}{2} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( \\frac{25}{6} \\) to a mixed number.",
+      "correct_answer": "4\\frac{1}{6}",
+      "incorrect_answers": [
+        "6",
+        "3\\frac{2}{6}",
+        "5"
+      ],
+      "hint": "Divide the numerator by the denominator. The quotient is the whole number; the remainder is the numerator.",
+      "explanation": "25 ÷ 6 = 4 remainder 1 → \\( 4\\frac{1}{6} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( \\frac{31}{8} \\) to a mixed number.",
+      "correct_answer": "3\\frac{7}{8}",
+      "incorrect_answers": [
+        "5\\frac{6}{8}",
+        "4\\frac{6}{8}",
+        "2\\frac{6}{8}"
+      ],
+      "hint": "Divide the numerator by the denominator. The quotient is the whole number; the remainder is the numerator.",
+      "explanation": "31 ÷ 8 = 3 remainder 7 → \\( 3\\frac{7}{8} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( \\frac{18}{5} \\) to a mixed number.",
+      "correct_answer": "3\\frac{3}{5}",
+      "incorrect_answers": [
+        "4\\frac{4}{5}",
+        "2\\frac{4}{5}",
+        "1\\frac{2}{5}"
+      ],
+      "hint": "Divide the numerator by the denominator. The quotient is the whole number; the remainder is the numerator.",
+      "explanation": "18 ÷ 5 = 3 remainder 3 → \\( 3\\frac{3}{5} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( \\frac{9}{3} \\) to a mixed number.",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "1\\frac{1}{3}",
+        "5\\frac{1}{3}",
+        "4\\frac{1}{3}"
+      ],
+      "hint": "Divide the numerator by the denominator. The quotient is the whole number; the remainder is the numerator.",
+      "explanation": "9 ÷ 3 = 3 remainder 0 → \\( 3 \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( \\frac{13}{4} \\) to a mixed number.",
+      "correct_answer": "3\\frac{1}{4}",
+      "incorrect_answers": [
+        "1\\frac{2}{4}",
+        "2",
+        "4\\frac{2}{4}"
+      ],
+      "hint": "Divide the numerator by the denominator. The quotient is the whole number; the remainder is the numerator.",
+      "explanation": "13 ÷ 4 = 3 remainder 1 → \\( 3\\frac{1}{4} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( \\frac{22}{5} \\) to a mixed number.",
+      "correct_answer": "4\\frac{2}{5}",
+      "incorrect_answers": [
+        "5\\frac{3}{5}",
+        "6\\frac{1}{5}",
+        "6\\frac{3}{5}"
+      ],
+      "hint": "Divide the numerator by the denominator. The quotient is the whole number; the remainder is the numerator.",
+      "explanation": "22 ÷ 5 = 4 remainder 2 → \\( 4\\frac{2}{5} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( \\frac{17}{4} \\) to a mixed number.",
+      "correct_answer": "4\\frac{1}{4}",
+      "incorrect_answers": [
+        "5\\frac{2}{4}",
+        "3",
+        "3\\frac{2}{4}"
+      ],
+      "hint": "Divide the numerator by the denominator. The quotient is the whole number; the remainder is the numerator.",
+      "explanation": "17 ÷ 4 = 4 remainder 1 → \\( 4\\frac{1}{4} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( \\frac{14}{8} \\) to a mixed number.",
+      "correct_answer": "1\\frac{6}{8}",
+      "incorrect_answers": [
+        "0\\frac{7}{8}",
+        "2\\frac{5}{8}",
+        "2\\frac{7}{8}"
+      ],
+      "hint": "Divide the numerator by the denominator. The quotient is the whole number; the remainder is the numerator.",
+      "explanation": "14 ÷ 8 = 1 remainder 6 → \\( 1\\frac{6}{8} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( \\frac{8}{4} \\) to a mixed number.",
+      "correct_answer": "2",
+      "incorrect_answers": [
+        "3\\frac{1}{4}",
+        "4\\frac{1}{4}",
+        "1\\frac{1}{4}"
+      ],
+      "hint": "Divide the numerator by the denominator. The quotient is the whole number; the remainder is the numerator.",
+      "explanation": "8 ÷ 4 = 2 remainder 0 → \\( 2 \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( \\frac{9}{8} \\) to a mixed number.",
+      "correct_answer": "1\\frac{1}{8}",
+      "incorrect_answers": [
+        "0",
+        "0\\frac{2}{8}",
+        "3"
+      ],
+      "hint": "Divide the numerator by the denominator. The quotient is the whole number; the remainder is the numerator.",
+      "explanation": "9 ÷ 8 = 1 remainder 1 → \\( 1\\frac{1}{8} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( \\frac{5}{4} \\) to a mixed number.",
+      "correct_answer": "1\\frac{1}{4}",
+      "incorrect_answers": [
+        "3\\frac{2}{4}",
+        "2",
+        "0\\frac{2}{4}"
+      ],
+      "hint": "Divide the numerator by the denominator. The quotient is the whole number; the remainder is the numerator.",
+      "explanation": "5 ÷ 4 = 1 remainder 1 → \\( 1\\frac{1}{4} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( \\frac{8}{2} \\) to a mixed number.",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "6\\frac{1}{2}",
+        "3\\frac{1}{2}",
+        "2\\frac{1}{2}"
+      ],
+      "hint": "Divide the numerator by the denominator. The quotient is the whole number; the remainder is the numerator.",
+      "explanation": "8 ÷ 2 = 4 remainder 0 → \\( 4 \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( \\frac{21}{5} \\) to a mixed number.",
+      "correct_answer": "4\\frac{1}{5}",
+      "incorrect_answers": [
+        "3",
+        "2",
+        "5\\frac{2}{5}"
+      ],
+      "hint": "Divide the numerator by the denominator. The quotient is the whole number; the remainder is the numerator.",
+      "explanation": "21 ÷ 5 = 4 remainder 1 → \\( 4\\frac{1}{5} \\)"
+    },
+    {
+      "subject": "Math Facts",
+      "topic": "Mixed Numbers and Improper Fractions",
+      "difficulty": "easy",
+      "question_latex": "Convert \\( \\frac{10}{2} \\) to a mixed number.",
+      "correct_answer": "5",
+      "incorrect_answers": [
+        "4\\frac{1}{2}",
+        "6\\frac{1}{2}",
+        "3\\frac{1}{2}"
+      ],
+      "hint": "Divide the numerator by the denominator. The quotient is the whole number; the remainder is the numerator.",
+      "explanation": "10 ÷ 2 = 5 remainder 0 → \\( 5 \\)"
+    }
+  ]

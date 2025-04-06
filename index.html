@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe Math Game</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- MathJax Support -->
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <!-- KaTeX Math Rendering Support -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+          onload="renderMathInElement(document.body);"></script>
+
+  <!-- Game Logic -->
+  <script defer src="game.js"></script>
+</head>
+<body>
+  <h1>Tic Tac Toe Math Challenge</h1>
+  <p id="gameInfo"></p>
+
+  <!-- Screen 1: Mode Selection -->
+  <div id="screenMode" class="screen active">
+    <h2>Choose Your Mode:</h2>
+    <button class="big-btn" data-mode="1p">1 Player</button>
+    <button class="big-btn" data-mode="2p">2 Players</button>
+  </div>
+
+  <!-- Screen 2: Subject Selection -->
+  <div id="screenSubject" class="screen hidden">
+    <h2>Choose Your Subject:</h2>
+    <div class="button-grid" id="subjectButtons"></div>
+  </div>
+
+  <!-- Screen 3: Topic Selection -->
+  <div id="screenTopic" class="screen hidden">
+    <h2>Choose a Topic in <span id="selectedSubjectLabel"></span>:</h2>
+    <div class="button-grid" id="topicButtons"></div>
+  </div>
+
+  <!-- Screen 4: Game Board -->
+  <div id="screenGame" class="screen hidden">
+    <div class="game-container">
+      <div class="game-header">
+        <span id="gameInfo"></span>
+      </div>
+
+      <div id="scoreWrapper" class="hidden">
+        <p><strong>Scoreboard</strong></p>
+        <div id="scoreRow">
+          <span>X: <span id="xScore">0</span></span>
+          <span>O: <span id="oScore">0</span></span>
+          <span>Cat: <span id="tieScore">0</span></span>
+        </div>
+      </div>
+
+      <div id="gameBoard" class="board"></div>
+      <div id="gameFeedback"></div>
+
+      <!-- Question Panel -->
+      <div id="questionPanel" class="question-panel hidden">
+        <div id="questionText"></div>
+        <img id="questionImage" class="hidden" alt="Question Image">
+        <div id="answerChoices"></div>
+        <div class="question-controls">
+          <button id="hintButton">Ask for Help</button>
+          <button id="submitAnswer">Submit Answer</button>
+        </div>
+        <div id="hintSection"></div>
+      </div>
+
+      <!-- ✅ Game Action Buttons at Bottom -->
+      <!-- Game Action Buttons -->
+<div id="gameControls" class="game-controls hidden">
+  <button id="restartBtn">🔁 Restart Game</button>
+  <button id="newTopicBtn">📚 New Subject</button>
+  <button id="downloadPdfBtn">🖨️ Print Game Report</button>
+</div>
+
+      
+    </div> <!-- CLOSE game-container -->
+  </div> <!-- CLOSE screenGame -->
+</body>
+</html>
