@@ -1,126 +1,279 @@
-/* General Reset & Font */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #ffffff;
-  color: #222;
+  font-family: 'Georgia', 'Palatino Linotype', 'Times New Roman', serif;
+  background-color: #f2f2f2;
   margin: 0;
-  padding: 20px;
-}
-
-/* Game Title */
-h1, h2 {
-  color: #002d5a;
+  padding: 0;
   text-align: center;
 }
 
-/* Game Board */
-#game-board {
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.screen {
+  display: none;
+}
+
+.screen.active {
+  display: block;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.big-btn,
+.button-grid button {
+  padding: 15px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #0077cc;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.big-btn:hover,
+.button-grid button:hover {
+  background-color: #005fa3;
+}
+
+#gameInfo {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 4px 0; /* 👈 was probably larger before */
+}
+
+
+#scoreWrapper {
+  text-align: center;
+  margin: 4px 0; /* 👈 previously something like 15px or 20px */
+}
+
+
+#scoreRow {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+#scoreRow span {
+  min-width: 60px;
+}
+
+#gameBoard {
   display: grid;
   grid-template-columns: repeat(3, 100px);
-  gap: 10px;
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  margin: 0 auto;
   justify-content: center;
-  margin: 20px auto;
 }
 
 .cell {
   width: 100px;
   height: 100px;
-  background-color: #f9f9f9;
+  background-color: white;
   border: 2px solid #ccc;
   font-size: 2rem;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   cursor: pointer;
-  transition: background-color 0.2s ease, border-color 0.2s ease;
+  transition: background-color 0.3s;
 }
 
-.cell:hover {
-  background-color: #e1e8f0;
-  border-color: #002d5a;
+.cell:hover:not(.answered) {
+  background-color: #e0f0ff;
 }
 
-/* Buttons */
-button, .button {
-  background-color: #002d5a;
-  color: white;
-  border: none;
-  padding: 12px 20px;
+.answered {
+  cursor: default;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.question-panel {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+}
+
+#questionText {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+#questionImage {
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+#answerChoices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#answerChoices button {
+  padding: 10px;
   font-size: 1rem;
-  border-radius: 5px;
+  border-radius: 6px;
+  border: 1px solid #0077cc;
+  background-color: white;
+  color: #0077cc;
   cursor: pointer;
-  margin: 10px;
+  transition: all 0.3s;
+}
+
+#answerChoices button:hover {
+  background-color: #0077cc;
+  color: white;
+}
+
+.question-controls {
+  margin-top: 10px;
+}
+
+#hintSection {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+#gameFeedback {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.hidden {
+  display: none;
+}
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+#restartBtn {
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  margin: 0; /* 👈 add this line if not present */
+  border: none;
+  border-radius: 5px;
+  background-color: #999;
+  color: white;
+  cursor: pointer;
+}
+
+
+#restartBtn:hover {
+  background-color: #777;
+}
+.restart-wrapper {
+  text-align: center;
+  margin: 10px 0;
+}
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.button-row button {
+  padding: 10px 16px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-row button:hover {
+  background-color: #005fa3;
+}
+/* 🎯 Game Control Buttons (Restart + New Topic) */
+.game-controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#restartBtn,
+#newTopicBtn {
+  font-size: 1rem;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-button:hover, .button:hover {
-  background-color: #001d3d;
+/* Restart: subtle gray */
+#restartBtn {
+  background-color: #777;
+  color: white;
+}
+#restartBtn:hover {
+  background-color: #555;
 }
 
-/* Quiz Box */
-#quiz-box {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 20px;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  background-color: #fefefe;
+/* New Topic: bold blue */
+#newTopicBtn {
+  background-color: #0077cc;
+  color: white;
 }
-
-/* Answer Buttons */
-.answer-btn {
-  display: block;
-  width: 100%;
-  margin: 8px 0;
-  padding: 10px;
-  background-color: #eeeeee;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
+#newTopicBtn:hover {
+  background-color: #005fa3;
 }
-
-.answer-btn:hover {
-  background-color: #dbe3f2;
-}
-
-.answer-btn.correct {
-  background-color: #c8e6c9;
-  border-color: #4caf50;
-  color: #2e7d32;
-}
-
-.answer-btn.incorrect {
-  background-color: #ffcdd2;
-  border-color: #f44336;
-  color: #b71c1c;
-}
-
-/* PDF Download */
-#downloadPdfBtn {
-  display: block;
-  margin: 30px auto;
-}
-
-/* Feedback Box */
-#feedback {
+.pdf-download {
   margin-top: 10px;
-  font-weight: bold;
-  color: #444;
   text-align: center;
 }
 
-/* Game Result */
-#game-result {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #002d5a;
-  text-align: center;
-  margin-top: 20px;
+#downloadPdfBtn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-/* Hidden for smoother game flow */
-.hidden {
-  display: none;
+#downloadPdfBtn:hover {
+  background-color: #218838;
 }
