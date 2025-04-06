@@ -117,13 +117,15 @@ const modeControl = document.getElementById('modeControl');
     const uniqueMap = new Map();
     filtered.forEach(q => {
       const baseText = q.question_latex.includes("(variant")
-  ? q.question_latex.split(" (variant")[0].trim()
-  : q.question_latex;
+        ? q.question_latex.split(" (variant")[0].trim()
+        : q.question_latex;
 
       if (!uniqueMap.has(baseText)) {
         uniqueMap.set(baseText, q);
       }
     });
+
+    questions = Array.from(uniqueMap.values()); // 👈 Move this up!
 
     if (questions.length < 9) {
       alert("Not enough questions for this topic. Please choose another subject.");
@@ -134,8 +136,7 @@ const modeControl = document.getElementById('modeControl');
       questionPanel.classList.add('hidden');
       return;
     }
-    
-    
+
 
     board = ["", "", "", "", "", "", "", "", ""];
     gameLog = [];
