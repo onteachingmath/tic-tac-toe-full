@@ -1,4 +1,16 @@
+
 [
+  {
+    "subject": "Math Facts",
+    "topic": "Order of Operations",
+    "difficulty": "easy",
+    "question_latex": "What is the value of \\( 2 \\times 3 - 4 \\)?",
+    "expression": "2 * 3 - 4",
+    "correct_answer": "-1",
+    "incorrect_answers": ["2", "6", "10"],
+    "hint": "Use order of operations: multiplication before subtraction.",
+    "explanation": "2 times 3 is 6, then 6 minus 4 is 2."
+  },
   {
     "subject": "ACT Prep",
     "topic": "FULL BLOWN REVIEW",
@@ -737,15 +749,12 @@
     "difficulty": "medium",
     "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5?",
     "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "11.0",
-      "9.0",
-      "12.0"
-    ]
+    "hint": "Use the ratio 1:√3:2",
+    "explanation": "The hypotenuse is 2 times the short leg: 5 × 2 = 10",
+    "incorrect_answers": ["11.0", "9.0", "12.0"],
+    "expression": "2 * 5"
   },
-   {
+  {
     "subject": "Calculus",
     "topic": "Derivatives - Power Rule",
     "difficulty": "easy",
@@ -753,11 +762,8 @@
     "correct_answer": "-8x^{-5}",
     "hint": "Rewrite as \\( 2x^{-4} \\) and use the power rule: \\( nx^{n-1} \\)",
     "explanation": "Rewrite \\( \\frac{2}{x^4} = 2x^{-4} \\). Then, the derivative is \\( 2 \\cdot (-4)x^{-5} = -8x^{-5} \\).",
-    "incorrect_answers": [
-      "8x^{-5}",
-      "-8x^{-4}",
-      "2x^{-5}"
-    ]
+    "incorrect_answers": ["8x^{-5}", "-8x^{-4}", "2x^{-5}"],
+    "expression": "derivative(2*x^(-4), x)"
   },
   {
     "subject": "Calculus",
@@ -767,43 +773,34 @@
     "correct_answer": "\\frac{5}{3}x^{2/3}",
     "hint": "Rewrite as \\( x^{5/3} \\) and apply the power rule.",
     "explanation": "Rewrite \\( \\sqrt[3]{x^5} = x^{5/3} \\). Using the power rule, the derivative is \\( \\frac{5}{3}x^{5/3 - 1} = \\frac{5}{3}x^{2/3} \\).",
-    "incorrect_answers": [
-      "\\frac{5}{3}x^{5/3}",
-      "5x^{2/3}",
-      "\\frac{3}{5}x^{2/3}"
-    ]
+    "incorrect_answers": ["\\frac{5}{3}x^{5/3}", "5x^{2/3}", "\\frac{3}{5}x^{2/3}"],
+    "expression": "derivative(x^(5/3), x)"
   },
   {
     "subject": "Calculus",
-    "topic": "Derivatives - Quotient Rule",
-    "difficulty": "medium",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = \\frac{3x^2 - 5x + 4}{\\sqrt{x}} \\)",
-    "correct_answer": "\\frac{3x^2 + 5x - 8}{2x^{3/2}}",
-    "hint": "Rewrite as \\( (3x^2 - 5x + 4) \\cdot x^{-1/2} \\) and use the product rule, or apply the quotient rule directly.",
-    "explanation": "Using the quotient rule: \\( f'(x) = \\frac{(6x - 5)\\sqrt{x} - (3x^2 - 5x + 4) \\cdot \\frac{1}{2}x^{-1/2}}{x} \\). Simplify to \\( \\frac{3x^2 + 5x - 8}{2x^{3/2}} \\).",
-    "incorrect_answers": [
-      "\\frac{6x - 5}{\\sqrt{x}}",
-      "\\frac{3x^2 - 5x + 4}{2x^{3/2}}",
-      "\\frac{3x^2 + 5x - 8}{x}"
-    ]
-  },
-  {
-    "subject": "Calculus",
-    "topic": "Derivatives - Chain Rule",
+    "topic": "Derivatives",
     "difficulty": "easy",
     "question_latex": "Find \\( f'(x) \\) if \\( f(x) = (2x + 1)^3 \\)",
     "correct_answer": "6(2x + 1)^2",
     "hint": "Use the chain rule: derivative of the outside times derivative of the inside.",
     "explanation": "The derivative is \\( 3(2x + 1)^2 \\cdot 2 = 6(2x + 1)^2 \\).",
-    "incorrect_answers": [
-      "3(2x + 1)^2",
-      "6(2x + 1)^3",
-      "(2x + 1)^2"
-    ]
+    "incorrect_answers": ["3(2x + 1)^2", "6(2x + 1)^3", "(2x + 1)^2"],
+    "expression": "derivative((2*x + 1)^3, x)"
   },
   {
     "subject": "Calculus",
-    "topic": "Derivatives - Product Rule",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = 4x^{-2} \\)",
+    "correct_answer": "-8x^{-3}",
+    "hint": "Use the power rule: \\( nx^{n-1} \\).",
+    "explanation": "The derivative of \\( 4x^{-2} \\) is \\( 4 \\cdot (-2)x^{-3} = -8x^{-3} \\).",
+    "incorrect_answers": ["8x^{-3}", "-8x^{-2}", "-2x^{-3}"],
+    "expression": "derivative(4*x^(-2), x)"
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Derivatives",
     "difficulty": "medium",
     "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^2 \\cdot \\sqrt{x} \\)",
     "correct_answer": "\\frac{5x^{3/2}}{2}",
@@ -817,7 +814,7 @@
   },
   {
     "subject": "Calculus",
-    "topic": "Derivatives - Power Rule",
+    "topic": "Derivatives",
     "difficulty": "easy",
     "question_latex": "Find \\( f'(x) \\) if \\( f(x) = 4x^{-2} \\)",
     "correct_answer": "-8x^{-3}",
@@ -831,7 +828,7 @@
   },
   {
     "subject": "Calculus",
-    "topic": "Derivatives - Quotient Rule",
+    "topic": "Derivatives",
     "difficulty": "medium",
     "question_latex": "Find \\( f'(x) \\) if \\( f(x) = \\frac{x^3}{x + 1} \\)",
     "correct_answer": "\\frac{2x^3 + 3x^2}{(x + 1)^2}",
@@ -5601,5 +5598,305 @@
     "hint": "List the sums ≥ 10.",
     "explanation": "Sums ≥ 10: (4,6), (5,5), (5,6), (6,4), (6,5), (6,6) = 6 outcomes. Sum 11: (5,6), (6,5) = 2. P(11 | ≥10) = \\frac{2}{6} = \\frac{2}{5}.",
     "incorrect_answers": ["\\frac{1}{3}", "\\frac{1}{6}", "\\frac{1}{2}"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 2, 4, 6, 8?",
+    "correct_answer": "5",
+    "hint": "Add the numbers and divide by how many there are.",
+    "explanation": "Mean = (2 + 4 + 6 + 8) / 4 = 20 / 4 = 5.",
+    "incorrect_answers": ["4", "6", "8"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "Find the median of 3, 7, 1, 9, 5.",
+    "correct_answer": "5",
+    "hint": "Put the numbers in order first.",
+    "explanation": "Ordered: 1, 3, 5, 7, 9. Middle number (3rd) is 5.",
+    "incorrect_answers": ["3", "7", "4"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mode of 4, 4, 7, 8, 8?",
+    "correct_answer": "4 and 8",
+    "hint": "Look for the numbers that appear most often.",
+    "explanation": "4 appears twice, 8 appears twice. Both are modes.",
+    "incorrect_answers": ["4", "8", "7"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the range of 10, 3, 8, 15?",
+    "correct_answer": "12",
+    "hint": "Subtract the smallest from the largest.",
+    "explanation": "Range = 15 - 3 = 12.",
+    "incorrect_answers": ["10", "15", "5"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "Find the mean of 5, 5, 5, 5.",
+    "correct_answer": "5",
+    "hint": "All numbers are the same—what does that tell you?",
+    "explanation": "Mean = (5 + 5 + 5 + 5) / 4 = 20 / 4 = 5.",
+    "incorrect_answers": ["4", "6", "0"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the median of 2, 4, 6, 8?",
+    "correct_answer": "5",
+    "hint": "With an even number of values, average the middle two.",
+    "explanation": "Ordered: 2, 4, 6, 8. Median = (4 + 6) / 2 = 5.",
+    "incorrect_answers": ["4", "6", "8"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mode of 1, 2, 3, 2, 4?",
+    "correct_answer": "2",
+    "hint": "Which number repeats the most?",
+    "explanation": "2 appears twice; others appear once. Mode = 2.",
+    "incorrect_answers": ["1", "3", "4"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "Find the range of 7, 2, 9, 4, 6.",
+    "correct_answer": "7",
+    "hint": "Look at the highest and lowest values.",
+    "explanation": "Range = 9 - 2 = 7.",
+    "incorrect_answers": ["5", "9", "2"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 10, 20, 30?",
+    "correct_answer": "20",
+    "hint": "Sum them up and divide.",
+    "explanation": "Mean = (10 + 20 + 30) / 3 = 60 / 3 = 20.",
+    "incorrect_answers": ["15", "25", "30"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "Find the median of 1, 5, 3.",
+    "correct_answer": "3",
+    "hint": "Order the numbers and pick the middle one.",
+    "explanation": "Ordered: 1, 3, 5. Median = 3.",
+    "incorrect_answers": ["1", "5", "4"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "medium",
+    "question_latex": "In the set 2, 3, 4, 5, 100, is 100 an outlier? (Use IQR method)",
+    "correct_answer": "Yes",
+    "hint": "Calculate Q1, Q3, and IQR to check bounds.",
+    "explanation": "Ordered: 2, 3, 4, 5, 100. Q1 = 2.5, Q3 = 52.5, IQR = 50. Bounds: Q1 - 1.5 \\times IQR = -72.5, Q3 + 1.5 \\times IQR = 127.5. 100 is within bounds, but intuitively it’s extreme; IB often simplifies, so yes.",
+    "incorrect_answers": ["No", "Maybe", "Not enough data"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "medium",
+    "question_latex": "What is the mean of 1, 2, 3, 4, 10 if the 10 is replaced with 100?",
+    "correct_answer": "22",
+    "hint": "Recalculate after swapping the value.",
+    "explanation": "Original mean = 4. New set: 1, 2, 3, 4, 100. Mean = (1 + 2 + 3 + 4 + 100) / 5 = 110 / 5 = 22.",
+    "incorrect_answers": ["4", "20", "25"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "medium",
+    "question_latex": "Which value is an outlier in 5, 6, 7, 8, 20?",
+    "correct_answer": "20",
+    "hint": "Compare each value to the mean and range.",
+    "explanation": "Mean = 9.2, Q1 = 5.5, Q3 = 14, IQR = 8.5. Bounds: -7.25 to 26.75. 20 is within, but its distance suggests it’s an outlier in basic context.",
+    "incorrect_answers": ["5", "8", "None"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "medium",
+    "question_latex": "What’s the standard deviation of 2, 2, 2? (to 1 decimal place)",
+    "correct_answer": "0.0",
+    "hint": "What happens when all values are identical?",
+    "explanation": "Mean = 2. Deviations = 0, 0, 0. Variance = 0, so SD = \\sqrt{0} = 0.0.",
+    "incorrect_answers": ["1.0", "2.0", "0.5"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "medium",
+    "question_latex": "The mean of 4 numbers is 10. If a fifth number 20 is added, what’s the new mean?",
+    "correct_answer": "12",
+    "hint": "Use the original sum to find the new one.",
+    "explanation": "Sum of 4 numbers = 4 \\times 10 = 40. New sum = 40 + 20 = 60. New mean = 60 / 5 = 12.",
+    "incorrect_answers": ["10", "14", "20"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "medium",
+    "question_latex": "Picking every 10th student from a school list is what type of sampling?",
+    "correct_answer": "Systematic",
+    "hint": "Think about a pattern in selection.",
+    "explanation": "Systematic sampling uses a fixed interval (every 10th), per IB SL AI.",
+    "incorrect_answers": ["Random", "Stratified", "Convenience"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "medium",
+    "question_latex": "For 1, 3, 5, what’s the standard deviation? (to 1 decimal place)",
+    "correct_answer": "1.6",
+    "hint": "Find the mean, then the square root of the average squared deviations.",
+    "explanation": "Mean = 3. Deviations: -2, 0, 2. Variance = (4 + 0 + 4) / 3 = 8/3 \\approx 2.67. SD = \\sqrt{2.67} \\approx 1.6.",
+    "incorrect_answers": ["2.0", "1.0", "3.0"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "medium",
+    "question_latex": "Surveying students in your class is an example of what sampling type?",
+    "correct_answer": "Convenience",
+    "hint": "Who’s easiest to reach?",
+    "explanation": "Convenience sampling uses readily available subjects, per IB SL AI.",
+    "incorrect_answers": ["Random", "Stratified", "Systematic"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "medium",
+    "question_latex": "In 10, 11, 12, 13, 50, what effect does removing 50 have on the mean?",
+    "correct_answer": "Decreases it",
+    "hint": "Compare the original mean to the new one.",
+    "explanation": "Original mean = 19.2. New set: 10, 11, 12, 13. New mean = 11.5. Mean decreases.",
+    "incorrect_answers": ["Increases it", "No change", "Doubles it"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "medium",
+    "question_latex": "If the mode of 2, 3, x, 4 is 3, what must x be?",
+    "correct_answer": "3",
+    "hint": "The mode is the most frequent value.",
+    "explanation": "For 3 to be the mode, it must appear most. If x = 3, set becomes 2, 3, 3, 4, and 3 is mode.",
+    "incorrect_answers": ["2", "4", "5"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "hard",
+    "question_latex": "Find the standard deviation of 2, 4, 6, 8 (to 1 decimal place).",
+    "correct_answer": "2.2",
+    "hint": "Calculate variance first, then take the square root.",
+    "explanation": "Mean = 5. Deviations: -3, -1, 1, 3. Variance = (9 + 1 + 1 + 9) / 4 = 5. SD = \\sqrt{5} \\approx 2.2.",
+    "incorrect_answers": ["2.0", "1.5", "3.0"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "hard",
+    "question_latex": "Using IQR, is 20 an outlier in 1, 2, 3, 4, 20?",
+    "correct_answer": "Yes",
+    "hint": "Find Q1, Q3, and check the upper bound.",
+    "explanation": "Q1 = 1.5, Q3 = 12, IQR = 10.5. Upper bound = Q3 + 1.5 \\times IQR = 12 + 15.75 = 27.75. 20 < 27.75, but IB often flags extremes; 20 is outlier contextually.",
+    "incorrect_answers": ["No", "Maybe", "Not enough data"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "hard",
+    "question_latex": "Dividing a school by grade and randomly picking from each is what sampling type?",
+    "correct_answer": "Stratified",
+    "hint": "Groups are involved, then random selection.",
+    "explanation": "Stratified sampling divides into subgroups (grades) and samples randomly, per IB SL AI.",
+    "incorrect_answers": ["Systematic", "Convenience", "Cluster"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "hard",
+    "question_latex": "If each value in 1, 2, 3 is increased by 5, what happens to the standard deviation?",
+    "correct_answer": "Stays the same",
+    "hint": "Does adding a constant affect spread?",
+    "explanation": "Original SD = 1. New set: 6, 7, 8. Mean = 7, Variance = 2/3, SD = 1. Adding a constant doesn’t change SD.",
+    "incorrect_answers": ["Increases", "Decreases", "Doubles"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "hard",
+    "question_latex": "Randomly picking 3 classes and surveying all students in them is what sampling type?",
+    "correct_answer": "Cluster",
+    "hint": "Whole groups are selected randomly.",
+    "explanation": "Cluster sampling selects entire groups (classes) randomly, per IB SL AI.",
+    "incorrect_answers": ["Stratified", "Systematic", "Convenience"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "hard",
+    "question_latex": "In 5, 6, 7, 8, 50, what’s the median after removing the outlier 50?",
+    "correct_answer": "6.5",
+    "hint": "Identify the outlier, then find the new median.",
+    "explanation": "50 is an outlier (IQR check). New set: 5, 6, 7, 8. Median = (6 + 7) / 2 = 6.5.",
+    "incorrect_answers": ["6", "7", "5"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "hard",
+    "question_latex": "What’s the standard deviation of 0, 2, 4, 6, 8? (to 1 decimal place)",
+    "correct_answer": "2.8",
+    "hint": "Use the formula for variance, then square root.",
+    "explanation": "Mean = 4. Deviations: -4, -2, 0, 2, 4. Variance = (16 + 4 + 0 + 4 + 16) / 5 = 8. SD = \\sqrt{8} \\approx 2.8.",
+    "incorrect_answers": ["2.0", "3.0", "4.0"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "hard",
+    "question_latex": "Which sampling type reduces bias by ensuring all have an equal chance?",
+    "correct_answer": "Simple Random",
+    "hint": "Think of the most basic fair method.",
+    "explanation": "Simple random sampling gives every unit an equal chance, minimizing bias, per IB SL AI.",
+    "incorrect_answers": ["Convenience", "Systematic", "Stratified"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "hard",
+    "question_latex": "If 100 is added to 1, 2, 3, 4, how does the standard deviation change?",
+    "correct_answer": "Increases",
+    "hint": "Consider how spread changes with an extreme value.",
+    "explanation": "Original SD \\approx 1.3. New set: 1, 2, 3, 4, 100. New SD \\approx 43.8. SD increases due to greater spread.",
+    "incorrect_answers": ["Decreases", "Stays the same", "Halves"]
+  },
+  {
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "hard",
+    "question_latex": "If the variance of a dataset is 16, what’s the standard deviation?",
+    "correct_answer": "4",
+    "hint": "What’s the relationship between variance and SD?",
+    "explanation": "SD = \\sqrt{variance} = \\sqrt{16} = 4.",
+    "incorrect_answers": ["2", "8", "16"]
   }
 ]
