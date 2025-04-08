@@ -1,6 +1,606 @@
 
 [
   {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q1]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide1.JPG",
+    "correct_answer": "A",
+    "incorrect_answers": [
+      "B",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q2]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide2.JPG",
+    "correct_answer": "D",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q3]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide3.JPG",
+    "correct_answer": "B",
+    "incorrect_answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q4]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide4.JPG",
+    "correct_answer": "B",
+    "incorrect_answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q5]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide5.JPG",
+    "correct_answer": "C",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q6]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide6.JPG",
+    "correct_answer": "D",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q7]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide7.JPG",
+    "correct_answer": "D",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q8]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide8.JPG",
+    "correct_answer": "C",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q9]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide9.JPG",
+    "correct_answer": "C",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q10]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide10.JPG",
+    "correct_answer": "A",
+    "incorrect_answers": [
+      "B",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q11]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide11.JPG",
+    "correct_answer": "A",
+    "incorrect_answers": [
+      "B",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q12]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide12.JPG",
+    "correct_answer": "B",
+    "incorrect_answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q13]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide13.JPG",
+    "correct_answer": "A",
+    "incorrect_answers": [
+      "B",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q14]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide14.JPG",
+    "correct_answer": "C",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q15]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide15.JPG",
+    "correct_answer": "B",
+    "incorrect_answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q16]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide16.JPG",
+    "correct_answer": "C",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q17]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide17.JPG",
+    "correct_answer": "D",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q18]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide18.JPG",
+    "correct_answer": "B",
+    "incorrect_answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q19]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide19.JPG",
+    "correct_answer": "B",
+    "incorrect_answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q20]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide20.JPG",
+    "correct_answer": "B",
+    "incorrect_answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q21]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide21.JPG",
+    "correct_answer": "C",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q22]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide22.JPG",
+    "correct_answer": "C",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q23]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide23.JPG",
+    "correct_answer": "B",
+    "incorrect_answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q24]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide24.JPG",
+    "correct_answer": "B",
+    "incorrect_answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q25]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide25.JPG",
+    "correct_answer": "C",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q26]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide26.JPG",
+    "correct_answer": "B",
+    "incorrect_answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q27]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide27.JPG",
+    "correct_answer": "A",
+    "incorrect_answers": [
+      "B",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q28]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide28.JPG",
+    "correct_answer": "D",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q29]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide29.JPG",
+    "correct_answer": "C",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q30]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide30.JPG",
+    "correct_answer": "D",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q31]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide31.JPG",
+    "correct_answer": "A",
+    "incorrect_answers": [
+      "B",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q32]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide32.JPG",
+    "correct_answer": "D",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q33]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide33.JPG",
+    "correct_answer": "A",
+    "incorrect_answers": [
+      "B",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q34]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide34.JPG",
+    "correct_answer": "B",
+    "incorrect_answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q35]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide35.JPG",
+    "correct_answer": "C",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q36]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide36.JPG",
+    "correct_answer": "B",
+    "incorrect_answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q37]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide37.JPG",
+    "correct_answer": "B",
+    "incorrect_answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q38]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide38.JPG",
+    "correct_answer": "B",
+    "incorrect_answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q39]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide39.JPG",
+    "correct_answer": "A",
+    "incorrect_answers": [
+      "B",
+      "C",
+      "D"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
+    "subject": "Geometry",
+    "topic": "Triangle Similarity & Congruency",
+    "difficulty": "easy",
+    "question_latex": "Answer the question displayed in the image. [Q40]",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/refs/heads/main/similiarity%20congruence%20triangle/Slide40.JPG",
+    "correct_answer": "D",
+    "incorrect_answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hint": ".",
+    "explanation": ""
+  },
+  {
     "subject": "Math Facts",
     "topic": "Order of Operations",
     "difficulty": "easy",
