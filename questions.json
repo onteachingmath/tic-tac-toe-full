@@ -7,7 +7,7 @@
     "question_latex": "Answer the question in the image.  (1)",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide1.JPG",
     "correct_answer": "C",
-    "incorrect_answers": ["A", "B", "D"],
+    "incorrect_answers": ["A", "B", "D", "E"],
     "hint": "",
     "explanation": ""
   },
@@ -18,7 +18,7 @@
     "question_latex": "Answer the question in the image.  (2)",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide2.JPG",
     "correct_answer": "B",
-    "incorrect_answers": ["A", "C", "D"],
+    "incorrect_answers": ["A", "C", "D", "E"],
     "hint": "",
     "explanation": ""
   },
@@ -29,7 +29,7 @@
     "question_latex": "Answer the question in the image.  (3)",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide3.JPG",
     "correct_answer": "C",
-    "incorrect_answers": ["A", "B", "D"],
+    "incorrect_answers": ["A", "B", "D", "E"],
     "hint": "",
     "explanation": ""
   },
@@ -40,7 +40,7 @@
     "question_latex": "Answer the question in the image.  (4)",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide4.JPG",
     "correct_answer": "E",
-    "incorrect_answers": ["A", "B", "C"],
+    "incorrect_answers": ["A", "B", "C", "D"],
     "hint": "",
     "explanation": ""
   },
@@ -51,7 +51,7 @@
     "question_latex": "Answer the question in the image.  (5)",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide5.JPG",
     "correct_answer": "D",
-    "incorrect_answers": ["A", "B", "C"],
+    "incorrect_answers": ["A", "B", "C", "E"],
     "hint": "",
     "explanation": ""
   },
@@ -62,7 +62,7 @@
     "question_latex": "Answer the question in the image.  (6)",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide6.JPG",
     "correct_answer": "B",
-    "incorrect_answers": ["A", "C", "D"],
+    "incorrect_answers": ["A", "C", "D", "E"],
     "hint": "",
     "explanation": ""
   },
@@ -73,7 +73,7 @@
     "question_latex": "Answer the question in the image.  (7)",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide7.JPG",
     "correct_answer": "C",
-    "incorrect_answers": ["A", "B", "D"],
+    "incorrect_answers": ["A", "B", "D", "E"],
     "hint": "",
     "explanation": ""
   },
@@ -84,7 +84,7 @@
     "question_latex": "Answer the question in the image.  (8)",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide8.JPG",
     "correct_answer": "D",
-    "incorrect_answers": ["A", "B", "C"],
+    "incorrect_answers": ["A", "B", "C", "E"],
     "hint": "",
     "explanation": ""
   },
@@ -95,7 +95,7 @@
     "question_latex": "Answer the question in the image.  (9)",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide9.JPG",
     "correct_answer": "D",
-    "incorrect_answers": ["A", "B", "C"],
+    "incorrect_answers": ["A", "B", "C", "E"],
     "hint": "",
     "explanation": ""
   },
@@ -106,7 +106,7 @@
     "question_latex": "Answer the question in the image.  (10)",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide10.JPG",
     "correct_answer": "A",
-    "incorrect_answers": ["B", "C", "D"],
+    "incorrect_answers": ["B", "C", "D", "E"],
     "hint": "",
     "explanation": ""
   },
@@ -117,7 +117,7 @@
     "question_latex": "Answer the question in the image.",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide11.JPG",
     "correct_answer": "B",
-    "incorrect_answers": ["A", "C", "D"],
+    "incorrect_answers": ["A", "C", "D", "E"],
     "hint": "",
     "explanation": ""
   },
@@ -128,7 +128,7 @@
     "question_latex": "Answer the question in the image.",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide12.JPG",
     "correct_answer": "A",
-    "incorrect_answers": ["B", "C", "D"],
+    "incorrect_answers": ["B", "C", "D", "E"],
     "hint": "",
     "explanation": ""
   },
@@ -139,7 +139,7 @@
     "question_latex": "Answer the question in the image.",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide13.JPG",
     "correct_answer": "D",
-    "incorrect_answers": ["A", "B", "C"],
+    "incorrect_answers": ["A", "B", "C", "E"],
     "hint": "",
     "explanation": ""
   },
@@ -150,7 +150,7 @@
     "question_latex": "Answer the question in the image.",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide14.JPG",
     "correct_answer": "E",
-    "incorrect_answers": ["A", "B", "C"],
+    "incorrect_answers": ["A", "B", "C", "D"],
     "hint": "",
     "explanation": ""
   },
@@ -161,7 +161,7 @@
     "question_latex": "Answer the question in the image.",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide15.JPG",
     "correct_answer": "C",
-    "incorrect_answers": ["A", "B", "D"],
+    "incorrect_answers": ["A", "B", "D", "E"],
     "hint": "",
     "explanation": ""
   },
@@ -172,7 +172,7 @@
     "question_latex": "Answer the question in the image.",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide16.JPG",
     "correct_answer": "C",
-    "incorrect_answers": ["A", "B", "D"],
+    "incorrect_answers": ["A", "B", "D", "E"],
     "hint": "",
     "explanation": ""
   },
@@ -183,7 +183,7 @@
     "question_latex": "Answer the question in the image.",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide17.JPG",
     "correct_answer": "C",
-    "incorrect_answers": ["A", "B", "D"],
+    "incorrect_answers": ["A", "B", "D", "E"],
     "hint": "",
     "explanation": ""
   },
@@ -194,7 +194,7 @@
     "question_latex": "Answer the question in the image.",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide18.JPG",
     "correct_answer": "C",
-    "incorrect_answers": ["A", "B", "D"],
+    "incorrect_answers": ["A", "B", "D", "E"],
     "hint": "",
     "explanation": ""
   },
