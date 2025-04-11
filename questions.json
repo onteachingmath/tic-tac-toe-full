@@ -208,8 +208,7 @@
     "incorrect_answers": [
       "B",
       "C",
-      "D"
-    ],
+      "D",
     "hint": ".",
     "explanation": ""
   },
@@ -223,8 +222,8 @@
     "incorrect_answers": [
       "A",
       "B",
-      "C"
-    ],
+      "C",
+      "D"
     "hint": ".",
     "explanation": ""
   },
@@ -239,7 +238,6 @@
       "A",
       "C",
       "D"
-    ],
     "hint": ".",
     "explanation": ""
   },
@@ -254,8 +252,7 @@
       "A",
       "C",
       "D"
-    ],
-    "hint": ".",
+       "hint": ".",
     "explanation": ""
   },
   {
@@ -269,8 +266,7 @@
       "A",
       "B",
       "D"
-    ],
-    "hint": ".",
+     "hint": ".",
     "explanation": ""
   },
   {
@@ -284,8 +280,7 @@
       "A",
       "B",
       "C"
-    ],
-    "hint": ".",
+     "hint": ".",
     "explanation": ""
   },
   {
