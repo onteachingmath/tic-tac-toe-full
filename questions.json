@@ -104,7 +104,7 @@
     "topic": "Functions",
     "difficulty": "easy",
     "question_latex": "Answer the question in the image.  (10)",
-    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide21.JPG",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide22.JPG",
     "correct_answer": "A",
     "incorrect_answers": ["B", "C", "D", "E"],
     "hint": "",
