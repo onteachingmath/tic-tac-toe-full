@@ -61,8 +61,8 @@
     "difficulty": "easy",
     "question_latex": "Answer the question in the image.  (6)",
     "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide6.JPG",
-    "correct_answer": "B",
-    "incorrect_answers": ["A", "C", "D", "E"],
+    "correct_answer": "E",
+    "incorrect_answers": ["A", "B", "C", "D"],
     "hint": "",
     "explanation": ""
   },
