@@ -82,7 +82,7 @@ const modeControl = document.getElementById('modeControl');
 
   const subjects = [
     "Math Facts", "Algebra 1", "Algebra 2", "Geometry",
-    "Trigonometry", "Calculus", "Statistics", "Probability", "ACT Prep"
+    "Trigonometry", "Calculus", "Statistics", "Probability", "ACT Prep", "IB Math"
   ];
 
   subjects.forEach(subj => {
