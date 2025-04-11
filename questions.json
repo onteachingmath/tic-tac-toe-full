@@ -208,7 +208,7 @@
     "incorrect_answers": [
       "B",
       "C",
-      "D"
+      "D"],
     "hint": ".",
     "explanation": ""
   },
@@ -223,7 +223,7 @@
       "A",
       "B",
       "C",
-      "D"
+      "D"],
     "hint": ".",
     "explanation": ""
   },
@@ -237,7 +237,7 @@
     "incorrect_answers": [
       "A",
       "C",
-      "D"
+      "D"],
     "hint": ".",
     "explanation": ""
   },
@@ -251,7 +251,7 @@
     "incorrect_answers": [
       "A",
       "C",
-      "D"
+      "D"],
        "hint": ".",
     "explanation": ""
   },
@@ -265,7 +265,7 @@
     "incorrect_answers": [
       "A",
       "B",
-      "D"
+      "D"],
      "hint": ".",
     "explanation": ""
   },
@@ -279,7 +279,7 @@
     "incorrect_answers": [
       "A",
       "B",
-      "C"
+      "C"],
      "hint": ".",
     "explanation": ""
   },
