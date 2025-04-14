@@ -1,6 +1,17 @@
 
-[             
-   {
+[
+  {
+    "subject": "IB Math",
+    "topic": "Functions",
+    "difficulty": "easy",
+    "question_latex": "Answer the question in the image.  (1)",
+    "image": "https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/images/IB%20Functions1/Slide1.JPG",
+    "correct_answer": "C",
+    "incorrect_answers": ["A", "B", "D", "E"],
+    "hint": "",
+    "explanation": ""
+  },
+  {
     "subject": "IB Math",
     "topic": "Functions",
     "difficulty": "easy",
