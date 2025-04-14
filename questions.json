@@ -1,6 +1,56 @@
 
-[    
-   {
+[       
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "\\(\\sin(30^\\circ)\\)",
+    "correct_answer": "\\(\\frac{1}{2}\\)",
+    "incorrect_answers": ["\\(\\sqrt{3}\\)", "\\(\\frac{\\sqrt{3}}{2}\\)", "\\(1\\)"],
+    "hint": "Use the 30-60-90 triangle.",
+    "explanation": "Sine of 30\u00b0 equals opposite over hypotenuse: 1/2."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "\\(\\cos(60^\\circ)\\)",
+    "correct_answer": "\\(\\frac{1}{2}\\)",
+    "incorrect_answers": ["\\(\\frac{\\sqrt{3}}{2}\\)", "\\(0\\)", "\\(1\\)"],
+    "hint": "Use the 30-60-90 triangle.",
+    "explanation": "Cosine of 60\u00b0 equals adjacent over hypotenuse: 1/2."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "\\(\\tan(45^\\circ)\\)",
+    "correct_answer": "\\(1\\)",
+    "incorrect_answers": ["\\(0\\)", "\\(\\sqrt{3}\\)", "\\(\\frac{1}{\\sqrt{3}}\\)"],
+    "hint": "Tangent is opposite over adjacent.",
+    "explanation": "In a 45\u00b0-45\u00b0-90\u00b0 triangle, opposite = adjacent, so tan(45\u00b0) = 1."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "medium",
+    "question_latex": "\\(\\cos(135^\\circ)\\)",
+    "correct_answer": "\\(-\\frac{\\sqrt{2}}{2}\\)",
+    "incorrect_answers": ["\\(\\frac{\\sqrt{2}}{2}\\)", "\\(-1\\)", "\\(0\\)"],
+    "hint": "135\u00b0 is in quadrant II where cosine is negative.",
+    "explanation": "Reference angle is 45\u00b0, cosine is negative in QII: -\u221a2/2."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "medium",
+    "question_latex": "\\(\\sin(225^\\circ)\\)",
+    "correct_answer": "\\(-\\frac{\\sqrt{2}}{2}\\)",
+    "incorrect_answers": ["\\(\\frac{\\sqrt{2}}{2}\\)", "\\(-1\\)", "\\(0\\)"],
+    "hint": "Think about the sign of sine in quadrant III.",
+    "explanation": "Reference angle is 45\u00b0, and sine is negative in QIII: -\u221a2/2."
+  },
+  {
     "subject": "IB Math",
     "topic": "Functions",
     "difficulty": "easy",
