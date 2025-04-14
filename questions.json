@@ -1,6 +1,156 @@
 
-[
+[    
   {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "\\sin(30^\\circ)",
+    "correct_answer": "\\frac{1}{2}",
+    "incorrect_answers": ["\\sqrt{3}", "\\frac{\\sqrt{3}}{2}", "1"],
+    "hint": "Use the 30-60-90 triangle.",
+    "explanation": "Sine of 30\u00b0 equals opposite over hypotenuse: 1/2."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "\\cos(60^\\circ)",
+    "correct_answer": "\\frac{1}{2}",
+    "incorrect_answers": ["\\frac{\\sqrt{3}}{2}", "0", "1"],
+    "hint": "Use the 30-60-90 triangle.",
+    "explanation": "Cosine of 60\u00b0 equals adjacent over hypotenuse: 1/2."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "\\tan(45^\\circ)",
+    "correct_answer": "1",
+    "incorrect_answers": ["0", "\\sqrt{3}", "\\frac{1}{\\sqrt{3}}"],
+    "hint": "Tangent is opposite over adjacent.",
+    "explanation": "In a 45\u00b0-45\u00b0-90\u00b0 triangle, opposite = adjacent, so tan(45\u00b0) = 1."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "medium",
+    "question_latex": "\\cos(135^\\circ)",
+    "correct_answer": "-\\frac{\\sqrt{2}}{2}",
+    "incorrect_answers": ["\\frac{\\sqrt{2}}{2}", "-1", "0"],
+    "hint": "135\u00b0 is in quadrant II where cosine is negative.",
+    "explanation": "Reference angle is 45\u00b0, cosine is negative in QII: -\u221a2/2."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "medium",
+    "question_latex": "\\sin(225^\\circ)",
+    "correct_answer": "-\\frac{\\sqrt{2}}{2}",
+    "incorrect_answers": ["\\frac{\\sqrt{2}}{2}", "-1", "0"],
+    "hint": "Think about the sign of sine in quadrant III.",
+    "explanation": "Reference angle is 45\u00b0, and sine is negative in QIII: -\u221a2/2."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "\\sin(90^\\circ)",
+    "correct_answer": "1",
+    "incorrect_answers": ["0", "-1", "\\frac{\\sqrt{2}}{2}"],
+    "hint": "90\u00b0 lies on the y-axis.",
+    "explanation": "Sine is the y-value on the unit circle. At 90\u00b0, y = 1."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "medium",
+    "question_latex": "\\tan(60^\\circ)",
+    "correct_answer": "\\sqrt{3}",
+    "incorrect_answers": ["1", "\\frac{\\sqrt{3}}{2}", "2"],
+    "hint": "Use opposite over adjacent from the 30-60-90 triangle.",
+    "explanation": "In the 30-60-90 triangle, tan(60\u00b0) = \u221a3."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "medium",
+    "question_latex": "\\cos(225^\\circ)",
+    "correct_answer": "-\\frac{\\sqrt{2}}{2}",
+    "incorrect_answers": ["\\frac{\\sqrt{2}}{2}", "-1", "0"],
+    "hint": "225\u00b0 is in QIII, cosine is negative.",
+    "explanation": "Reference angle is 45\u00b0, cosine = -\u221a2/2 in QIII."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "\\cos(0^\\circ)",
+    "correct_answer": "1",
+    "incorrect_answers": ["0", "-1", "\\frac{1}{2}"],
+    "hint": "Where does the unit circle start?",
+    "explanation": "Cosine is x on the unit circle. At 0\u00b0, x = 1."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "medium",
+    "question_latex": "\\arcsin\\left(\\frac{1}{2}\\right)",
+    "correct_answer": "30^\u00b0",
+    "incorrect_answers": ["150^\u00b0", "60^\u00b0", "45^\u00b0"],
+    "hint": "Sine of what angle equals 1/2?",
+    "explanation": "sin(30\u00b0) = 1/2, so arcsin(1/2) = 30\u00b0."
+  },
+{
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "\\sin(30^\\circ)",
+    "correct_answer": "\\frac{1}{2}",
+    "incorrect_answers": ["\\sqrt{3}", "\\frac{\\sqrt{3}}{2}", "1"],
+    "hint": "Use the 30-60-90 triangle.",
+    "explanation": "Sine of 30° equals opposite over hypotenuse: 1/2."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "\\cos(60^\\circ)",
+    "correct_answer": "\\frac{1}{2}",
+    "incorrect_answers": ["\\frac{\\sqrt{3}}{2}", "0", "1"],
+    "hint": "Use the 30-60-90 triangle.",
+    "explanation": "Cosine of 60° equals adjacent over hypotenuse: 1/2."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "\\tan(45^\\circ)",
+    "correct_answer": "1",
+    "incorrect_answers": ["0", "\\sqrt{3}", "\\frac{1}{\\sqrt{3}}"],
+    "hint": "Tangent is opposite over adjacent.",
+    "explanation": "In a 45°-45°-90° triangle, opposite = adjacent, so tan(45°) = 1."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "medium",
+    "question_latex": "\\cos(135^\\circ)",
+    "correct_answer": "-\\frac{\\sqrt{2}}{2}",
+    "incorrect_answers": ["\\frac{\\sqrt{2}}{2}", "-1", "0"],
+    "hint": "135° is in quadrant II where cosine is negative.",
+    "explanation": "Reference angle is 45°, cosine is negative in QII: -√2/2."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "medium",
+    "question_latex": "\\sin(225^\\circ)",
+    "correct_answer": "-\\frac{\\sqrt{2}}{2}",
+    "incorrect_answers": ["\\frac{\\sqrt{2}}{2}", "-1", "0"],
+    "hint": "Think about the sign of sine in quadrant III.",
+    "explanation": "Reference angle is 45°, and sine is negative in QIII: -√2/2."
+  },
+    {
     "subject": "IB Math",
     "topic": "Functions",
     "difficulty": "easy",
