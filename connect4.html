@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Connect 4 Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <div class="game-container">
+    <h1>Connect 4 Challenge</h1>
+    <div class="settings">
+      <label for="subject-select">Choose Subject:</label>
+      <select id="subject-select"></select>
+
+      <label for="mode-select">Mode:</label>
+      <select id="mode-select">
+        <option value="1">1 Player</option>
+        <option value="2">2 Player</option>
+      </select>
+
+      <div id="player-names"></div>
+      <button id="start-btn">Start Game</button>
+    </div>
+
+    <div id="board" class="board light-grey-bg"></div>
+    <div id="question-area" class="question-area"></div>
+    <div id="game-status" class="game-status"></div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="connect4.js"></script>
+</body>
+</html>
