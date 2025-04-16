@@ -4,10 +4,69 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Connect 4 Game</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Basic styling to make the game visible */
+    .game-container {
+      max-width: 800px;
+      margin: 0 auto;
+      font-family: Arial, sans-serif;
+    }
+    .board {
+      margin: 20px 0;
+      display: inline-block;
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .row {
+      display: flex;
+    }
+    .cell {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin: 5px;
+      background-color: white;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+    .cell.player1 {
+      background-color: red;
+    }
+    .cell.player2 {
+      background-color: yellow;
+    }
+    .clickable:hover {
+      opacity: 0.8;
+    }
+    .settings {
+      margin: 20px 0;
+    }
+    .question-area {
+      margin: 20px 0;
+    }
+    .game-status {
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .question-box {
+      padding: 15px;
+      background-color: #e9f5ff;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    .answer-btn {
+      margin: 5px;
+      padding: 8px 15px;
+      cursor: pointer;
+    }
+    .question-image {
+      max-width: 100%;
+      margin: 10px 0;
+    }
+  </style>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script src="questions.js"></script> <!-- Load questions first -->
 </head>
 <body>
   <div class="game-container">
@@ -34,6 +93,31 @@
     <div id="game-status" class="game-status"></div>
   </div>
 
+  <!-- Sample questions data for testing - replace with your actual data -->
+  <script>
+    // This would normally be in your questions.js file
+    const questions = [
+      {
+        subject: "Math",
+        question_latex: "What is $2 + 2$?",
+        correct_answer: "4",
+        incorrect_answers: ["3", "5", "6"]
+      },
+      {
+        subject: "Math", 
+        question_latex: "What is $5 \\times 3$?",
+        correct_answer: "15",
+        incorrect_answers: ["12", "18", "8"]
+      },
+      {
+        subject: "Science",
+        question_latex: "What is the chemical symbol for water?",
+        correct_answer: "H₂O",
+        incorrect_answers: ["CO₂", "O₂", "N₂"]
+      }
+    ];
+  </script>
+
   <script>
     const ROWS = 6;
     const COLS = 7;
@@ -45,12 +129,18 @@
     let usedQuestions = [];
     let filteredQuestions = [];
 
-    function initializeGame() {
+    document.addEventListener("DOMContentLoaded", () => {
       const boardEl = document.getElementById("board");
       const subjectSelect = document.getElementById("subject-select");
       const startBtn = document.getElementById("start-btn");
       const questionArea = document.getElementById("question-area");
+      const modeSelect = document.getElementById("mode-select");
+      
+      // Initialize the board immediately so it's visible
+      initBoard();
+      renderBoard();
 
+      // Populate subject dropdown
       const subjects = [...new Set(questions.map(q => q.subject))];
       subjects.forEach(subj => {
         const option = document.createElement("option");
@@ -59,15 +149,30 @@
         subjectSelect.appendChild(option);
       });
 
+      // Set default subject if available
+      if (subjects.length > 0) {
+        selectedSubject = subjects[0];
+        subjectSelect.value = selectedSubject;
+      }
+
+      // Update player 2 placeholder based on mode
+      modeSelect.addEventListener("change", () => {
+        const mode = parseInt(modeSelect.value);
+        document.getElementById("player2-name").placeholder = 
+          mode === 1 ? "Computer Name" : "Player 2 Name";
+      });
+
       startBtn.addEventListener("click", () => {
         selectedSubject = subjectSelect.value;
-        gameMode = parseInt(document.getElementById("mode-select").value);
+        gameMode = parseInt(modeSelect.value);
         playerNames[1] = document.getElementById("player1-name").value || "Player 1";
-        playerNames[2] = document.getElementById("player2-name").value || (gameMode === 1 ? "Computer" : "Player 2");
-
+        playerNames[2] = document.getElementById("player2-name").value || 
+                         (gameMode === 1 ? "Computer" : "Player 2");
+        
         filteredQuestions = questions.filter(q => q.subject === selectedSubject);
         usedQuestions = [];
         currentPlayer = 1;
+        
         initBoard();
         renderBoard();
         updateStatus();
@@ -115,7 +220,10 @@
 
       function askQuestion(row, col) {
         const question = getNewQuestion();
-        if (!question) return;
+        if (!question) {
+          alert("No more questions available!");
+          return;
+        }
 
         const allAnswers = [question.correct_answer, ...question.incorrect_answers];
         const shuffled = allAnswers.sort(() => Math.random() - 0.5);
@@ -124,13 +232,15 @@
         if (question.image) {
           questionHTML += `<img src="${question.image}" class="question-image" />`;
         }
-        shuffled.forEach(ans => {
+        shuffled.forEach((ans, i) => {
           questionHTML += `<button class='answer-btn' data-ans="${ans}">${ans}</button>`;
         });
         questionHTML += `</div>`;
 
         questionArea.innerHTML = questionHTML;
-        MathJax.typeset();
+        if (window.MathJax) {
+          MathJax.typeset();
+        }
 
         document.querySelectorAll(".answer-btn").forEach(btn => {
           btn.addEventListener("click", () => {
@@ -157,9 +267,23 @@
       }
 
       function getNewQuestion() {
-        const unused = filteredQuestions.filter(q => !usedQuestions.includes(q));
-        if (unused.length === 0) return null;
-        const q = unused[Math.floor(Math.random() * unused.length)];
+        if (filteredQuestions.length === 0) {
+          // If no questions are filtered by subject, use all questions
+          filteredQuestions = questions.filter(q => q.subject === selectedSubject);
+          if (filteredQuestions.length === 0) {
+            return null;
+          }
+        }
+        
+        // Find questions that haven't been used yet
+        const availableQuestions = filteredQuestions.filter(q => !usedQuestions.includes(q));
+        if (availableQuestions.length === 0) {
+          // If all questions have been used, reset
+          usedQuestions = [];
+          return filteredQuestions[Math.floor(Math.random() * filteredQuestions.length)];
+        }
+        
+        const q = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
         usedQuestions.push(q);
         return q;
       }
@@ -209,14 +333,6 @@
             return;
           }
         }
-      }
-    }
-
-    window.addEventListener("DOMContentLoaded", () => {
-      if (typeof questions !== "undefined" && questions.length > 0) {
-        initializeGame();
-      } else {
-        console.error("Questions not loaded or empty.");
       }
     });
   </script>
