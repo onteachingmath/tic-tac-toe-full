@@ -51,8 +51,7 @@
       const startBtn = document.getElementById("start-btn");
       const questionArea = document.getElementById("question-area");
 
-      const subjects = [...new Set(questionsData.map(q => q.subject))];
-      subjects.forEach(subj => {
+const subjects = [...new Set(questions.map(q => q.subject))];      subjects.forEach(subj => {
         const option = document.createElement("option");
         option.value = subj;
         option.textContent = subj;
@@ -64,8 +63,7 @@
         gameMode = parseInt(document.getElementById("mode-select").value);
         playerNames[1] = document.getElementById("player1-name").value || "Player 1";
         playerNames[2] = document.getElementById("player2-name").value || (gameMode === 1 ? "Computer" : "Player 2");
-        questions = questionsData.filter(q => q.subject === selectedSubject);
-        usedQuestions = [];
+questions = questions.filter(q => q.subject === selectedSubject);        usedQuestions = [];
         currentPlayer = 1;
         initBoard();
         renderBoard();
