@@ -8,8 +8,7 @@
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
-<body>let filteredQuestions = [];
-  <div class="game-container">
+<body>  <div class="game-container">
     <h1>Connect 4 Challenge</h1>
     <div class="settings">
       <label for="subject-select">Choose Subject:</label>
@@ -44,6 +43,7 @@
     let selectedSubject = "";
     let questions = [];
     let usedQuestions = [];
+let filteredQuestions = [];
 
     document.addEventListener("DOMContentLoaded", () => {
       const boardEl = document.getElementById("board");
