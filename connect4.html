@@ -4,67 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Connect 4 Game</title>
-  <style>
-    /* Basic styling to make the game visible */
-    .game-container {
-      max-width: 800px;
-      margin: 0 auto;
-      font-family: Arial, sans-serif;
-    }
-    .board {
-      margin: 20px 0;
-      display: inline-block;
-      background-color: #f0f0f0;
-      padding: 10px;
-      border-radius: 5px;
-    }
-    .row {
-      display: flex;
-    }
-    .cell {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      margin: 5px;
-      background-color: white;
-      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
-      cursor: pointer;
-    }
-    .cell.player1 {
-      background-color: red;
-    }
-    .cell.player2 {
-      background-color: yellow;
-    }
-    .clickable:hover {
-      opacity: 0.8;
-    }
-    .settings {
-      margin: 20px 0;
-    }
-    .question-area {
-      margin: 20px 0;
-    }
-    .game-status {
-      font-weight: bold;
-      margin: 10px 0;
-    }
-    .question-box {
-      padding: 15px;
-      background-color: #e9f5ff;
-      border-radius: 5px;
-      margin-bottom: 15px;
-    }
-    .answer-btn {
-      margin: 5px;
-      padding: 8px 15px;
-      cursor: pointer;
-    }
-    .question-image {
-      max-width: 100%;
-      margin: 10px 0;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
@@ -93,9 +33,6 @@
     <div id="game-status" class="game-status"></div>
   </div>
 
-  <!-- Sample questions data for testing - replace with your actual data -->
-  
-
   <script>
     const ROWS = 6;
     const COLS = 7;
@@ -104,6 +41,7 @@
     let gameMode = 1;
     let playerNames = {};
     let selectedSubject = "";
+    let questions = []; // This will be loaded from questions.json
     let usedQuestions = [];
     let filteredQuestions = [];
 
@@ -117,20 +55,45 @@
       // Initialize the board immediately so it's visible
       initBoard();
       renderBoard();
-
-      // Populate subject dropdown
-      const subjects = [...new Set(questions.map(q => q.subject))];
-      subjects.forEach(subj => {
-        const option = document.createElement("option");
-        option.value = subj;
-        option.textContent = subj;
-        subjectSelect.appendChild(option);
-      });
-
-      // Set default subject if available
-      if (subjects.length > 0) {
-        selectedSubject = subjects[0];
-        subjectSelect.value = selectedSubject;
+      
+      // Load questions from JSON file
+      fetch('questions.json')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok: ' + response.statusText);
+          }
+          return response.json();
+        })
+        .then(data => {
+          questions = data;
+          populateSubjects();
+        })
+        .catch(error => {
+          console.error('Problem loading questions:', error);
+          document.getElementById("game-status").textContent = 
+            "Error loading questions. Please check the console for details.";
+        });
+      
+      function populateSubjects() {
+        // Clear existing options
+        subjectSelect.innerHTML = "";
+        
+        // Get unique subjects
+        const subjects = [...new Set(questions.map(q => q.subject))];
+        
+        // Populate dropdown
+        subjects.forEach(subj => {
+          const option = document.createElement("option");
+          option.value = subj;
+          option.textContent = subj;
+          subjectSelect.appendChild(option);
+        });
+        
+        // Set default subject if available
+        if (subjects.length > 0) {
+          selectedSubject = subjects[0];
+          subjectSelect.value = selectedSubject;
+        }
       }
 
       // Update player 2 placeholder based on mode
