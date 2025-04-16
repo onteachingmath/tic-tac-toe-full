@@ -6,6 +6,7 @@
   <title>Connect 4 Game</title>
   <link rel="stylesheet" href="style.css" />
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
@@ -31,6 +32,7 @@
     <div id="board" class="board light-grey-bg"></div>
     <div id="question-area" class="question-area"></div>
     <div id="game-status" class="game-status"></div>
+    <div id="controls"></div>
   </div>
 
   <script src="questions.js"></script>
@@ -44,14 +46,17 @@
     let selectedSubject = "";
     let questions = [];
     let usedQuestions = [];
+    let gameLog = [];
 
     document.addEventListener("DOMContentLoaded", () => {
       const boardEl = document.getElementById("board");
       const subjectSelect = document.getElementById("subject-select");
       const startBtn = document.getElementById("start-btn");
       const questionArea = document.getElementById("question-area");
+      const controls = document.getElementById("controls");
 
-const subjects = [...new Set(questions.map(q => q.subject))];      subjects.forEach(subj => {
+      const subjects = [...new Set(questions.map(q => q.subject))];
+      subjects.forEach(subj => {
         const option = document.createElement("option");
         option.value = subj;
         option.textContent = subj;
@@ -63,8 +68,11 @@ const subjects = [...new Set(questions.map(q => q.subject))];      subjects.forE
         gameMode = parseInt(document.getElementById("mode-select").value);
         playerNames[1] = document.getElementById("player1-name").value || "Player 1";
         playerNames[2] = document.getElementById("player2-name").value || (gameMode === 1 ? "Computer" : "Player 2");
-questions = questions.filter(q => q.subject === selectedSubject);        usedQuestions = [];
+        questions = questions.filter(q => q.subject === selectedSubject);
+        usedQuestions = [];
+        gameLog = [];
         currentPlayer = 1;
+        controls.innerHTML = "";
         initBoard();
         renderBoard();
         updateStatus();
@@ -133,6 +141,12 @@ questions = questions.filter(q => q.subject === selectedSubject);        usedQue
           btn.addEventListener("click", () => {
             const selected = btn.dataset.ans;
             const isCorrect = selected === question.correct_answer;
+            gameLog.push({
+              player: playerNames[currentPlayer],
+              question: question.question_latex,
+              selected,
+              correct: isCorrect,
+            });
             questionArea.innerHTML = "";
             if (isCorrect) {
               board[row][col] = currentPlayer;
@@ -140,15 +154,16 @@ questions = questions.filter(q => q.subject === selectedSubject);        usedQue
               if (checkWin(currentPlayer)) {
                 document.getElementById("game-status").textContent = `${playerNames[currentPlayer]} wins!`;
                 disableBoard();
+                showControls();
                 return;
               }
             }
             currentPlayer = currentPlayer === 1 ? 2 : 1;
-updateStatus();
-
-if (gameMode === 1 && currentPlayer === 2) {
-  setTimeout(() => computerTurn(), 800);
-}          });
+            updateStatus();
+            if (gameMode === 1 && currentPlayer === 2) {
+              setTimeout(() => computerTurn(), 800);
+            }
+          });
         });
       }
 
@@ -190,21 +205,46 @@ if (gameMode === 1 && currentPlayer === 2) {
         }
         return false;
       }
-function computerTurn() {
-  const validCols = [];
-  for (let c = 0; c < COLS; c++) {
-    if (board[0][c] === 0) validCols.push(c);
-  }
-  if (validCols.length === 0) return;
 
-  const col = validCols[Math.floor(Math.random() * validCols.length)];
-  for (let r = ROWS - 1; r >= 0; r--) {
-    if (board[r][col] === 0) {
-      askQuestion(r, col);
-      return;
-    }
-  }
-}
+      function showControls() {
+        controls.innerHTML = `
+          <button onclick="resetGame()">Play Again</button>
+          <button onclick="generatePDF()">Download Game Report</button>
+        `;
+      }
+
+      window.resetGame = () => {
+        location.reload();
+      };
+
+      window.generatePDF = () => {
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF();
+        doc.setFontSize(12);
+        doc.text("Connect 4 Game Report", 10, 10);
+        gameLog.forEach((entry, i) => {
+          const y = 20 + i * 10;
+          doc.text(`${entry.player}: ${entry.question.replace(/\\/g, '')}`, 10, y);
+          doc.text(`Answer: ${entry.selected} (${entry.correct ? '✔' : '✘'})`, 10, y + 5);
+        });
+        doc.save("connect4-report.pdf");
+      };
+
+      function computerTurn() {
+        const validCols = [];
+        for (let c = 0; c < COLS; c++) {
+          if (board[0][c] === 0) validCols.push(c);
+        }
+        if (validCols.length === 0) return;
+
+        const col = validCols[Math.floor(Math.random() * validCols.length)];
+        for (let r = ROWS - 1; r >= 0; r--) {
+          if (board[r][col] === 0) {
+            askQuestion(r, col);
+            return;
+          }
+        }
+      }
     });
   </script>
 </body>
