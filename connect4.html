@@ -5,6 +5,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Connect 4 Game</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Inline styles to ensure proper board layout */
+    .game-container {
+      max-width: 800px;
+      margin: 0 auto;
+      font-family: Arial, sans-serif;
+    }
+    .board {
+      display: inline-block;
+      background-color: #2196F3;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 20px 0;
+    }
+    .row {
+      display: flex;
+      flex-direction: row; /* Ensure horizontal layout */
+      margin: 0;
+      padding: 0;
+    }
+    .cell {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin: 5px;
+      background-color: white;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      display: inline-block;
+    }
+    .cell.player1 {
+      background-color: red;
+    }
+    .cell.player2 {
+      background-color: yellow;
+    }
+    .clickable:hover {
+      opacity: 0.8;
+    }
+    .settings {
+      margin: 20px 0;
+    }
+    .question-area {
+      margin: 20px 0;
+    }
+    .game-status {
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .question-box {
+      padding: 15px;
+      background-color: #e9f5ff;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    .answer-btn {
+      margin: 5px;
+      padding: 8px 15px;
+      cursor: pointer;
+    }
+    .question-image {
+      max-width: 100%;
+      margin: 10px 0;
+    }
+  </style>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
@@ -28,7 +93,7 @@
       <button id="start-btn">Start Game</button>
     </div>
 
-    <div id="board" class="board light-grey-bg"></div>
+    <div id="board" class="board"></div>
     <div id="question-area" class="question-area"></div>
     <div id="game-status" class="game-status"></div>
   </div>
@@ -51,6 +116,10 @@
       const startBtn = document.getElementById("start-btn");
       const questionArea = document.getElementById("question-area");
       const modeSelect = document.getElementById("mode-select");
+      const statusEl = document.getElementById("game-status");
+      
+      // Set initial status message
+      statusEl.textContent = "Loading questions...";
       
       // Initialize the board immediately so it's visible
       initBoard();
@@ -66,12 +135,12 @@
         })
         .then(data => {
           questions = data;
+          statusEl.textContent = "Questions loaded. Choose a subject and start the game!";
           populateSubjects();
         })
         .catch(error => {
           console.error('Problem loading questions:', error);
-          document.getElementById("game-status").textContent = 
-            "Error loading questions. Please check the console for details.";
+          statusEl.textContent = "Error loading questions. Please check the console for details.";
         });
       
       function populateSubjects() {
@@ -104,6 +173,11 @@
       });
 
       startBtn.addEventListener("click", () => {
+        if (questions.length === 0) {
+          statusEl.textContent = "Please wait for questions to load.";
+          return;
+        }
+        
         selectedSubject = subjectSelect.value;
         gameMode = parseInt(modeSelect.value);
         playerNames[1] = document.getElementById("player1-name").value || "Player 1";
@@ -111,6 +185,11 @@
                          (gameMode === 1 ? "Computer" : "Player 2");
         
         filteredQuestions = questions.filter(q => q.subject === selectedSubject);
+        if (filteredQuestions.length === 0) {
+          statusEl.textContent = `No questions available for ${selectedSubject}.`;
+          return;
+        }
+        
         usedQuestions = [];
         currentPlayer = 1;
         
@@ -192,7 +271,12 @@
               board[row][col] = currentPlayer;
               renderBoard();
               if (checkWin(currentPlayer)) {
-                document.getElementById("game-status").textContent = `${playerNames[currentPlayer]} wins!`;
+                statusEl.textContent = `${playerNames[currentPlayer]} wins!`;
+                disableBoard();
+                return;
+              }
+              if (isBoardFull()) {
+                statusEl.textContent = "Game over! It's a tie!";
                 disableBoard();
                 return;
               }
@@ -205,6 +289,10 @@
             }
           });
         });
+      }
+
+      function isBoardFull() {
+        return board.every(row => row.every(cell => cell !== 0));
       }
 
       function getNewQuestion() {
@@ -230,7 +318,7 @@
       }
 
       function updateStatus() {
-        document.getElementById("game-status").textContent = `${playerNames[currentPlayer]}'s turn`;
+        statusEl.textContent = `${playerNames[currentPlayer]}'s turn`;
       }
 
       function disableBoard() {
