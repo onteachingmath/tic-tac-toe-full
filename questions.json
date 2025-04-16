@@ -2566,9 +2566,9 @@
     "hint": "Convert to a common denominator",
     "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
     "incorrect_answers": [
-      "Wrong B",
-      "Wrong A",
-      "Wrong C"
+      "\\frac{2}{4}",
+      "\\frac{1}{6}",
+      "\\frac{5}{8}"
     ]
   },
   {
@@ -2580,9 +2580,9 @@
     "hint": "Convert to a common denominator",
     "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
     "incorrect_answers": [
-      "Wrong B",
-      "Wrong A",
-      "Wrong C"
+      "\\frac{5}{8}",
+      "\\frac{1}{6}",
+      "\\frac{2}{4}"
     ]
   },
   {
@@ -2594,9 +2594,9 @@
     "hint": "Convert to a common denominator",
     "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
     "incorrect_answers": [
-      "Wrong C",
-      "Wrong A",
-      "Wrong B"
+      "\\frac{1}{6}",
+      "\\frac{5}{8}",
+      "\\frac{2}{4}"
     ]
   },
   {
@@ -2608,9 +2608,9 @@
     "hint": "Convert to a common denominator",
     "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
     "incorrect_answers": [
-      "Wrong A",
-      "Wrong C",
-      "Wrong B"
+      "\\frac{2}{4}",
+      "\\frac{5}{8}",
+      "\\frac{1}{6}"
     ]
   },
   {
@@ -2622,9 +2622,9 @@
     "hint": "Convert to a common denominator",
     "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
     "incorrect_answers": [
-      "Wrong C",
-      "Wrong B",
-      "Wrong A"
+      "\\frac{5}{8}",
+      "\\frac{2}{4}",
+      "\\frac{1}{6}"
     ]
   },
   {
@@ -2636,9 +2636,9 @@
     "hint": "Convert to a common denominator",
     "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
     "incorrect_answers": [
-      "Wrong B",
-      "Wrong C",
-      "Wrong A"
+      "\\frac{1}{6}",
+      "\\frac{2}{4}",
+      "\\frac{5}{8}"
     ]
   },
   {
@@ -2650,9 +2650,9 @@
     "hint": "Convert to a common denominator",
     "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
     "incorrect_answers": [
-      "Wrong C",
-      "Wrong A",
-      "Wrong B"
+      "\\frac{2}{4}",
+      "\\frac{1}{6}",
+      "\\frac{5}{8}"
     ]
   },
   {
@@ -2664,9 +2664,9 @@
     "hint": "Convert to a common denominator",
     "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
     "incorrect_answers": [
-      "Wrong C",
-      "Wrong A",
-      "Wrong B"
+      "\\frac{5}{8}",
+      "\\frac{1}{6}",
+      "\\frac{2}{4}"
     ]
   },
   {
