@@ -252,20 +252,29 @@
         if (question.image) {
           questionHTML += `<img src="${question.image}" class="question-image" />`;
         }
+        
+        // Create answer buttons with LaTeX support
+        questionHTML += `<div class="answers-container">`;
         shuffled.forEach((ans, i) => {
-          questionHTML += `<button class='answer-btn' data-ans="${ans}">${ans}</button>`;
+          questionHTML += `<button class='answer-btn' data-index="${i}">${ans}</button>`;
         });
-        questionHTML += `</div>`;
+        questionHTML += `</div></div>`;
 
         questionArea.innerHTML = questionHTML;
+        
+        // Render LaTeX in the question and answers
         if (window.MathJax) {
           MathJax.typeset();
         }
 
-        document.querySelectorAll(".answer-btn").forEach(btn => {
+        // Store the answers for reference
+        const answerButtons = document.querySelectorAll(".answer-btn");
+        answerButtons.forEach((btn, index) => {
           btn.addEventListener("click", () => {
-            const selected = btn.dataset.ans;
-            const isCorrect = selected === question.correct_answer;
+            const selectedIndex = parseInt(btn.dataset.index);
+            const selectedAnswer = shuffled[selectedIndex];
+            const isCorrect = selectedAnswer === question.correct_answer;
+            
             questionArea.innerHTML = "";
             if (isCorrect) {
               board[row][col] = currentPlayer;
