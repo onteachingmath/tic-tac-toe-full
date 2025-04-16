@@ -21,7 +21,10 @@
         <option value="2">2 Player</option>
       </select>
 
-      <div id="player-names"></div>
+      <div id="player-names">
+        <input id="player1-name" placeholder="Player 1 Name" />
+        <input id="player2-name" placeholder="Player 2/Computer Name" />
+      </div>
       <button id="start-btn">Start Game</button>
     </div>
 
@@ -31,6 +34,162 @@
   </div>
 
   <script src="questions.js"></script>
-  <script src="connect4.js"></script>
+  <script>
+    const ROWS = 6;
+    const COLS = 7;
+    let board = [];
+    let currentPlayer = 1;
+    let gameMode = 1;
+    let playerNames = {};
+    let selectedSubject = "";
+    let questions = [];
+    let usedQuestions = [];
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const boardEl = document.getElementById("board");
+      const subjectSelect = document.getElementById("subject-select");
+      const startBtn = document.getElementById("start-btn");
+      const questionArea = document.getElementById("question-area");
+
+      const subjects = [...new Set(questionsData.map(q => q.subject))];
+      subjects.forEach(subj => {
+        const option = document.createElement("option");
+        option.value = subj;
+        option.textContent = subj;
+        subjectSelect.appendChild(option);
+      });
+
+      startBtn.addEventListener("click", () => {
+        selectedSubject = subjectSelect.value;
+        gameMode = parseInt(document.getElementById("mode-select").value);
+        playerNames[1] = document.getElementById("player1-name").value || "Player 1";
+        playerNames[2] = document.getElementById("player2-name").value || (gameMode === 1 ? "Computer" : "Player 2");
+        questions = questionsData.filter(q => q.subject === selectedSubject);
+        usedQuestions = [];
+        currentPlayer = 1;
+        initBoard();
+        renderBoard();
+        updateStatus();
+      });
+
+      function initBoard() {
+        board = Array.from({ length: ROWS }, () => Array(COLS).fill(0));
+      }
+
+      function renderBoard() {
+        boardEl.innerHTML = "";
+        for (let r = 0; r < ROWS; r++) {
+          const row = document.createElement("div");
+          row.className = "row";
+          for (let c = 0; c < COLS; c++) {
+            const cell = document.createElement("div");
+            cell.className = `cell player${board[r][c]}`;
+            cell.dataset.col = c;
+            if (r === 0) cell.classList.add("clickable");
+            row.appendChild(cell);
+          }
+          boardEl.appendChild(row);
+        }
+        addListeners();
+      }
+
+      function addListeners() {
+        const topCells = document.querySelectorAll(".row:first-child .cell");
+        topCells.forEach(cell => {
+          cell.addEventListener("click", () => {
+            const col = parseInt(cell.dataset.col);
+            dropPiece(col);
+          });
+        });
+      }
+
+      function dropPiece(col) {
+        for (let r = ROWS - 1; r >= 0; r--) {
+          if (board[r][col] === 0) {
+            askQuestion(r, col);
+            return;
+          }
+        }
+      }
+
+      function askQuestion(row, col) {
+        const question = getNewQuestion();
+        if (!question) return;
+
+        const allAnswers = [question.correct_answer, ...question.incorrect_answers];
+        const shuffled = allAnswers.sort(() => Math.random() - 0.5);
+
+        let questionHTML = `<div class='question-box'><p>Player ${currentPlayer}: ${question.question_latex}</p>`;
+        if (question.image) {
+          questionHTML += `<img src="${question.image}" class="question-image" />`;
+        }
+        shuffled.forEach((ans, i) => {
+          questionHTML += `<button class='answer-btn' data-ans="${ans}">${ans}</button>`;
+        });
+        questionHTML += `</div>`;
+
+        questionArea.innerHTML = questionHTML;
+        MathJax.typeset();
+
+        document.querySelectorAll(".answer-btn").forEach(btn => {
+          btn.addEventListener("click", () => {
+            const selected = btn.dataset.ans;
+            const isCorrect = selected === question.correct_answer;
+            questionArea.innerHTML = "";
+            if (isCorrect) {
+              board[row][col] = currentPlayer;
+              renderBoard();
+              if (checkWin(currentPlayer)) {
+                document.getElementById("game-status").textContent = `${playerNames[currentPlayer]} wins!`;
+                disableBoard();
+                return;
+              }
+            }
+            currentPlayer = currentPlayer === 1 ? 2 : 1;
+            updateStatus();
+          });
+        });
+      }
+
+      function getNewQuestion() {
+        const unused = questions.filter(q => !usedQuestions.includes(q));
+        if (unused.length === 0) return null;
+        const q = unused[Math.floor(Math.random() * unused.length)];
+        usedQuestions.push(q);
+        return q;
+      }
+
+      function updateStatus() {
+        document.getElementById("game-status").textContent = `${playerNames[currentPlayer]}'s turn`;
+      }
+
+      function disableBoard() {
+        document.querySelectorAll(".row:first-child .cell").forEach(cell => {
+          cell.replaceWith(cell.cloneNode(true));
+        });
+      }
+
+      function checkWin(player) {
+        const directions = [
+          [0, 1], [1, 0], [1, 1], [1, -1]
+        ];
+        for (let r = 0; r < ROWS; r++) {
+          for (let c = 0; c < COLS; c++) {
+            if (board[r][c] !== player) continue;
+            for (let [dr, dc] of directions) {
+              let count = 0;
+              for (let i = 0; i < 4; i++) {
+                const nr = r + dr * i, nc = c + dc * i;
+                if (nr < 0 || nr >= ROWS || nc < 0 || nc >= COLS || board[nr][nc] !== player) break;
+                count++;
+              }
+              if (count === 4) return true;
+            }
+          }
+        }
+        return false;
+      }
+    });
+  </script>
 </body>
 </html>
