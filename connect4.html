@@ -7,8 +7,10 @@
   <link rel="stylesheet" href="style.css" />
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="questions.js"></script> <!-- Load questions first -->
 </head>
-<body>  <div class="game-container">
+<body>
+  <div class="game-container">
     <h1>Connect 4 Challenge</h1>
     <div class="settings">
       <label for="subject-select">Choose Subject:</label>
@@ -32,7 +34,6 @@
     <div id="game-status" class="game-status"></div>
   </div>
 
-  <script src="questions.js"></script>
   <script>
     const ROWS = 6;
     const COLS = 7;
@@ -41,17 +42,17 @@
     let gameMode = 1;
     let playerNames = {};
     let selectedSubject = "";
-    let questions = [];
     let usedQuestions = [];
-let filteredQuestions = [];
+    let filteredQuestions = [];
 
-    document.addEventListener("DOMContentLoaded", () => {
+    function initializeGame() {
       const boardEl = document.getElementById("board");
       const subjectSelect = document.getElementById("subject-select");
       const startBtn = document.getElementById("start-btn");
       const questionArea = document.getElementById("question-area");
 
-const subjects = [...new Set(questions.map(q => q.subject))];      subjects.forEach(subj => {
+      const subjects = [...new Set(questions.map(q => q.subject))];
+      subjects.forEach(subj => {
         const option = document.createElement("option");
         option.value = subj;
         option.textContent = subj;
@@ -63,8 +64,9 @@ const subjects = [...new Set(questions.map(q => q.subject))];      subjects.forE
         gameMode = parseInt(document.getElementById("mode-select").value);
         playerNames[1] = document.getElementById("player1-name").value || "Player 1";
         playerNames[2] = document.getElementById("player2-name").value || (gameMode === 1 ? "Computer" : "Player 2");
-filteredQuestions = questions.filter(q => q.subject === selectedSubject); 
-  usedQuestions = [];
+
+        filteredQuestions = questions.filter(q => q.subject === selectedSubject);
+        usedQuestions = [];
         currentPlayer = 1;
         initBoard();
         renderBoard();
@@ -122,7 +124,7 @@ filteredQuestions = questions.filter(q => q.subject === selectedSubject);
         if (question.image) {
           questionHTML += `<img src="${question.image}" class="question-image" />`;
         }
-        shuffled.forEach((ans, i) => {
+        shuffled.forEach(ans => {
           questionHTML += `<button class='answer-btn' data-ans="${ans}">${ans}</button>`;
         });
         questionHTML += `</div>`;
@@ -145,16 +147,17 @@ filteredQuestions = questions.filter(q => q.subject === selectedSubject);
               }
             }
             currentPlayer = currentPlayer === 1 ? 2 : 1;
-updateStatus();
+            updateStatus();
 
-if (gameMode === 1 && currentPlayer === 2) {
-  setTimeout(() => computerTurn(), 800);
-}          });
+            if (gameMode === 1 && currentPlayer === 2) {
+              setTimeout(() => computerTurn(), 800);
+            }
+          });
         });
       }
 
       function getNewQuestion() {
-        const unused = questions.filter(q => !usedQuestions.includes(q));
+        const unused = filteredQuestions.filter(q => !usedQuestions.includes(q));
         if (unused.length === 0) return null;
         const q = unused[Math.floor(Math.random() * unused.length)];
         usedQuestions.push(q);
@@ -191,21 +194,30 @@ if (gameMode === 1 && currentPlayer === 2) {
         }
         return false;
       }
-function computerTurn() {
-  const validCols = [];
-  for (let c = 0; c < COLS; c++) {
-    if (board[0][c] === 0) validCols.push(c);
-  }
-  if (validCols.length === 0) return;
 
-  const col = validCols[Math.floor(Math.random() * validCols.length)];
-  for (let r = ROWS - 1; r >= 0; r--) {
-    if (board[r][col] === 0) {
-      askQuestion(r, col);
-      return;
+      function computerTurn() {
+        const validCols = [];
+        for (let c = 0; c < COLS; c++) {
+          if (board[0][c] === 0) validCols.push(c);
+        }
+        if (validCols.length === 0) return;
+
+        const col = validCols[Math.floor(Math.random() * validCols.length)];
+        for (let r = ROWS - 1; r >= 0; r--) {
+          if (board[r][col] === 0) {
+            askQuestion(r, col);
+            return;
+          }
+        }
+      }
     }
-  }
-}
+
+    window.addEventListener("DOMContentLoaded", () => {
+      if (typeof questions !== "undefined" && questions.length > 0) {
+        initializeGame();
+      } else {
+        console.error("Questions not loaded or empty.");
+      }
     });
   </script>
 </body>
