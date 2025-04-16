@@ -146,8 +146,11 @@
               }
             }
             currentPlayer = currentPlayer === 1 ? 2 : 1;
-            updateStatus();
-          });
+updateStatus();
+
+if (gameMode === 1 && currentPlayer === 2) {
+  setTimeout(() => computerTurn(), 800);
+}          });
         });
       }
 
@@ -189,6 +192,21 @@
         }
         return false;
       }
+function computerTurn() {
+  const validCols = [];
+  for (let c = 0; c < COLS; c++) {
+    if (board[0][c] === 0) validCols.push(c);
+  }
+  if (validCols.length === 0) return;
+
+  const col = validCols[Math.floor(Math.random() * validCols.length)];
+  for (let r = ROWS - 1; r >= 0; r--) {
+    if (board[r][col] === 0) {
+      askQuestion(r, col);
+      return;
+    }
+  }
+}
     });
   </script>
 </body>
