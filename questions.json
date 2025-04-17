@@ -6266,5 +6266,565 @@
     "hint": "Translate ‘at least’ and ‘more than’ into math.",
     "explanation": "Let y be the first number. ‘At least 5 more than twice x’ means \\( y \\geq 2x + 5 \\).",
     "incorrect_answers": ["y <= 2x + 5", "y > 2x", "y < 2x + 5"]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\tan(45^\\circ) \\)? (variant 1)",
+    "correct_answer": "1",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\tan(45^\\circ) = 1 \\)",
+    "incorrect_answers": [
+      "0",
+      "\\sqrt{3}",
+      "\\frac{\\sqrt{2}}{2}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(330^\\circ) \\)? (variant 2)",
+    "correct_answer": "\\frac{\\sqrt{3}}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(330^\\circ) = \\frac{\\sqrt{3}}{2} \\)",
+    "incorrect_answers": [
+      "\\frac{\\sqrt{2}}{2}",
+      "1",
+      "\\frac{1}{2}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(240^\\circ) \\)? (variant 3)",
+    "correct_answer": "-\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(240^\\circ) = -\\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "-\\frac{\\sqrt{2}}{2}",
+      "-\\frac{\\sqrt{3}}{2}",
+      "-1"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(30^\\circ) \\)? (variant 4)",
+    "correct_answer": "\\frac{\\sqrt{3}}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(30^\\circ) = \\frac{\\sqrt{3}}{2} \\)",
+    "incorrect_answers": [
+      "\\frac{\\sqrt{2}}{2}",
+      "1",
+      "\\frac{1}{2}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(150^\\circ) \\)? (variant 5)",
+    "correct_answer": "-\\frac{\\sqrt{3}}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(150^\\circ) = -\\frac{\\sqrt{3}}{2} \\)",
+    "incorrect_answers": [
+      "-\\frac{1}{2}",
+      "-\\frac{\\sqrt{2}}{2}",
+      "-1"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\tan(0^\\circ) \\)? (variant 6)",
+    "correct_answer": "0",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\tan(0^\\circ) = 0 \\)",
+    "incorrect_answers": [
+      "\\frac{\\sqrt{3}}{2}",
+      "1",
+      "\\frac{1}{2}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\tan(180^\\circ) \\)? (variant 7)",
+    "correct_answer": "0",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\tan(180^\\circ) = 0 \\)",
+    "incorrect_answers": [
+      "\\frac{\\sqrt{3}}{2}",
+      "\\frac{1}{2}",
+      "1"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(210^\\circ) \\)? (variant 8)",
+    "correct_answer": "-\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(210^\\circ) = -\\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "-\\frac{\\sqrt{2}}{2}",
+      "-\\frac{\\sqrt{3}}{2}",
+      "-1"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(270^\\circ) \\)? (variant 9)",
+    "correct_answer": "0",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(270^\\circ) = 0 \\)",
+    "incorrect_answers": [
+      "\\frac{1}{2}",
+      "\\frac{\\sqrt{3}}{2}",
+      "1"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(315^\\circ) \\)? (variant 10)",
+    "correct_answer": "-\\frac{\\sqrt{2}}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(315^\\circ) = -\\frac{\\sqrt{2}}{2} \\)",
+    "incorrect_answers": [
+      "-\\frac{\\sqrt{3}}{2}",
+      "-1",
+      "-\\frac{1}{2}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(210^\\circ) \\)? (variant 11)",
+    "correct_answer": "-\\frac{\\sqrt{3}}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(210^\\circ) = -\\frac{\\sqrt{3}}{2} \\)",
+    "incorrect_answers": [
+      "-\\frac{\\sqrt{2}}{2}",
+      "-1",
+      "-\\frac{1}{2}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(210^\\circ) \\)? (variant 12)",
+    "correct_answer": "-\\frac{\\sqrt{3}}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(210^\\circ) = -\\frac{\\sqrt{3}}{2} \\)",
+    "incorrect_answers": [
+      "-\\frac{1}{2}",
+      "-1",
+      "-\\frac{\\sqrt{2}}{2}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(360^\\circ) \\)? (variant 13)",
+    "correct_answer": "1",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(360^\\circ) = 1 \\)",
+    "incorrect_answers": [
+      "\\frac{\\sqrt{2}}{2}",
+      "0",
+      "\\sqrt{3}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(0^\\circ) \\)? (variant 14)",
+    "correct_answer": "1",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(0^\\circ) = 1 \\)",
+    "incorrect_answers": [
+      "\\frac{\\sqrt{2}}{2}",
+      "0",
+      "\\sqrt{3}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(270^\\circ) \\)? (variant 15)",
+    "correct_answer": "-1",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(270^\\circ) = -1 \\)",
+    "incorrect_answers": [
+      "-\\frac{1}{2}",
+      "-\\sqrt{3}",
+      "0"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\tan(180^\\circ) \\)? (variant 16)",
+    "correct_answer": "0",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\tan(180^\\circ) = 0 \\)",
+    "incorrect_answers": [
+      "\\frac{1}{2}",
+      "\\frac{\\sqrt{3}}{2}",
+      "1"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\tan(60^\\circ) \\)? (variant 17)",
+    "correct_answer": "\\sqrt{3}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\tan(60^\\circ) = \\sqrt{3} \\)",
+    "incorrect_answers": [
+      "\\frac{\\sqrt{3}}{3}",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\tan(225^\\circ) \\)? (variant 18)",
+    "correct_answer": "1",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\tan(225^\\circ) = 1 \\)",
+    "incorrect_answers": [
+      "\\sqrt{3}",
+      "\\frac{\\sqrt{2}}{2}",
+      "0"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\tan(315^\\circ) \\)? (variant 19)",
+    "correct_answer": "-1",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\tan(315^\\circ) = -1 \\)",
+    "incorrect_answers": [
+      "-\\frac{1}{2}",
+      "0",
+      "-\\sqrt{3}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(240^\\circ) \\)? (variant 20)",
+    "correct_answer": "-\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(240^\\circ) = -\\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "-1",
+      "-\\frac{\\sqrt{3}}{2}",
+      "-\\frac{\\sqrt{2}}{2}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\tan(270^\\circ) \\)? (variant 21)",
+    "correct_answer": "undefined",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\tan(270^\\circ) = undefined \\)",
+    "incorrect_answers": [
+      "-1",
+      "1",
+      "0"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(90^\\circ) \\)? (variant 22)",
+    "correct_answer": "1",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(90^\\circ) = 1 \\)",
+    "incorrect_answers": [
+      "\\sqrt{3}",
+      "0",
+      "\\frac{\\sqrt{2}}{2}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(225^\\circ) \\)? (variant 23)",
+    "correct_answer": "-\\frac{\\sqrt{2}}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(225^\\circ) = -\\frac{\\sqrt{2}}{2} \\)",
+    "incorrect_answers": [
+      "-\\frac{\\sqrt{3}}{2}",
+      "-\\frac{1}{2}",
+      "-1"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\tan(30^\\circ) \\)? (variant 24)",
+    "correct_answer": "\\frac{\\sqrt{3}}{3}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\tan(30^\\circ) = \\frac{\\sqrt{3}}{3} \\)",
+    "incorrect_answers": [
+      "\\sqrt{3}",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\tan(90^\\circ) \\)? (variant 25)",
+    "correct_answer": "undefined",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\tan(90^\\circ) = undefined \\)",
+    "incorrect_answers": [
+      "-1",
+      "1",
+      "0"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(330^\\circ) \\)? (variant 26)",
+    "correct_answer": "-\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(330^\\circ) = -\\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "-\\frac{\\sqrt{3}}{2}",
+      "-\\frac{\\sqrt{2}}{2}",
+      "-1"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(330^\\circ) \\)? (variant 27)",
+    "correct_answer": "\\frac{\\sqrt{3}}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(330^\\circ) = \\frac{\\sqrt{3}}{2} \\)",
+    "incorrect_answers": [
+      "\\frac{1}{2}",
+      "1",
+      "\\frac{\\sqrt{2}}{2}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(300^\\circ) \\)? (variant 28)",
+    "correct_answer": "-\\frac{\\sqrt{3}}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(300^\\circ) = -\\frac{\\sqrt{3}}{2} \\)",
+    "incorrect_answers": [
+      "-\\frac{\\sqrt{2}}{2}",
+      "-\\frac{1}{2}",
+      "-1"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(360^\\circ) \\)? (variant 29)",
+    "correct_answer": "0",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(360^\\circ) = 0 \\)",
+    "incorrect_answers": [
+      "\\frac{\\sqrt{3}}{2}",
+      "\\frac{1}{2}",
+      "1"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(240^\\circ) \\)? (variant 30)",
+    "correct_answer": "-\\frac{\\sqrt{3}}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(240^\\circ) = -\\frac{\\sqrt{3}}{2} \\)",
+    "incorrect_answers": [
+      "-\\frac{\\sqrt{2}}{2}",
+      "-1",
+      "-\\frac{1}{2}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(240^\\circ) \\)? (variant 31)",
+    "correct_answer": "-\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(240^\\circ) = -\\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "-1",
+      "-\\frac{\\sqrt{3}}{2}",
+      "-\\frac{\\sqrt{2}}{2}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\tan(150^\\circ) \\)? (variant 32)",
+    "correct_answer": "-\\frac{\\sqrt{3}}{3}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\tan(150^\\circ) = -\\frac{\\sqrt{3}}{3} \\)",
+    "incorrect_answers": [
+      "-1",
+      "-\\sqrt{3}",
+      "0"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\tan(315^\\circ) \\)? (variant 33)",
+    "correct_answer": "-1",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\tan(315^\\circ) = -1 \\)",
+    "incorrect_answers": [
+      "0",
+      "-\\sqrt{3}",
+      "-\\frac{1}{2}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\tan(330^\\circ) \\)? (variant 34)",
+    "correct_answer": "-\\frac{\\sqrt{3}}{3}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\tan(330^\\circ) = -\\frac{\\sqrt{3}}{3} \\)",
+    "incorrect_answers": [
+      "-1",
+      "-\\sqrt{3}",
+      "0"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(240^\\circ) \\)? (variant 35)",
+    "correct_answer": "-\\frac{1}{2}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(240^\\circ) = -\\frac{1}{2} \\)",
+    "incorrect_answers": [
+      "-\\frac{\\sqrt{2}}{2}",
+      "-\\frac{\\sqrt{3}}{2}",
+      "-1"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\sin(270^\\circ) \\)? (variant 36)",
+    "correct_answer": "-1",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\sin(270^\\circ) = -1 \\)",
+    "incorrect_answers": [
+      "-\\sqrt{3}",
+      "0",
+      "-\\frac{1}{2}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(180^\\circ) \\)? (variant 37)",
+    "correct_answer": "-1",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(180^\\circ) = -1 \\)",
+    "incorrect_answers": [
+      "-\\frac{1}{2}",
+      "-\\sqrt{3}",
+      "0"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(180^\\circ) \\)? (variant 38)",
+    "correct_answer": "-1",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(180^\\circ) = -1 \\)",
+    "incorrect_answers": [
+      "0",
+      "-\\frac{1}{2}",
+      "-\\sqrt{3}"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\cos(360^\\circ) \\)? (variant 39)",
+    "correct_answer": "1",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\cos(360^\\circ) = 1 \\)",
+    "incorrect_answers": [
+      "\\frac{\\sqrt{2}}{2}",
+      "\\sqrt{3}",
+      "0"
+    ]
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle",
+    "difficulty": "easy",
+    "question_latex": "What is \\( \\tan(60^\\circ) \\)? (variant 40)",
+    "correct_answer": "\\sqrt{3}",
+    "hint": "Use the unit circle.",
+    "explanation": "\\( \\tan(60^\\circ) = \\sqrt{3} \\)",
+    "incorrect_answers": [
+      "0",
+      "\\frac{\\sqrt{3}}{3}",
+      "1"
+    ]
   }
 ]
