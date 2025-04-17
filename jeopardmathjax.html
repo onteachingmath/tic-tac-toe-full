@@ -406,7 +406,7 @@ window.MathJax = {
             document.getElementById('subjectSelection').style.display = 'none';
             
             // Load questions from the JSON file
-            fetch('questions.json')
+            fetch('https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/questions.json')
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
