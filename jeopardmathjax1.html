@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeopardy Game</title>
+    <!-- Add MathJax for LaTeX rendering -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #0d47a1;
+            margin-bottom: 20px;
+        }
+        
+        /* Subject and Topic Selection */
+        #subjectSelection, #topicSelection {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        #subjectList, #topicList {
+            max-height: 400px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+        }
+        
+        .subject-item, .topic-item {
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 4px;
+            background-color: #e3f2fd;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        .subject-item:hover, .topic-item:hover {
+            background-color: #bbdefb;
+        }
+        
+        .subject-item.selected, .topic-item.selected {
+            background-color: #2196f3;
+            color: white;
+        }
+        
+        .topic-header {
+            margin-top: 15px;
+            margin-bottom: 5px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ddd;
+            color: #0d47a1;
+        }
+        
+        /* Team Setup */
+        #teamSetup {
+            display: none;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        #teamSetup input {
+            padding: 10px;
+            margin: 5px;
+            width: 80%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        button {
+            background-color: #0d47a1;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        
+        button:hover {
+            background-color: #1565c0;
+        }
+        
+        /* Loading Indicator */
+        #loadingIndicator {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .spinner {
+            border: 6px solid #f3f3f3;
+            border-top: 6px solid #0d47a1;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Game Board */
+        #gameContainer {
+            display: none;
+        }
+        
+        #scoreBoard {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .team-score {
+            text-align: center;
+            padding: 10px;
+            width: 30%;
+            border-radius: 4px;
+        }
+        
+        .team-score h3 {
+            margin: 0;
+            color: #0d47a1;
+        }
+        
+        .score {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        #gameBoard {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .board-cell {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            font-size: 18px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .board-cell:hover:not(.topic-cell):not(.played) {
+            background-color: #1565c0;
+            transform: scale(1.05);
+        }
+        
+        .topic-cell {
+            background-color: #002171;
+            font-weight: bold;
+            cursor: default;
+        }
+        
+        .played {
+            background-color: #9e9e9e;
+            color: #9e9e9e;
+            cursor: default;
+        }
+        
+        /* Question Modal */
+        #questionModal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.7);
+            z-index: 10;
+        }
+        
+        .modal-content {
+            background-color: white;
+            margin: 10% auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            position: relative;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        
+        #timer {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #d32f2f;
+        }
+        
+        #questionText {
+            font-size: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        #questionImage {
+            max-width: 100%;
+            max-height: 300px;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        
+        #answersContainer {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+        }
+        
+        .answer-option {
+            background-color: #e3f2fd;
+            padding: 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .answer-option:hover {
+            background-color: #bbdefb;
+        }
+        
+        #selectedTeam {
+            margin-top: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            color: #0d47a1;
+            padding: 10px;
+            background-color: #e3f2fd;
+            border-radius: 4px;
+            display: none;
+        }
+        
+        /* Result Display */
+        #resultDisplay {
+            margin-top: 15px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        .correct {
+            background-color: #c8e6c9;
+            color: #2e7d32;
+        }
+        
+        .incorrect {
+            background-color: #ffcdd2;
+            color: #c62828;
+        }
+        
+        /* Timer Animation */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .timer-ending {
+            color: #ff0000;
+            animation: pulse 0.5s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Jeopardy Game</h1>
+        
+        <!-- Loading Indicator -->
+        <div id="loadingIndicator">
+            <div class="spinner"></div>
+            <p>Loading questions...</p>
+        </div>
+        
+        <!-- Subject Selection Section -->
+        <div id="subjectSelection">
+            <h2>Select Subjects for the Game</h2>
+            <p>Choose subjects you want to include in the game:</p>
+            <div id="subjectList"></div>
+            <div>
+                <span id="selectionCounter">0 subjects selected</span>
+                <button id="confirmSubjects">Continue to Topic Selection</button>
+            </div>
+        </div>
+        
+        <!-- Topic Selection Section -->
+        <div id="topicSelection" style="display: none;">
+            <h2>Select Topics for the Game</h2>
+            <p>Choose at least 5 topics to include in the game:</p>
+            <div id="topicList"></div>
+            <div>
+                <span id="topicSelectionCounter">0 topics selected</span>
+                <button id="confirmTopics" disabled>Continue to Team Setup</button>
+            </div>
+        </div>
+        
+        <!-- Team Setup Section -->
+        <div id="teamSetup" style="display: none;">
+            <h2>Enter Team Names</h2>
+            <div>
+                <label for="team1">Team 1:</label>
+                <input type="text" id="team1" placeholder="Enter team 1 name">
+            </div>
+            <div>
+                <label for="team2">Team 2:</label>
+                <input type="text" id="team2" placeholder="Enter team 2 name">
+            </div>
+            <div>
+                <label for="team3">Team 3:</label>
+                <input type="text" id="team3" placeholder="Enter team 3 name">
+            </div>
+            <button id="startGame">Start Game</button>
+        </div>
+        
+        <!-- Game Container -->
+        <div id="gameContainer">
+            <!-- Score Board -->
+            <div id="scoreBoard">
+                <div class="team-score" id="team1Score">
+                    <h3 id="team1Name">Team 1</h3>
+                    <div class="score">0</div>
+                </div>
+                <div class="team-score" id="team2Score">
+                    <h3 id="team2Name">Team 2</h3>
+                    <div class="score">0</div>
+                </div>
+                <div class="team-score" id="team3Score">
+                    <h3 id="team3Name">Team 3</h3>
+                    <div class="score">0</div>
+                </div>
+            </div>
+            
+            <!-- Game Board -->
+            <div id="gameBoard"></div>
+        </div>
+        
+        <!-- Question Modal -->
+        <div id="questionModal">
+            <div class="modal-content">
+                <div id="timer">30</div>
+                <h2>Question:</h2>
+                <div id="questionText"></div>
+                <img id="questionImage" style="display: none;" alt="Question Image">
+                <div id="selectedTeam"></div>
+                <div id="answersContainer"></div>
+                <div id="resultDisplay"></div>
+                <button id="continueButton" style="display: none;">Continue</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Configure MathJax
+        window.MathJax = {
+            startup: {
+                pageReady: () => {
+                    console.log("✅ MathJax loaded and ready");
+                    return MathJax.startup.defaultPageReady();
+                }
+            }
+        };
+        
+        // Game state variables
+        let allQuestions = [];
+        let selectedSubjects = [];
+        let selectedTopics = [];
+        let topicToQuestionMap = {};
+        let teams = ['Team 1', 'Team 2', 'Team 3'];
+        let scores = [0, 0, 0];
+        let currentQuestion = null;
+        let currentCell = null;
+        let currentTeamIndex = -1;
+        let currentValue = 0;
+        let teamsPlayed = [];
+        let timerInterval = null;
+        let timeLeft = 0;
+        let topics = [];
+        let topicToColumnMap = {};
+
+        // Initialize game by loading questions and setting up event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            // Show loading indicator
+            document.getElementById('loadingIndicator').style.display = 'block';
+            document.getElementById('subjectSelection').style.display = 'none';
+            
+            // Load questions from the JSON file
+            fetch('https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/questions.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    allQuestions = data;
+                    processQuestions();
+                    document.getElementById('loadingIndicator').style.display = 'none';
+                    document.getElementById('subjectSelection').style.display = 'block';
+                })
+                .catch(error => {
+                    console.error('Error loading questions:', error);
+                    document.getElementById('loadingIndicator').style.display = 'none';
+                    alert('Error loading questions: ' + error.message);
+                });
+
+            // Set up event listeners
+            document.getElementById('confirmSubjects').addEventListener('click', showTopicSelection);
+            document.getElementById('confirmTopics').addEventListener('click', showTeamSetup);
+            document.getElementById('startGame').addEventListener('click', setupGame);
+            document.getElementById('continueButton').addEventListener('click', closeQuestionModal);
+        });
+
+        // Process questions to get unique subjects and topics
+        function processQuestions() {
+            const subjectMap = {};
+            
+            // Group questions by subject and topic
+            allQuestions.forEach(q => {
+                const subject = q.subject;
+                const topic = q.topic;
+                
+                if (!subjectMap[subject]) {
+                    subjectMap[subject] = new Set();
+                }
+                
+                subjectMap[subject].add(topic);
+                
+                // Create mapping from topic to questions
+                const key = `${subject}:${topic}`;
+                if (!topicToQuestionMap[key]) {
+                    topicToQuestionMap[key] = {
+                        easy: [],
+                        medium: [],
+                        hard: []
+                    };
+                }
+                
+                // Add question to the appropriate difficulty level
+                const difficulty = (q.difficulty || '').toLowerCase();
+                if (['easy', 'medium', 'hard'].includes(difficulty)) {
+                    topicToQuestionMap[key][difficulty].push(q);
+                }
+            });
+            
+            // Populate subject selection list
+            const subjectList = document.getElementById('subjectList');
+            
+            Object.keys(subjectMap).sort().forEach(subject => {
+                const subjectItem = document.createElement('div');
+                subjectItem.className = 'subject-item';
+                subjectItem.textContent = subject;
+                subjectItem.dataset.subject = subject;
+                
+                subjectItem.addEventListener('click', function() {
+                    toggleSubjectSelection(this);
+                });
+                
+                subjectList.appendChild(subjectItem);
+            });
+        }
+
+        // Toggle subject selection
+        function toggleSubjectSelection(element) {
+            element.classList.toggle('selected');
+            updateSelectionCounter();
+        }
+
+        // Update selection counter for subjects
+        function updateSelectionCounter() {
+            const selectedItems = document.querySelectorAll('.subject-item.selected');
+            const count = selectedItems.length;
+            
+            document.getElementById('selectionCounter').textContent = 
+                `${count} subject${count !== 1 ? 's' : ''} selected`;
+            
+            // Enable button if at least one subject is selected
+            document.getElementById('confirmSubjects').disabled = (count < 1);
+        }
+
+        // Show topic selection screen based on selected subjects
+        function showTopicSelection() {
+            // Get selected subjects
+            selectedSubjects = [];
+            document.querySelectorAll('.subject-item.selected').forEach(item => {
+                selectedSubjects.push(item.dataset.subject);
+            });
+            
+            // Hide subject selection
+            document.getElementById('subjectSelection').style.display = 'none';
+            
+            // Show topic selection
+            document.getElementById('topicSelection').style.display = 'block';
+            
+            // Populate topics from selected subjects
+            const topicList = document.getElementById('topicList');
+            topicList.innerHTML = '';
+            
+            // Group by subject for better organization
+            selectedSubjects.forEach(subject => {
+                // Add subject header
+                const subjectHeader = document.createElement('h3');
+                subjectHeader.className = 'topic-header';
+                subjectHeader.textContent = subject;
+                topicList.appendChild(subjectHeader);
+                
+                // Get unique topics for this subject
+                const topicsForSubject = new Set();
+                allQuestions.forEach(q => {
+                    if (q.subject === subject) {
+                        topicsForSubject.add(q.topic);
+                    }
+                });
+                
+                // Add topics
+                Array.from(topicsForSubject).sort().forEach(topic => {
+                    const topicItem = document.createElement('div');
+                    topicItem.className = 'topic-item';
+                    topicItem.textContent = topic;
+                    topicItem.dataset.subject = subject;
+                    topicItem.dataset.topic = topic;
+                    
+                    topicItem.addEventListener('click', function() {
+                        toggleTopicSelection(this);
+                    });
+                    
+                    topicList.appendChild(topicItem);
+                });
+            });
+            
+            updateTopicSelectionCounter();
+        }
+
+        // Toggle topic selection
+        function toggleTopicSelection(element) {
+            element.classList.toggle('selected');
+            updateTopicSelectionCounter();
+        }
+
+        // Update counter for selected topics
+        function updateTopicSelectionCounter() {
+            const selectedItems = document.querySelectorAll('.topic-item.selected');
+            const count = selectedItems.length;
+            
+            document.getElementById('topicSelectionCounter').textContent = 
+                `${count} topic${count !== 1 ? 's' : ''} selected`;
+            
+            document.getElementById('confirmTopics').disabled = count < 5;
+        }
+
+        // Show team setup screen
+        function showTeamSetup() {
+            // Get selected topics
+            selectedTopics = [];
+            document.querySelectorAll('.topic-item.selected').forEach(item => {
+                selectedTopics.push({
+                    subject: item.dataset.subject,
+                    topic: item.dataset.topic
+                });
+            });
+            
+            document.getElementById('topicSelection').style.display = 'none';
+            document.getElementById('teamSetup').style.display = 'block';
+        }
+
+        // Set up game with team names and create game board
+        function setupGame() {
+            // Get team names
+            const team1Name = document.getElementById('team1').value.trim() || 'Team 1';
+            const team2Name = document.getElementById('team2').value.trim() || 'Team 2';
+            const team3Name = document.getElementById('team3').value.trim() || 'Team 3';
+            
+            teams = [team1Name, team2Name, team3Name];
+            
+            // Update team names on the score board
+            document.getElementById('team1Name').textContent = team1Name;
+            document.getElementById('team2Name').textContent = team2Name;
+            document.getElementById('team3Name').textContent = team3Name;
+            
+            // Hide team setup and show game container
+            document.getElementById('teamSetup').style.display = 'none';
+            document.getElementById('gameContainer').style.display = 'block';
+            
+            // Create game board
+            createGameBoard();
+        }
+
+        // Create the Jeopardy game board
+        function createGameBoard() {
+            const gameBoard = document.getElementById('gameBoard');
+            gameBoard.innerHTML = '';
+            
+            // Use the specifically selected topics instead of random ones
+            // Shuffle and take first 5 if more were selected
+            if (selectedTopics.length > 5) {
+                topics = shuffleArray([...selectedTopics]).slice(0, 5);
+            } else {
+                topics = [...selectedTopics];
+            }
+            
+            // Create topic cells (first row)
+            topics.forEach((topic, index) => {
+                const topicCell = document.createElement('div');
+                topicCell.className = 'board-cell topic-cell';
+                topicCell.textContent = topic.topic;
+                topicCell.title = `${topic.subject}: ${topic.topic}`;
+                gameBoard.appendChild(topicCell);
+                topicToColumnMap[index] = topic;
+            });
+            
+            // Create question cells (remaining rows)
+            const pointValues = [100, 200, 300, 400, 500];
+            
+            pointValues.forEach(value => {
+                for (let col = 0; col < 5; col++) {
+                    const cell = document.createElement('div');
+                    cell.className = 'board-cell';
+                    cell.textContent = '$' + value;
+                    cell.dataset.value = value;
+                    cell.dataset.column = col;
+                    cell.addEventListener('click', handleCellClick);
+                    gameBoard.appendChild(cell);
+                }
+            });
+        }
+
+        // Handle when a question cell is clicked
+        function handleCellClick(event) {
+            const cell = event.target;
+            
+            // Check if cell was already played
+            if (cell.classList.contains('played')) {
+                return;
+            }
+            
+            currentCell = cell;
+            currentValue = parseInt(cell.dataset.value);
+            const columnIndex = parseInt(cell.dataset.column);
+            const topic = topicToColumnMap[columnIndex];
+            
+            // Determine difficulty level based on point value
+            let difficulty;
+            if (currentValue <= 200) {
+                difficulty = 'easy';
+                timeLeft = 30;
+            } else if (currentValue <= 400) {
+                difficulty = 'medium';
+                timeLeft = 45;
+            } else {
+                difficulty = 'hard';
+                timeLeft = 60;
+            }
+            
+            // Get a question from the appropriate difficulty level
+            const key = `${topic.subject}:${topic.topic}`;
+            let availableQuestions = topicToQuestionMap[key][difficulty];
+            
+            // If no questions are available at the specific difficulty, try to find any question for this topic
+            if (!availableQuestions || availableQuestions.length === 0) {
+                // Try all difficulties
+                const allLevels = ['easy', 'medium', 'hard'];
+                for (const level of allLevels) {
+                    if (topicToQuestionMap[key][level] && topicToQuestionMap[key][level].length > 0) {
+                        availableQuestions = topicToQuestionMap[key][level];
+                        break;
+                    }
+                }
+            }
+            
+            if (availableQuestions && availableQuestions.length > 0) {
+                currentQuestion = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
+                displayQuestion();
+            } else {
+                alert(`No questions available for this topic: ${topic.topic}`);
+            }
+        }
+
+        // Display the question modal with the selected question
+        function displayQuestion() {
+            const modal = document.getElementById('questionModal');
+            const questionText = document.getElementById('questionText');
+            const questionImage = document.getElementById('questionImage');
+            const answersContainer = document.getElementById('answersContainer');
+            const timerElement = document.getElementById('timer');
+            const selectedTeamElement = document.getElementById('selectedTeam');
+            const resultDisplay = document.getElementById('resultDisplay');
+            
+            // Reset any previous state
+            clearInterval(timerInterval);
+            answersContainer.innerHTML = '';
+            resultDisplay.textContent = '';
+            resultDisplay.className = '';
+            selectedTeamElement.style.display = 'none';
+            document.getElementById('continueButton').style.display = 'none';
+            teamsPlayed = [];
+            
+            // Set question text with LaTeX
+            questionText.innerHTML = currentQuestion.question_latex || "";
+            
+            // Handle image if present
+            if (currentQuestion.image) {
+                questionImage.src = currentQuestion.image;
+                questionImage.style.display = 'block';
+            } else {
+                questionImage.style.display = 'none';
+            }
+            
+            // Set timer
+            timerElement.textContent = timeLeft;
+            timerElement.classList.remove('timer-ending');
+            
+            // Show modal
+            modal.style.display = 'block';
+            
+            // Render LaTeX in the question
+            MathJax.typesetPromise([questionText]).catch(error => {
+                console.error('Error typesetting question:', error);
+            });
+            
+            // Start timer
+            timerInterval = setInterval(() => {
+                timeLeft--;
+                timerElement.textContent = timeLeft;
+                
+                // Add pulse animation when timer is running low
+                if (timeLeft <= 10) {
+                    timerElement.classList.add('timer-ending');
+                }
+                
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    timerElement.classList.remove('timer-ending');
+                    selectRandomTeam(); // Only select team after timer ends
+                }
+            }, 1000);
+        }
+
+        // Randomly select a team to answer
+        function selectRandomTeam() {
+            // Clear timer if it's still running
+            clearInterval(timerInterval);
+            
+            // Get all teams
+            if (teamsPlayed.length === 0) {
+                // First selection - fully random from all teams
+                currentTeamIndex = Math.floor(Math.random() * teams.length);
+                teamsPlayed.push(currentTeamIndex);
+                
+                // Display selected team
+                const selectedTeamElement = document.getElementById('selectedTeam');
+                selectedTeamElement.textContent = `${teams[currentTeamIndex]} gets to answer!`;
+                selectedTeamElement.style.display = 'block';
+                
+                // Set up answer options
+                setupAnswerOptions();
+            } else {
+                // Get teams that haven't played yet
+                const availableTeams = [];
+                for (let i = 0; i < teams.length; i++) {
+                    if (!teamsPlayed.includes(i)) {
+                        availableTeams.push(i);
+                    }
+                }
+                
+                if (availableTeams.length > 0) {
+                    // Select a random team from available teams
+                    const randomIndex = Math.floor(Math.random() * availableTeams.length);
+                    currentTeamIndex = availableTeams[randomIndex];
+                    teamsPlayed.push(currentTeamIndex);
+                    
+                    // Display selected team
+                    const selectedTeamElement = document.getElementById('selectedTeam');
+                    selectedTeamElement.textContent = `${teams[currentTeamIndex]} gets to answer!`;
+                    selectedTeamElement.style.display = 'block';
+                    
+                    // Setup answer options
+                    setupAnswerOptions();
+                } else {
+                    // All teams have played this question
+                    closeQuestionModal();
+                }
+            }
+        }
+        
+        // Setup answer options for the selected team
+        function setupAnswerOptions() {
+            const answersContainer = document.getElementById('answersContainer');
+            answersContainer.innerHTML = '';
+            
+            // Prepare all answers
+            let allAnswers = [];
+            
+            // Add the correct answer
+            allAnswers.push({
+                text: currentQuestion.correct_answer,
+                isCorrect: true
+            });
+            
+            // Add incorrect answers
+            if (currentQuestion.incorrect_answers && currentQuestion.incorrect_answers.length > 0) {
+                currentQuestion.incorrect_answers.forEach(answer => {
+                    allAnswers.push({
+                        text: answer,
+                        isCorrect: false
+                    });
+                });
+            }
+            
+            // Shuffle the answers
+            allAnswers = shuffleArray(allAnswers);
+            
+            // Create answer options
+            allAnswers.forEach(answer => {
+                const answerDiv = document.createElement('div');
+                answerDiv.className = 'answer-option';
+                answerDiv.innerHTML = answer.text; // Use innerHTML to support LaTeX
+                answerDiv.dataset.correct = answer.isCorrect;
+                answerDiv.addEventListener('click', function() {
+                    checkAnswer(this);
+                });
+                answersContainer.appendChild(answerDiv);
+            });
+            
+            // Render LaTeX in the answers
+            MathJax.typesetPromise([answersContainer]).catch(error => {
+                console.error('Error typesetting answers:', error);
+            });
+        }
+
+        // Check if the selected answer is correct
+        function checkAnswer(answerElement) {
+            const resultDisplay = document.getElementById('resultDisplay');
+            const isCorrect = answerElement.dataset.correct === 'true';
+            
+            // Update score
+            if (isCorrect) {
+                scores[currentTeamIndex] += currentValue;
+                resultDisplay.textContent = 'Correct! ' + currentValue + ' points added.';
+                resultDisplay.className = 'correct';
+                
+                // Highlight just the selected answer (not revealing correct one to other teams)
+                answerElement.style.backgroundColor = '#c8e6c9';
+                
+                // Update score display
+                updateScoreDisplay();
+                
+                // Show continue button
+                document.getElementById('continueButton').style.display = 'block';
+            } else {
+                scores[currentTeamIndex] -= currentValue;
+                resultDisplay.textContent = 'Incorrect! ' + currentValue + ' points deducted.';
+                resultDisplay.className = 'incorrect';
+                
+                // Highlight just the selected answer as wrong
+                answerElement.style.backgroundColor = '#ffcd
