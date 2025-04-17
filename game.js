@@ -80,22 +80,23 @@ const modeControl = document.getElementById('modeControl');
     });
   });
 
-  const subjects = [
-    "Math Facts", "Algebra 1", "Algebra 2", "Geometry",
-    "Trigonometry", "Calculus", "Statistics", "Probability", "ACT Prep", "IB Math"
-  ];
-
-  subjects.forEach(subj => {
-    const btn = document.createElement('button');
-    btn.textContent = subj;
-    btn.addEventListener('click', () => {
-      subject = subj;
-      selectedSubjectLabel.textContent = subject;
-      loadTopics(subject);
-      showScreen(screenTopic);
+  function loadSubjects() {
+    subjectButtons.innerHTML = '';
+    const subjects = [...new Set(fullQuestionBank.map(q => q.subject))];
+  
+    subjects.forEach(subj => {
+      const btn = document.createElement('button');
+      btn.textContent = subj;
+      btn.addEventListener('click', () => {
+        subject = subj;
+        selectedSubjectLabel.textContent = subject;
+        loadTopics(subject);
+        showScreen(screenTopic);
+      });
+      subjectButtons.appendChild(btn);
     });
-    subjectButtons.appendChild(btn);
-  });
+  }
+  
 
   function loadTopics(subject) {
     topicButtons.innerHTML = '';
