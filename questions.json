@@ -6826,5 +6826,1545 @@
       "\\frac{\\sqrt{3}}{3}",
       "1"
     ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "easy",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 1)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( x^2 + 5x + 6 \\) is (x + 2)(x + 3).",
+    "incorrect_answers": [
+      "(x + 1)(x + 5)",
+      "(x + 2)(x + 2)",
+      "(x + 1)(x + 6)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "easy",
+    "question_latex": "Factor \\( x^2 - 9 \\) (variant 2)",
+    "correct_answer": "(x + 3)(x - 3)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( x^2 - 9 \\) is (x + 3)(x - 3).",
+    "incorrect_answers": [
+      "(x - 9)(x + 1)",
+      "(x - 3)^2",
+      "(x + 9)(x - 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "easy",
+    "question_latex": "Factor \\( x^2 + 6x + 9 \\) (variant 3)",
+    "correct_answer": "(x + 3)^2",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( x^2 + 6x + 9 \\) is (x + 3)^2.",
+    "incorrect_answers": [
+      "(x + 2)(x + 4)",
+      "(x + 1)^2",
+      "(x + 1)(x + 9)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( 2x^2 + 7x + 3 \\) (variant 4)",
+    "correct_answer": "(2x + 1)(x + 3)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 2x^2 + 7x + 3 \\) is (2x + 1)(x + 3).",
+    "incorrect_answers": [
+      "(2x + 3)(x + 1)",
+      "(x + 2)(2x + 1)",
+      "(2x + 1)(x + 2)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( 3x^2 - 12 \\) (variant 5)",
+    "correct_answer": "3(x + 2)(x - 2)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 3x^2 - 12 \\) is 3(x + 2)(x - 2).",
+    "incorrect_answers": [
+      "(3x + 6)(x - 2)",
+      "3(x + 4)(x - 1)",
+      "3(x - 2)^2"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( 4x^2 - 25 \\) (variant 6)",
+    "correct_answer": "(2x + 5)(2x - 5)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 4x^2 - 25 \\) is (2x + 5)(2x - 5).",
+    "incorrect_answers": [
+      "(4x + 5)(x - 5)",
+      "(2x - 5)^2",
+      "(2x + 4)(2x - 6)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( -x^2 + 2x + 3 \\) (variant 7)",
+    "correct_answer": "-(x - 3)(x + 1)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( -x^2 + 2x + 3 \\) is -(x - 3)(x + 1).",
+    "incorrect_answers": [
+      "-(x + 3)(x + 1)",
+      "(x - 3)(x + 1)",
+      "-(x + 2)(x + 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( 5x^2 + 11x + 2 \\) (variant 8)",
+    "correct_answer": "(5x + 1)(x + 2)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 5x^2 + 11x + 2 \\) is (5x + 1)(x + 2).",
+    "incorrect_answers": [
+      "(5x + 1)(x + 1)",
+      "(5x + 2)(x + 1)",
+      "(x + 1)(5x + 2)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( 6x^2 - 19x + 10 \\) (variant 9)",
+    "correct_answer": "(3x - 2)(2x - 5)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 6x^2 - 19x + 10 \\) is (3x - 2)(2x - 5).",
+    "incorrect_answers": [
+      "(3x - 5)(2x - 2)",
+      "(2x - 2)(3x - 5)",
+      "(2x - 5)(3x - 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "easy",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 10)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( x^2 + 5x + 6 \\) is (x + 2)(x + 3).",
+    "incorrect_answers": [
+      "(x + 1)(x + 5)",
+      "(x + 1)(x + 6)",
+      "(x + 2)(x + 2)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "easy",
+    "question_latex": "Factor \\( x^2 - 9 \\) (variant 11)",
+    "correct_answer": "(x + 3)(x - 3)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( x^2 - 9 \\) is (x + 3)(x - 3).",
+    "incorrect_answers": [
+      "(x + 9)(x - 1)",
+      "(x - 9)(x + 1)",
+      "(x - 3)^2"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "easy",
+    "question_latex": "Factor \\( x^2 + 6x + 9 \\) (variant 12)",
+    "correct_answer": "(x + 3)^2",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( x^2 + 6x + 9 \\) is (x + 3)^2.",
+    "incorrect_answers": [
+      "(x + 1)(x + 9)",
+      "(x + 1)^2",
+      "(x + 2)(x + 4)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( 2x^2 + 7x + 3 \\) (variant 13)",
+    "correct_answer": "(2x + 1)(x + 3)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 2x^2 + 7x + 3 \\) is (2x + 1)(x + 3).",
+    "incorrect_answers": [
+      "(2x + 1)(x + 2)",
+      "(x + 2)(2x + 1)",
+      "(2x + 3)(x + 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( 3x^2 - 12 \\) (variant 14)",
+    "correct_answer": "3(x + 2)(x - 2)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 3x^2 - 12 \\) is 3(x + 2)(x - 2).",
+    "incorrect_answers": [
+      "3(x - 2)^2",
+      "(3x + 6)(x - 2)",
+      "3(x + 4)(x - 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( 4x^2 - 25 \\) (variant 15)",
+    "correct_answer": "(2x + 5)(2x - 5)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 4x^2 - 25 \\) is (2x + 5)(2x - 5).",
+    "incorrect_answers": [
+      "(4x + 5)(x - 5)",
+      "(2x - 5)^2",
+      "(2x + 4)(2x - 6)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( -x^2 + 2x + 3 \\) (variant 16)",
+    "correct_answer": "-(x - 3)(x + 1)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( -x^2 + 2x + 3 \\) is -(x - 3)(x + 1).",
+    "incorrect_answers": [
+      "-(x + 3)(x + 1)",
+      "(x - 3)(x + 1)",
+      "-(x + 2)(x + 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( 5x^2 + 11x + 2 \\) (variant 17)",
+    "correct_answer": "(5x + 1)(x + 2)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 5x^2 + 11x + 2 \\) is (5x + 1)(x + 2).",
+    "incorrect_answers": [
+      "(5x + 2)(x + 1)",
+      "(5x + 1)(x + 1)",
+      "(x + 1)(5x + 2)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( 6x^2 - 19x + 10 \\) (variant 18)",
+    "correct_answer": "(3x - 2)(2x - 5)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 6x^2 - 19x + 10 \\) is (3x - 2)(2x - 5).",
+    "incorrect_answers": [
+      "(2x - 2)(3x - 5)",
+      "(3x - 5)(2x - 2)",
+      "(2x - 5)(3x - 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "easy",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 19)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( x^2 + 5x + 6 \\) is (x + 2)(x + 3).",
+    "incorrect_answers": [
+      "(x + 1)(x + 6)",
+      "(x + 2)(x + 2)",
+      "(x + 1)(x + 5)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "easy",
+    "question_latex": "Factor \\( x^2 - 9 \\) (variant 20)",
+    "correct_answer": "(x + 3)(x - 3)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( x^2 - 9 \\) is (x + 3)(x - 3).",
+    "incorrect_answers": [
+      "(x - 3)^2",
+      "(x - 9)(x + 1)",
+      "(x + 9)(x - 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "easy",
+    "question_latex": "Factor \\( x^2 + 6x + 9 \\) (variant 21)",
+    "correct_answer": "(x + 3)^2",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( x^2 + 6x + 9 \\) is (x + 3)^2.",
+    "incorrect_answers": [
+      "(x + 1)^2",
+      "(x + 2)(x + 4)",
+      "(x + 1)(x + 9)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( 2x^2 + 7x + 3 \\) (variant 22)",
+    "correct_answer": "(2x + 1)(x + 3)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 2x^2 + 7x + 3 \\) is (2x + 1)(x + 3).",
+    "incorrect_answers": [
+      "(2x + 1)(x + 2)",
+      "(2x + 3)(x + 1)",
+      "(x + 2)(2x + 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( 3x^2 - 12 \\) (variant 23)",
+    "correct_answer": "3(x + 2)(x - 2)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 3x^2 - 12 \\) is 3(x + 2)(x - 2).",
+    "incorrect_answers": [
+      "3(x + 4)(x - 1)",
+      "(3x + 6)(x - 2)",
+      "3(x - 2)^2"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( 4x^2 - 25 \\) (variant 24)",
+    "correct_answer": "(2x + 5)(2x - 5)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 4x^2 - 25 \\) is (2x + 5)(2x - 5).",
+    "incorrect_answers": [
+      "(4x + 5)(x - 5)",
+      "(2x + 4)(2x - 6)",
+      "(2x - 5)^2"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( -x^2 + 2x + 3 \\) (variant 25)",
+    "correct_answer": "-(x - 3)(x + 1)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( -x^2 + 2x + 3 \\) is -(x - 3)(x + 1).",
+    "incorrect_answers": [
+      "-(x + 3)(x + 1)",
+      "(x - 3)(x + 1)",
+      "-(x + 2)(x + 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( 5x^2 + 11x + 2 \\) (variant 26)",
+    "correct_answer": "(5x + 1)(x + 2)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 5x^2 + 11x + 2 \\) is (5x + 1)(x + 2).",
+    "incorrect_answers": [
+      "(x + 1)(5x + 2)",
+      "(5x + 2)(x + 1)",
+      "(5x + 1)(x + 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( 6x^2 - 19x + 10 \\) (variant 27)",
+    "correct_answer": "(3x - 2)(2x - 5)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 6x^2 - 19x + 10 \\) is (3x - 2)(2x - 5).",
+    "incorrect_answers": [
+      "(2x - 2)(3x - 5)",
+      "(3x - 5)(2x - 2)",
+      "(2x - 5)(3x - 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "easy",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 28)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( x^2 + 5x + 6 \\) is (x + 2)(x + 3).",
+    "incorrect_answers": [
+      "(x + 1)(x + 6)",
+      "(x + 1)(x + 5)",
+      "(x + 2)(x + 2)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "easy",
+    "question_latex": "Factor \\( x^2 - 9 \\) (variant 29)",
+    "correct_answer": "(x + 3)(x - 3)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( x^2 - 9 \\) is (x + 3)(x - 3).",
+    "incorrect_answers": [
+      "(x + 9)(x - 1)",
+      "(x - 9)(x + 1)",
+      "(x - 3)^2"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "easy",
+    "question_latex": "Factor \\( x^2 + 6x + 9 \\) (variant 30)",
+    "correct_answer": "(x + 3)^2",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( x^2 + 6x + 9 \\) is (x + 3)^2.",
+    "incorrect_answers": [
+      "(x + 2)(x + 4)",
+      "(x + 1)(x + 9)",
+      "(x + 1)^2"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( 2x^2 + 7x + 3 \\) (variant 31)",
+    "correct_answer": "(2x + 1)(x + 3)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 2x^2 + 7x + 3 \\) is (2x + 1)(x + 3).",
+    "incorrect_answers": [
+      "(2x + 3)(x + 1)",
+      "(2x + 1)(x + 2)",
+      "(x + 2)(2x + 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( 3x^2 - 12 \\) (variant 32)",
+    "correct_answer": "3(x + 2)(x - 2)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 3x^2 - 12 \\) is 3(x + 2)(x - 2).",
+    "incorrect_answers": [
+      "3(x + 4)(x - 1)",
+      "(3x + 6)(x - 2)",
+      "3(x - 2)^2"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( 4x^2 - 25 \\) (variant 33)",
+    "correct_answer": "(2x + 5)(2x - 5)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 4x^2 - 25 \\) is (2x + 5)(2x - 5).",
+    "incorrect_answers": [
+      "(2x + 4)(2x - 6)",
+      "(2x - 5)^2",
+      "(4x + 5)(x - 5)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( -x^2 + 2x + 3 \\) (variant 34)",
+    "correct_answer": "-(x - 3)(x + 1)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( -x^2 + 2x + 3 \\) is -(x - 3)(x + 1).",
+    "incorrect_answers": [
+      "-(x + 2)(x + 1)",
+      "(x - 3)(x + 1)",
+      "-(x + 3)(x + 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( 5x^2 + 11x + 2 \\) (variant 35)",
+    "correct_answer": "(5x + 1)(x + 2)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 5x^2 + 11x + 2 \\) is (5x + 1)(x + 2).",
+    "incorrect_answers": [
+      "(5x + 1)(x + 1)",
+      "(x + 1)(5x + 2)",
+      "(5x + 2)(x + 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( 6x^2 - 19x + 10 \\) (variant 36)",
+    "correct_answer": "(3x - 2)(2x - 5)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 6x^2 - 19x + 10 \\) is (3x - 2)(2x - 5).",
+    "incorrect_answers": [
+      "(2x - 2)(3x - 5)",
+      "(2x - 5)(3x - 1)",
+      "(3x - 5)(2x - 2)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "easy",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 37)",
+    "correct_answer": "(x + 2)(x + 3)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( x^2 + 5x + 6 \\) is (x + 2)(x + 3).",
+    "incorrect_answers": [
+      "(x + 1)(x + 6)",
+      "(x + 2)(x + 2)",
+      "(x + 1)(x + 5)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "easy",
+    "question_latex": "Factor \\( x^2 - 9 \\) (variant 38)",
+    "correct_answer": "(x + 3)(x - 3)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( x^2 - 9 \\) is (x + 3)(x - 3).",
+    "incorrect_answers": [
+      "(x - 3)^2",
+      "(x + 9)(x - 1)",
+      "(x - 9)(x + 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "easy",
+    "question_latex": "Factor \\( x^2 + 6x + 9 \\) (variant 39)",
+    "correct_answer": "(x + 3)^2",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( x^2 + 6x + 9 \\) is (x + 3)^2.",
+    "incorrect_answers": [
+      "(x + 2)(x + 4)",
+      "(x + 1)(x + 9)",
+      "(x + 1)^2"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics",
+    "difficulty": "medium",
+    "question_latex": "Factor \\( 2x^2 + 7x + 3 \\) (variant 40)",
+    "correct_answer": "(2x + 1)(x + 3)",
+    "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
+    "explanation": "The correct factorization of \\( 2x^2 + 7x + 3 \\) is (2x + 1)(x + 3).",
+    "incorrect_answers": [
+      "(2x + 3)(x + 1)",
+      "(2x + 1)(x + 2)",
+      "(x + 2)(2x + 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( x^3 + 3x^2 + 2x \\) (variant 1)",
+    "correct_answer": "x(x + 1)(x + 2)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( x^3 + 3x^2 + 2x \\) is x(x + 1)(x + 2).",
+    "incorrect_answers": [
+      "x(x^2 + 3x + 2)",
+      "(x + 1)(x^2 + 2x)",
+      "x(x + 2)^2"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( 2x^3 + 4x^2 - 6x \\) (variant 2)",
+    "correct_answer": "2x(x + 3)(x - 1)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( 2x^3 + 4x^2 - 6x \\) is 2x(x + 3)(x - 1).",
+    "incorrect_answers": [
+      "2x(x^2 - 3x + 2)",
+      "x(x + 2)(x - 3)",
+      "2x(x + 2)(x - 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( x^2 - x - 6 + 2x(x + 2) \\) (variant 3)",
+    "correct_answer": "(x + 2)(3x - 3)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( x^2 - x - 6 + 2x(x + 2) \\) is (x + 2)(3x - 3).",
+    "incorrect_answers": [
+      "(x + 2)^2",
+      "(x + 3)(x - 1)",
+      "(x - 3)(3x + 2)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( x^2 + 4x + 4 - x^2 \\) (variant 4)",
+    "correct_answer": "(x + 2)^2",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( x^2 + 4x + 4 - x^2 \\) is (x + 2)^2.",
+    "incorrect_answers": [
+      "x(x + 4)",
+      "(x + 1)^2",
+      "(x + 4)^2"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( x^4 - 16 \\) (variant 5)",
+    "correct_answer": "(x^2 - 4)(x^2 + 4)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( x^4 - 16 \\) is (x^2 - 4)(x^2 + 4).",
+    "incorrect_answers": [
+      "(x - 2)(x + 2)(x^2 + 4)",
+      "(x^2 + 2)^2",
+      "(x - 4)(x^3 + 4)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( 3x^3 - 12x \\) (variant 6)",
+    "correct_answer": "3x(x - 2)(x + 2)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( 3x^3 - 12x \\) is 3x(x - 2)(x + 2).",
+    "incorrect_answers": [
+      "x(x - 3)(x + 4)",
+      "3(x - 2)(x^2 + 2)",
+      "3x(x^2 - 4x)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( x^3 - 9x \\) (variant 7)",
+    "correct_answer": "x(x - 3)(x + 3)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( x^3 - 9x \\) is x(x - 3)(x + 3).",
+    "incorrect_answers": [
+      "(x^2 - 9)(x + 1)",
+      "x(x - 3)^2",
+      "x(x^2 + 9)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( x^3 + 3x^2 + 2x \\) (variant 8)",
+    "correct_answer": "x(x + 1)(x + 2)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( x^3 + 3x^2 + 2x \\) is x(x + 1)(x + 2).",
+    "incorrect_answers": [
+      "x(x^2 + 3x + 2)",
+      "(x + 1)(x^2 + 2x)",
+      "x(x + 2)^2"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( 2x^3 + 4x^2 - 6x \\) (variant 9)",
+    "correct_answer": "2x(x + 3)(x - 1)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( 2x^3 + 4x^2 - 6x \\) is 2x(x + 3)(x - 1).",
+    "incorrect_answers": [
+      "2x(x + 2)(x - 1)",
+      "x(x + 2)(x - 3)",
+      "2x(x^2 - 3x + 2)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( x^2 - x - 6 + 2x(x + 2) \\) (variant 10)",
+    "correct_answer": "(x + 2)(3x - 3)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( x^2 - x - 6 + 2x(x + 2) \\) is (x + 2)(3x - 3).",
+    "incorrect_answers": [
+      "(x + 3)(x - 1)",
+      "(x + 2)^2",
+      "(x - 3)(3x + 2)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( x^2 + 4x + 4 - x^2 \\) (variant 11)",
+    "correct_answer": "(x + 2)^2",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( x^2 + 4x + 4 - x^2 \\) is (x + 2)^2.",
+    "incorrect_answers": [
+      "x(x + 4)",
+      "(x + 4)^2",
+      "(x + 1)^2"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( x^4 - 16 \\) (variant 12)",
+    "correct_answer": "(x^2 - 4)(x^2 + 4)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( x^4 - 16 \\) is (x^2 - 4)(x^2 + 4).",
+    "incorrect_answers": [
+      "(x^2 + 2)^2",
+      "(x - 2)(x + 2)(x^2 + 4)",
+      "(x - 4)(x^3 + 4)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( 3x^3 - 12x \\) (variant 13)",
+    "correct_answer": "3x(x - 2)(x + 2)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( 3x^3 - 12x \\) is 3x(x - 2)(x + 2).",
+    "incorrect_answers": [
+      "3(x - 2)(x^2 + 2)",
+      "x(x - 3)(x + 4)",
+      "3x(x^2 - 4x)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( x^3 - 9x \\) (variant 14)",
+    "correct_answer": "x(x - 3)(x + 3)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( x^3 - 9x \\) is x(x - 3)(x + 3).",
+    "incorrect_answers": [
+      "x(x - 3)^2",
+      "x(x^2 + 9)",
+      "(x^2 - 9)(x + 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( x^3 + 3x^2 + 2x \\) (variant 15)",
+    "correct_answer": "x(x + 1)(x + 2)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( x^3 + 3x^2 + 2x \\) is x(x + 1)(x + 2).",
+    "incorrect_answers": [
+      "x(x + 2)^2",
+      "(x + 1)(x^2 + 2x)",
+      "x(x^2 + 3x + 2)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( 2x^3 + 4x^2 - 6x \\) (variant 16)",
+    "correct_answer": "2x(x + 3)(x - 1)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( 2x^3 + 4x^2 - 6x \\) is 2x(x + 3)(x - 1).",
+    "incorrect_answers": [
+      "x(x + 2)(x - 3)",
+      "2x(x + 2)(x - 1)",
+      "2x(x^2 - 3x + 2)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( x^2 - x - 6 + 2x(x + 2) \\) (variant 17)",
+    "correct_answer": "(x + 2)(3x - 3)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( x^2 - x - 6 + 2x(x + 2) \\) is (x + 2)(3x - 3).",
+    "incorrect_answers": [
+      "(x + 2)^2",
+      "(x - 3)(3x + 2)",
+      "(x + 3)(x - 1)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( x^2 + 4x + 4 - x^2 \\) (variant 18)",
+    "correct_answer": "(x + 2)^2",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( x^2 + 4x + 4 - x^2 \\) is (x + 2)^2.",
+    "incorrect_answers": [
+      "x(x + 4)",
+      "(x + 1)^2",
+      "(x + 4)^2"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( x^4 - 16 \\) (variant 19)",
+    "correct_answer": "(x^2 - 4)(x^2 + 4)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( x^4 - 16 \\) is (x^2 - 4)(x^2 + 4).",
+    "incorrect_answers": [
+      "(x^2 + 2)^2",
+      "(x - 4)(x^3 + 4)",
+      "(x - 2)(x + 2)(x^2 + 4)"
+    ]
+  },
+  {
+    "subject": "Algebra 2",
+    "topic": "Factoring Quadratics (Level 2)",
+    "difficulty": "hard",
+    "question_latex": "Factor \\( 3x^3 - 12x \\) (variant 20)",
+    "correct_answer": "3x(x - 2)(x + 2)",
+    "hint": "Try factoring by grouping or using difference of squares.",
+    "explanation": "The correct factorization of \\( 3x^3 - 12x \\) is 3x(x - 2)(x + 2).",
+    "incorrect_answers": [
+      "x(x - 3)(x + 4)",
+      "3x(x^2 - 4x)",
+      "3(x - 2)(x^2 + 2)"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "hard",
+    "question_latex": "Simplify: \\( 3(x - 1) + 2(x + 2) \\) (variant 1)",
+    "correct_answer": "3x - 3 + 2x + 4",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 3(x - 1) + 2(x + 2) \\) is \\( 3x - 3 + 2x + 4 \\).",
+    "incorrect_answers": [
+      "x - 1",
+      "6x + 1",
+      "5x + 1"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( 3y + 2x - y \\) (variant 2)",
+    "correct_answer": "2y + 2x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 3y + 2x - y \\) is \\( 2y + 2x \\).",
+    "incorrect_answers": [
+      "x + y",
+      "3y + x",
+      "5xy"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( 3y + 2x - y \\) (variant 3)",
+    "correct_answer": "2y + 2x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 3y + 2x - y \\) is \\( 2y + 2x \\).",
+    "incorrect_answers": [
+      "3y + x",
+      "x + y",
+      "5xy"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( 6a - 2a + a \\) (variant 4)",
+    "correct_answer": "5a",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 6a - 2a + a \\) is \\( 5a \\).",
+    "incorrect_answers": [
+      "4a",
+      "3a",
+      "a"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 7b - 3b \\) (variant 5)",
+    "correct_answer": "4b",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 7b - 3b \\) is \\( 4b \\).",
+    "incorrect_answers": [
+      "-4b",
+      "3b",
+      "10b"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "hard",
+    "question_latex": "Simplify: \\( x^2 + 2x + 3x^2 - x \\) (variant 6)",
+    "correct_answer": "4x^2 + x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( x^2 + 2x + 3x^2 - x \\) is \\( 4x^2 + x \\).",
+    "incorrect_answers": [
+      "3x^2 - x",
+      "x^2 + x",
+      "5x^2 + 2x"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "hard",
+    "question_latex": "Simplify: \\( 2a + 3b - 4a + b \\) (variant 7)",
+    "correct_answer": "-2a + 4b",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 2a + 3b - 4a + b \\) is \\( -2a + 4b \\).",
+    "incorrect_answers": [
+      "-2a - 4b",
+      "a + 2b",
+      "6b - 2a"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 2m + 3m + m \\) (variant 8)",
+    "correct_answer": "6m",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 2m + 3m + m \\) is \\( 6m \\).",
+    "incorrect_answers": [
+      "7m",
+      "3m",
+      "5m"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 2m + 3m + m \\) (variant 9)",
+    "correct_answer": "6m",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 2m + 3m + m \\) is \\( 6m \\).",
+    "incorrect_answers": [
+      "5m",
+      "7m",
+      "3m"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( 3y + 2x - y \\) (variant 10)",
+    "correct_answer": "2y + 2x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 3y + 2x - y \\) is \\( 2y + 2x \\).",
+    "incorrect_answers": [
+      "3y + x",
+      "5xy",
+      "x + y"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( 2x + 3x - x \\) (variant 11)",
+    "correct_answer": "4x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 2x + 3x - x \\) is \\( 4x \\).",
+    "incorrect_answers": [
+      "3x",
+      "5x",
+      "2x^2"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "hard",
+    "question_latex": "Simplify: \\( 2(x + 3) + 4x \\) (variant 12)",
+    "correct_answer": "2x + 6 + 4x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 2(x + 3) + 4x \\) is \\( 2x + 6 + 4x \\).",
+    "incorrect_answers": [
+      "2x + 4x",
+      "6x + 3",
+      "6x + 6"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 4y - y \\) (variant 13)",
+    "correct_answer": "3y",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 4y - y \\) is \\( 3y \\).",
+    "incorrect_answers": [
+      "5y",
+      "y",
+      "-3y"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( 6a - 2a + a \\) (variant 14)",
+    "correct_answer": "5a",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 6a - 2a + a \\) is \\( 5a \\).",
+    "incorrect_answers": [
+      "a",
+      "4a",
+      "3a"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 3x + 2x \\) (variant 15)",
+    "correct_answer": "5x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 3x + 2x \\) is \\( 5x \\).",
+    "incorrect_answers": [
+      "3x^2",
+      "6x",
+      "2x^2"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "hard",
+    "question_latex": "Simplify: \\( 2a + 3b - 4a + b \\) (variant 16)",
+    "correct_answer": "-2a + 4b",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 2a + 3b - 4a + b \\) is \\( -2a + 4b \\).",
+    "incorrect_answers": [
+      "a + 2b",
+      "-2a - 4b",
+      "6b - 2a"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "hard",
+    "question_latex": "Simplify: \\( x + 2(x - 3) \\) (variant 17)",
+    "correct_answer": "x + 2x - 6",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( x + 2(x - 3) \\) is \\( x + 2x - 6 \\).",
+    "incorrect_answers": [
+      "3x + 3",
+      "3x - 6",
+      "2x - 3"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "hard",
+    "question_latex": "Simplify: \\( x^2 + 2x + 3x^2 - x \\) (variant 18)",
+    "correct_answer": "4x^2 + x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( x^2 + 2x + 3x^2 - x \\) is \\( 4x^2 + x \\).",
+    "incorrect_answers": [
+      "x^2 + x",
+      "5x^2 + 2x",
+      "3x^2 - x"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 7b - 3b \\) (variant 19)",
+    "correct_answer": "4b",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 7b - 3b \\) is \\( 4b \\).",
+    "incorrect_answers": [
+      "10b",
+      "-4b",
+      "3b"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 3x + 2x \\) (variant 20)",
+    "correct_answer": "5x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 3x + 2x \\) is \\( 5x \\).",
+    "incorrect_answers": [
+      "3x^2",
+      "2x^2",
+      "6x"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 4y - y \\) (variant 21)",
+    "correct_answer": "3y",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 4y - y \\) is \\( 3y \\).",
+    "incorrect_answers": [
+      "y",
+      "-3y",
+      "5y"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 5a + 6a \\) (variant 22)",
+    "correct_answer": "11a",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 5a + 6a \\) is \\( 11a \\).",
+    "incorrect_answers": [
+      "1a",
+      "10a",
+      "30a"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( 6a - 2a + a \\) (variant 23)",
+    "correct_answer": "5a",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 6a - 2a + a \\) is \\( 5a \\).",
+    "incorrect_answers": [
+      "3a",
+      "4a",
+      "a"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "hard",
+    "question_latex": "Simplify: \\( x + 2(x - 3) \\) (variant 24)",
+    "correct_answer": "x + 2x - 6",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( x + 2(x - 3) \\) is \\( x + 2x - 6 \\).",
+    "incorrect_answers": [
+      "3x + 3",
+      "2x - 3",
+      "3x - 6"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "hard",
+    "question_latex": "Simplify: \\( x^2 + 2x + 3x^2 - x \\) (variant 25)",
+    "correct_answer": "4x^2 + x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( x^2 + 2x + 3x^2 - x \\) is \\( 4x^2 + x \\).",
+    "incorrect_answers": [
+      "5x^2 + 2x",
+      "3x^2 - x",
+      "x^2 + x"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "hard",
+    "question_latex": "Simplify: \\( 3(x - 1) + 2(x + 2) \\) (variant 26)",
+    "correct_answer": "3x - 3 + 2x + 4",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 3(x - 1) + 2(x + 2) \\) is \\( 3x - 3 + 2x + 4 \\).",
+    "incorrect_answers": [
+      "x - 1",
+      "6x + 1",
+      "5x + 1"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "hard",
+    "question_latex": "Simplify: \\( 3(x - 1) + 2(x + 2) \\) (variant 27)",
+    "correct_answer": "3x - 3 + 2x + 4",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 3(x - 1) + 2(x + 2) \\) is \\( 3x - 3 + 2x + 4 \\).",
+    "incorrect_answers": [
+      "x - 1",
+      "6x + 1",
+      "5x + 1"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "hard",
+    "question_latex": "Simplify: \\( 2a + 3b - 4a + b \\) (variant 28)",
+    "correct_answer": "-2a + 4b",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 2a + 3b - 4a + b \\) is \\( -2a + 4b \\).",
+    "incorrect_answers": [
+      "-2a - 4b",
+      "6b - 2a",
+      "a + 2b"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "hard",
+    "question_latex": "Simplify: \\( 2(x + 3) + 4x \\) (variant 29)",
+    "correct_answer": "2x + 6 + 4x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 2(x + 3) + 4x \\) is \\( 2x + 6 + 4x \\).",
+    "incorrect_answers": [
+      "6x + 3",
+      "6x + 6",
+      "2x + 4x"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 5a + 6a \\) (variant 30)",
+    "correct_answer": "11a",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 5a + 6a \\) is \\( 11a \\).",
+    "incorrect_answers": [
+      "30a",
+      "10a",
+      "1a"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( x + y \\) (variant 31)",
+    "correct_answer": "x + y",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( x + y \\) is \\( x + y \\).",
+    "incorrect_answers": [
+      "x - y",
+      "2xy",
+      "x^2 + y^2"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 4y - y \\) (variant 32)",
+    "correct_answer": "3y",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 4y - y \\) is \\( 3y \\).",
+    "incorrect_answers": [
+      "-3y",
+      "y",
+      "5y"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 5a + 6a \\) (variant 33)",
+    "correct_answer": "11a",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 5a + 6a \\) is \\( 11a \\).",
+    "incorrect_answers": [
+      "30a",
+      "10a",
+      "1a"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 5a + 6a \\) (variant 34)",
+    "correct_answer": "11a",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 5a + 6a \\) is \\( 11a \\).",
+    "incorrect_answers": [
+      "30a",
+      "1a",
+      "10a"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( 6a - 2a + a \\) (variant 35)",
+    "correct_answer": "5a",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 6a - 2a + a \\) is \\( 5a \\).",
+    "incorrect_answers": [
+      "4a",
+      "a",
+      "3a"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "hard",
+    "question_latex": "Simplify: \\( 2a + 3b - 4a + b \\) (variant 36)",
+    "correct_answer": "-2a + 4b",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 2a + 3b - 4a + b \\) is \\( -2a + 4b \\).",
+    "incorrect_answers": [
+      "-2a - 4b",
+      "6b - 2a",
+      "a + 2b"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 7b - 3b \\) (variant 37)",
+    "correct_answer": "4b",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 7b - 3b \\) is \\( 4b \\).",
+    "incorrect_answers": [
+      "-4b",
+      "3b",
+      "10b"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( 3y + 2x - y \\) (variant 38)",
+    "correct_answer": "2y + 2x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 3y + 2x - y \\) is \\( 2y + 2x \\).",
+    "incorrect_answers": [
+      "3y + x",
+      "5xy",
+      "x + y"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 5a + 6a \\) (variant 39)",
+    "correct_answer": "11a",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 5a + 6a \\) is \\( 11a \\).",
+    "incorrect_answers": [
+      "10a",
+      "30a",
+      "1a"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( 3y + 2x - y \\) (variant 40)",
+    "correct_answer": "2y + 2x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 3y + 2x - y \\) is \\( 2y + 2x \\).",
+    "incorrect_answers": [
+      "5xy",
+      "3y + x",
+      "x + y"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 4y - y \\) (variant 41)",
+    "correct_answer": "3y",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 4y - y \\) is \\( 3y \\).",
+    "incorrect_answers": [
+      "5y",
+      "y",
+      "-3y"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 4y - y \\) (variant 42)",
+    "correct_answer": "3y",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 4y - y \\) is \\( 3y \\).",
+    "incorrect_answers": [
+      "-3y",
+      "y",
+      "5y"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( 2x + 3x - x \\) (variant 43)",
+    "correct_answer": "4x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 2x + 3x - x \\) is \\( 4x \\).",
+    "incorrect_answers": [
+      "3x",
+      "5x",
+      "2x^2"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( x + y \\) (variant 44)",
+    "correct_answer": "x + y",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( x + y \\) is \\( x + y \\).",
+    "incorrect_answers": [
+      "x - y",
+      "2xy",
+      "x^2 + y^2"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 7b - 3b \\) (variant 45)",
+    "correct_answer": "4b",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 7b - 3b \\) is \\( 4b \\).",
+    "incorrect_answers": [
+      "10b",
+      "3b",
+      "-4b"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( 4x + 2 + 3x - 5 \\) (variant 46)",
+    "correct_answer": "7x - 3",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 4x + 2 + 3x - 5 \\) is \\( 7x - 3 \\).",
+    "incorrect_answers": [
+      "x - 3",
+      "7x - 7",
+      "7x + 3"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "easy",
+    "question_latex": "Simplify: \\( 4y - y \\) (variant 47)",
+    "correct_answer": "3y",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 4y - y \\) is \\( 3y \\).",
+    "incorrect_answers": [
+      "y",
+      "5y",
+      "-3y"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "hard",
+    "question_latex": "Simplify: \\( 2(x + 3) + 4x \\) (variant 48)",
+    "correct_answer": "2x + 6 + 4x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 2(x + 3) + 4x \\) is \\( 2x + 6 + 4x \\).",
+    "incorrect_answers": [
+      "2x + 4x",
+      "6x + 6",
+      "6x + 3"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( 2x + 3x - x \\) (variant 49)",
+    "correct_answer": "4x",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 2x + 3x - x \\) is \\( 4x \\).",
+    "incorrect_answers": [
+      "2x^2",
+      "3x",
+      "5x"
+    ]
+  },
+  {
+    "subject": "Algebra 1",
+    "topic": "Combining Like Terms",
+    "difficulty": "medium",
+    "question_latex": "Simplify: \\( 4x + 2 + 3x - 5 \\) (variant 50)",
+    "correct_answer": "7x - 3",
+    "hint": "Group and combine like terms (same variable and exponent).",
+    "explanation": "The simplified expression for \\( 4x + 2 + 3x - 5 \\) is \\( 7x - 3 \\).",
+    "incorrect_answers": [
+      "7x + 3",
+      "x - 3",
+      "7x - 7"
+    ]
   }
 ]
