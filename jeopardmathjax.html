@@ -376,6 +376,14 @@
     
     <script>
         // Game state variables
+window.MathJax = {
+  startup: {
+    pageReady: () => {
+      console.log("✅ MathJax loaded and ready");
+      return MathJax.startup.defaultPageReady();
+    }
+  }
+};
         let allQuestions = [];
         let selectedSubjects = [];
         let topicToQuestionMap = {};
@@ -673,7 +681,7 @@
             modal.style.display = 'block';
             
             // Render LaTeX in the question
-            MathJax.typeset([questionText]);
+            MathJax.typesetPromise([questionText]);
             
             // Start timer
             timerInterval = setInterval(() => {
@@ -780,8 +788,7 @@
             });
             
             // Render LaTeX in the answers
-            MathJax.typeset([answersContainer]);
-        }
+MathJax.typesetPromise([answersContainer]);        }
 
         // Check if the selected answer is correct
         function checkAnswer(answerElement) {
