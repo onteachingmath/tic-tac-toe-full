@@ -433,8 +433,10 @@ const modeControl = document.getElementById('modeControl');
     .then(res => res.json())
     .then(data => {
       fullQuestionBank = data;
+      loadSubjects(); // Dynamically generate subject buttons from question bank
       showScreen(screenMode);
     })
+    
     .catch(err => console.error("Failed to load questions", err));
 
 });
