@@ -6,72 +6,163 @@
   <title>Connect 4 Game</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    /* Inline styles to ensure proper board layout */
+    body {
+      font-family: 'Georgia', 'Palatino Linotype', 'Times New Roman', serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+  
     .game-container {
       max-width: 800px;
       margin: 0 auto;
-      font-family: Arial, sans-serif;
+      font-family: inherit;
     }
+  
+    h1 {
+      color: #402c9f;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+  
     .board {
-      display: inline-block;
-      background-color: #2196F3;
-      padding: 10px;
-      border-radius: 5px;
-      margin: 20px 0;
-    }
+  display: inline-block;
+  background-color: #0077cc;
+  padding: 4px;
+  border-radius: 10px;
+  margin: 16px auto;
+}
+
+  
     .row {
       display: flex;
-      flex-direction: row; /* Ensure horizontal layout */
-      margin: 0;
-      padding: 0;
+      flex-direction: row;
     }
+  
     .cell {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      margin: 5px;
-      background-color: white;
-      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
-      cursor: pointer;
-      display: inline-block;
-    }
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 4px;
+  background-color: white;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  
     .cell.player1 {
       background-color: red;
     }
+  
     .cell.player2 {
       background-color: yellow;
     }
-    .clickable:hover {
-      opacity: 0.8;
+  
+    .settings label,
+    .settings select,
+    .settings input {
+      font-size: 1rem;
+      margin: 0 8px;
     }
-    .settings {
-      margin: 20px 0;
+  
+    .settings button {
+      background-color: #402c9f;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      margin-top: 10px;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
     }
-    .question-area {
-      margin: 20px 0;
+  
+    .settings button:hover {
+      background-color: #2e1f75;
     }
-    .game-status {
-      font-weight: bold;
-      margin: 10px 0;
-    }
-    .question-box {
-      padding: 15px;
-      background-color: #e9f5ff;
-      border-radius: 5px;
-      margin-bottom: 15px;
-    }
+  
     .answer-btn {
       margin: 5px;
-      padding: 8px 15px;
+      padding: 10px 16px;
+      font-size: 1rem;
+      border: 1px solid #0077cc;
+      background-color: white;
+      color: #402c9f;
+      border-radius: 6px;
       cursor: pointer;
+      transition: background-color 0.3s;
     }
+  
+    .answer-btn:hover {
+      background-color: #0077cc;
+      color: white;
+    }
+  
+    .question-box {
+      padding: 15px;
+      background-color: #f1f9ff;
+      border-radius: 8px;
+      border: 1px solid #0077cc;
+      margin-bottom: 15px;
+    }
+  
     .question-image {
       max-width: 100%;
       margin: 10px 0;
     }
+  
+    #restart-btn,
+    #download-report-btn {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      font-size: 1rem;
+      margin-top: 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+  
+    #restart-btn:hover,
+    #download-report-btn:hover {
+      background-color: #218838;
+    }
+  
+    .game-status {
+      font-weight: bold;
+      color: #402c9f;
+      margin: 10px 0;
+      font-size: 1.2rem;
+    }
+  
+    .answers-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .math-answer {
+      display: inline-block;
+      min-width: 40px;
+      text-align: center;
+    }
+    .cell.clickable:hover {
+  box-shadow: 0 0 12px 4px gold;
+  transition: box-shadow 0.2s ease;
+}
+
   </style>
+  
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
 </head>
 <body>
   <div class="game-container">
@@ -91,6 +182,9 @@
         <input id="player2-name" placeholder="Player 2/Computer Name" />
       </div>
       <button id="start-btn">Start Game</button>
+      <button id="restart-btn" style="display:none;">Restart Game</button>
+      <button id="download-report-btn" style="display:none;">Download Game Report</button>
+
     </div>
 
     <div id="board" class="board"></div>
@@ -109,11 +203,15 @@
     let questions = []; // This will be loaded from questions.json
     let usedQuestions = [];
     let filteredQuestions = [];
+    let gameLog = [];
+
 
     document.addEventListener("DOMContentLoaded", () => {
       const boardEl = document.getElementById("board");
       const subjectSelect = document.getElementById("subject-select");
       const startBtn = document.getElementById("start-btn");
+const restartBtn = document.getElementById("restart-btn");
+
       const questionArea = document.getElementById("question-area");
       const modeSelect = document.getElementById("mode-select");
       const statusEl = document.getElementById("game-status");
@@ -177,7 +275,15 @@
           statusEl.textContent = "Please wait for questions to load.";
           return;
         }
-        
+        restartBtn.addEventListener("click", () => {
+  usedQuestions = [];
+  currentPlayer = 1;
+  initBoard();
+  renderBoard();
+  updateStatus();
+  questionArea.innerHTML = "";
+});
+
         selectedSubject = subjectSelect.value;
         gameMode = parseInt(modeSelect.value);
         playerNames[1] = document.getElementById("player1-name").value || "Player 1";
@@ -188,6 +294,7 @@
         if (filteredQuestions.length === 0) {
           statusEl.textContent = `No questions available for ${selectedSubject}.`;
           return;
+          
         }
         
         usedQuestions = [];
@@ -248,56 +355,94 @@
         const allAnswers = [question.correct_answer, ...question.incorrect_answers];
         const shuffled = allAnswers.sort(() => Math.random() - 0.5);
 
-        let questionHTML = `<div class='question-box'><p>Player ${currentPlayer}: ${question.question_latex}</p>`;
-        if (question.image) {
-          questionHTML += `<img src="${question.image}" class="question-image" />`;
-        }
-        
-        // Create answer buttons with LaTeX support
-        questionHTML += `<div class="answers-container">`;
-        shuffled.forEach((ans, i) => {
-          questionHTML += `<button class='answer-btn' data-index="${i}">${ans}</button>`;
-        });
-        questionHTML += `</div></div>`;
+        // Render question and answers
+let questionHTML = `<div class='question-box'><p>Player ${currentPlayer}: ${question.question_latex}</p>`;
+if (question.image) {
+  questionHTML += `<img src="${question.image}" class="question-image" />`;
+}
 
-        questionArea.innerHTML = questionHTML;
-        
-        // Render LaTeX in the question and answers
-        if (window.MathJax) {
-          MathJax.typeset();
-        }
+questionHTML += `<div class="answers-container">`;
+  shuffled.forEach((ans, i) => {
+  questionHTML += `
+    <button class='answer-btn' data-index="${i}">
+      <span class="math-answer">\\(${ans}\\)</span>
+    </button>
+  `;
+});
+
+questionHTML += `</div></div>`;
+
+questionArea.innerHTML = questionHTML;
+
+if (window.MathJax) {
+  MathJax.typeset();
+}
+
 
         // Store the answers for reference
         const answerButtons = document.querySelectorAll(".answer-btn");
-        answerButtons.forEach((btn, index) => {
-          btn.addEventListener("click", () => {
-            const selectedIndex = parseInt(btn.dataset.index);
-            const selectedAnswer = shuffled[selectedIndex];
-            const isCorrect = selectedAnswer === question.correct_answer;
-            
-            questionArea.innerHTML = "";
-            if (isCorrect) {
-              board[row][col] = currentPlayer;
-              renderBoard();
-              if (checkWin(currentPlayer)) {
-                statusEl.textContent = `${playerNames[currentPlayer]} wins!`;
-                disableBoard();
-                return;
-              }
-              if (isBoardFull()) {
-                statusEl.textContent = "Game over! It's a tie!";
-                disableBoard();
-                return;
-              }
-            }
-            currentPlayer = currentPlayer === 1 ? 2 : 1;
-            updateStatus();
 
-            if (gameMode === 1 && currentPlayer === 2) {
-              setTimeout(() => computerTurn(), 800);
-            }
-          });
-        });
+function handleAnswerClick(btn) {
+  const selectedIndex = parseInt(btn.dataset.index);
+  const selectedAnswer = shuffled[selectedIndex];
+  const isCorrect = selectedAnswer === question.correct_answer;
+  
+
+  questionArea.innerHTML = "";
+  if (isCorrect) {
+    board[row][col] = currentPlayer;
+    renderBoard();
+    if (checkWin(currentPlayer)) {
+  statusEl.textContent = `${playerNames[currentPlayer]} wins!`;
+  restartBtn.style.display = "inline-block";  // 👈 Add this line
+  disableBoard();
+  return;
+}
+
+if (isBoardFull()) {
+  statusEl.textContent = "Game over! It's a tie!";
+  restartBtn.style.display = "inline-block";  // 👈 Add this line
+  disableBoard();
+  return;
+}
+
+  }
+  currentPlayer = currentPlayer === 1 ? 2 : 1;
+  updateStatus();
+
+  if (gameMode === 1 && currentPlayer === 2) {
+    setTimeout(() => computerTurn(), 800);
+  }
+}
+
+if (gameMode === 1 && currentPlayer === 2) {
+  // Simulate computer "thinking"
+  setTimeout(() => {
+    // 80% chance to get it right
+    const chanceCorrect = Math.random() < 0.8;
+    let chosenBtn;
+
+    if (chanceCorrect) {
+  // Find the button whose index corresponds to the correct answer in the shuffled array
+  const correctIndex = shuffled.indexOf(question.correct_answer);
+  chosenBtn = [...answerButtons].find(btn => parseInt(btn.dataset.index) === correctIndex);
+} else {
+  // Find a button that doesn't correspond to the correct answer
+  const correctIndex = shuffled.indexOf(question.correct_answer);
+  const wrongButtons = [...answerButtons].filter(btn => parseInt(btn.dataset.index) !== correctIndex);
+  chosenBtn = wrongButtons[Math.floor(Math.random() * wrongButtons.length)];
+}
+    if (chosenBtn) {
+      handleAnswerClick(chosenBtn);
+    }
+  }, 1000); // 1 second delay to simulate thinking
+} else {
+  // Human mode
+  answerButtons.forEach(btn => {
+    btn.addEventListener("click", () => handleAnswerClick(btn));
+  });
+}
+
       }
 
       function isBoardFull() {
@@ -314,7 +459,11 @@
         }
         
         // Find questions that haven't been used yet
-        const availableQuestions = filteredQuestions.filter(q => !usedQuestions.includes(q));
+        const availableQuestions = filteredQuestions.filter(q => {
+  const qId = q.id || `${q.question_latex}|${q.correct_answer}`;
+  return !usedQuestions.includes(qId);
+});
+
         if (availableQuestions.length === 0) {
           // If all questions have been used, reset
           usedQuestions = [];
@@ -322,13 +471,33 @@
         }
         
         const q = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
-        usedQuestions.push(q);
+        const qId = q.id || `${q.question_latex}|${q.correct_answer}`;
+usedQuestions.push(qId);
+
         return q;
       }
 
       function updateStatus() {
         statusEl.textContent = `${playerNames[currentPlayer]}'s turn`;
       }
+      function highlightColumn(col) {
+  const rows = document.querySelectorAll("#board .row");
+  rows.forEach(row => {
+    const cells = row.querySelectorAll(".cell");
+    if (cells[col]) {
+      cells[col].style.boxShadow = "0 0 10px 3px gold";
+    }
+  });
+
+  setTimeout(() => {
+    rows.forEach(row => {
+      const cells = row.querySelectorAll(".cell");
+      if (cells[col]) {
+        cells[col].style.boxShadow = "inset 0 0 5px rgba(0, 0, 0, 0.2)";
+      }
+    });
+  }, 500);
+}
 
       function disableBoard() {
         document.querySelectorAll(".row:first-child .cell").forEach(cell => {
@@ -358,20 +527,82 @@
       }
 
       function computerTurn() {
-        const validCols = [];
-        for (let c = 0; c < COLS; c++) {
-          if (board[0][c] === 0) validCols.push(c);
-        }
-        if (validCols.length === 0) return;
+  const validCols = [];
+  for (let c = 0; c < COLS; c++) {
+    if (board[0][c] === 0) validCols.push(c);
+  }
+  if (validCols.length === 0) return;
 
-        const col = validCols[Math.floor(Math.random() * validCols.length)];
-        for (let r = ROWS - 1; r >= 0; r--) {
-          if (board[r][col] === 0) {
-            askQuestion(r, col);
-            return;
+  // Helper function to simulate drop and check win
+  function tryMove(col, player) {
+    const tempBoard = board.map(row => [...row]);
+    for (let r = ROWS - 1; r >= 0; r--) {
+      if (tempBoard[r][col] === 0) {
+        tempBoard[r][col] = player;
+        break;
+      }
+    }
+    return checkWinSim(tempBoard, player);
+  }
+
+  function checkWinSim(simBoard, player) {
+    const directions = [[0,1],[1,0],[1,1],[1,-1]];
+    for (let r = 0; r < ROWS; r++) {
+      for (let c = 0; c < COLS; c++) {
+        if (simBoard[r][c] !== player) continue;
+        for (let [dr, dc] of directions) {
+          let count = 0;
+          for (let i = 0; i < 4; i++) {
+            const nr = r + dr * i, nc = c + dc * i;
+            if (nr < 0 || nr >= ROWS || nc < 0 || nc >= COLS || simBoard[nr][nc] !== player) break;
+            count++;
           }
+          if (count === 4) return true;
         }
       }
+    }
+    return false;
+  }
+
+  // Strategy: Try to win first
+  for (let col of validCols) {
+    if (tryMove(col, 2)) {
+      return dropInColumn(col);
+    }
+  }
+
+  // Then try to block opponent
+  for (let col of validCols) {
+    if (tryMove(col, 1)) {
+      return dropInColumn(col);
+    }
+  }
+
+  // Then try to build vertically
+  for (let col of validCols) {
+    for (let r = ROWS - 1; r >= 1; r--) {
+      if (board[r][col] === 0 && board[r + 1]?.[col] === 2) {
+        return dropInColumn(col);
+      }
+    }
+  }
+
+  // Finally, just pick a random column
+  const randomCol = validCols[Math.floor(Math.random() * validCols.length)];
+  return dropInColumn(randomCol);
+
+  function dropInColumn(col) {
+    highlightColumn(col);
+    for (let r = ROWS - 1; r >= 0; r--) {
+      if (board[r][col] === 0) {
+        setTimeout(() => askQuestion(r, col), 600);
+        return;
+      }
+    }
+  }
+}
+
+
     });
   </script>
 </body>
