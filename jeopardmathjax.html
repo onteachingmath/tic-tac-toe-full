@@ -457,11 +457,10 @@ window.MathJax = {
                 }
                 
                 // Add question to the appropriate difficulty level
-                const difficulty = q.difficulty.toLowerCase();
-                if (difficulty === 'easy' || difficulty === 'medium' || difficulty === 'hard') {
-                    topicToQuestionMap[key][difficulty].push(q);
-                }
-            });
+const difficulty = (q.difficulty || '').toLowerCase();
+if (['easy', 'medium', 'hard'].includes(difficulty)) {
+    topicToQuestionMap[key][difficulty].push(q);
+}            });
             
             // Populate subject selection list
             const subjectList = document.getElementById('subjectList');
