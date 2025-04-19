@@ -48,13 +48,16 @@
         }
         
         .topics-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            margin-bottom: 20px;
-            max-width: 800px;
-            width: 100%;
-        }
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 800px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+
         
         .topic-item {
             background-color: var(--secondary-color);
@@ -70,7 +73,13 @@
         .topic-item:hover {
             transform: scale(1.05);
         }
-        
+        #team-buttons {
+  display: flex;
+  justify-content: center;   /* Center the button horizontally */
+  align-items: center;       /* Optional: vertical alignment */
+  width: 100%;               /* Make sure the container stretches full width */
+}
+
         .topic-item.selected {
     background-color: #402c9f; /* Deep purple */
     color: white;
@@ -573,22 +582,47 @@
         
         // Populate topics list
         function populateTopics() {
-            const topicsList = document.getElementById('topics-list');
-            topicsList.innerHTML = '';
-            
-            allTopics.forEach(topic => {
-                const topicItem = document.createElement('div');
-                topicItem.className = 'topic-item';
-                topicItem.textContent = topic;
-                topicItem.dataset.topic = topic;
-                
-                topicItem.addEventListener('click', () => {
-                    toggleTopic(topicItem, topic);
-                });
-                
-                topicsList.appendChild(topicItem);
-            });
+    const topicsList = document.getElementById('topics-list');
+    topicsList.innerHTML = '';
+
+    const subjectMap = {};
+
+    // Group topics under each subject
+    questions.forEach(q => {
+        if (!subjectMap[q.subject]) {
+            subjectMap[q.subject] = new Set();
         }
+        subjectMap[q.subject].add(q.topic);
+    });
+
+    for (const [subject, topics] of Object.entries(subjectMap)) {
+        const subjectHeader = document.createElement('h3');
+        subjectHeader.textContent = subject;
+        subjectHeader.style.color = '#402c9f';
+        topicsList.appendChild(subjectHeader);
+
+        const topicGroup = document.createElement('div');
+        topicGroup.style.display = 'flex';
+        topicGroup.style.flexWrap = 'wrap';
+        topicGroup.style.gap = '10px';
+
+        topics.forEach(topic => {
+            const topicItem = document.createElement('div');
+            topicItem.className = 'topic-item';
+            topicItem.textContent = topic;
+            topicItem.dataset.topic = topic;
+
+            topicItem.addEventListener('click', () => {
+                toggleTopic(topicItem, topic);
+            });
+
+            topicGroup.appendChild(topicItem);
+        });
+
+        topicsList.appendChild(topicGroup);
+    }
+}
+
         
         // Toggle topic selection
         function toggleTopic(element, topic) {
