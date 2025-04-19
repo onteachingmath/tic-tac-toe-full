@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeopardy Game</title>
+    <style>
+        :root {
+            --primary-color: #ffffff;      /* Background */
+    --secondary-color: #0077cc;    /* Button Blue */
+    --text-color: #402c9f;         /* Deep Purple for Text */
+    --border-color: #000000;
+        }
+        
+        body {
+            font-family: Georgia, 'Palatino Linotype', 'Times New Roman', serif;
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        h1 {
+            text-align: center;
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+        }
+        
+        /* Setup screens */
+        #topic-selection, #team-setup {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+        }
+        
+        .topics-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 20px;
+            max-width: 800px;
+            width: 100%;
+        }
+        
+        .topic-item {
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        
+        .topic-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .topic-item.selected {
+    background-color: #402c9f; /* Deep purple */
+    color: white;
+    border: 2px solid #0077cc; /* Light blue border */
+}
+
+        
+        .team-input {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 30px;
+        }
+        
+        .team-input input {
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid var(--border-color);
+            border-radius: 5px;
+        }
+        
+        .btn {
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            border: none;
+            padding: 12px 24px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .btn:hover {
+    background-color: #402c9f; /* Deep Purple */
+    color: white;
+}
+        
+        /* Game board */
+        #game-board {
+            display: none;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .scoreboard {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.team-score {
+    background-color: #f1f9ff;
+    color: #402c9f;
+    border: 2px solid #0077cc;
+    border-radius: 10px;
+    padding: 10px 15px;
+    min-width: 150px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+        
+        .team-score.active {
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+        }
+        
+        .team-name {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        
+        .score {
+            font-size: 24px;
+        }
+        
+        .board {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+            gap: 10px;
+            flex: 1;
+        }
+        
+        .cell {
+    background-color: #0077cc;  /* Blue background */
+    color: white;               /* White text */
+    border: 3px solid var(--border-color);
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, transform 0.2s;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+        
+.header {
+    background-color: #402c9f;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid #0077cc;
+    border-radius: 6px 6px 0 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    cursor: default;
+}
+
+
+        
+.cell:hover:not(.header):not(.answered) {
+    transform: scale(1.05);
+    background-color: #402c9f;  /* Purple on hover */
+    color: white;               /* Keep text white */
+    box-shadow: 0 0 6px 2px #402c9f66;
+}
+
+
+
+        
+.answered {
+    background-color: #333333;  /* Dark gray background */
+    color: #cccccc;             /* Light gray text */
+    cursor: default;
+}
+
+
+
+        
+        /* Question screen */
+        #question-screen {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--primary-color);
+            z-index: 10;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        .question-content {
+            width: 90%;
+            max-width: 800px;
+            text-align: center;
+        }
+        
+        .question-text {
+            font-size: 28px;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+        
+        .question-image {
+            max-width: 100%;
+            max-height: 60vh;
+            margin: 20px 0;
+            border: 3px solid var(--secondary-color);
+        }
+        
+        .timer {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 48px;
+            font-weight: bold;
+            color: var(--secondary-color);
+        }
+        
+        .answers {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+        
+        .answer-btn {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: left;
+            transition: background-color 0.2s;
+        }
+        
+        .answer-btn:hover {
+    background-color: #402c9f;
+    color: white;
+}
+
+        
+        .daily-double {
+            font-size: 36px;
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+            animation: pulse 1s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .team-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   /* NEW: vertical centering if needed */
+    text-align: center;        /* NEW: center the h3 text */
+    margin-top: 20px;
+}
+
+        
+        .team-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        /* Report */
+        #report-panel {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 5;
+        }
+        
+        #report-container {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            z-index: 20;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        .report {
+            background-color: white;
+            color: black;
+            width: 100%;
+            max-width: 800px;
+            max-height: 90vh;
+            overflow-y: auto;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        .report-header {
+            text-align: center;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+        
+        .report-section {
+            margin-bottom: 20px;
+        }
+        
+        .report-section h3 {
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        .report-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+        }
+        
+        .report-table th, .report-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        .report-table th {
+            background-color: #f2f2f2;
+        }
+        
+        .report-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+            #report-container, #report-container * {
+                visibility: visible;
+            }
+            #report-container {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                background: white;
+            }
+            .report {
+                max-height: none;
+                overflow: visible;
+            }
+            .report-buttons {
+                display: none;
+            }
+        }
+    </style>
+    <script>
+        window.MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']],
+            processEscapes: true
+          },
+          options: {
+            skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']  // note: 'button' is NOT included
+
+          }
+        };
+      </script>
+      <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+</head>
+<body>
+    <div class="container">
+        <h1>Jeopardy Game</h1>
+        
+        <!-- Topic Selection Screen -->
+        <div id="topic-selection">
+            <h2>Select 5 Topics</h2>
+            <div class="topics-container" id="topics-list">
+                <!-- Topics will be populated here -->
+            </div>
+            <p id="topic-error" style="color: #FFA500; display: none;">Please select exactly 5 topics.</p>
+            <button id="next-to-teams" class="btn">Next</button>
+        </div>
+        
+        <!-- Team Setup Screen -->
+        <div id="team-setup" style="display: none;">
+            <h2>Enter Team Names</h2>
+            <div class="team-input">
+                <input type="text" id="team1" placeholder="Team 1 Name" value="Team 1">
+                <input type="text" id="team2" placeholder="Team 2 Name" value="Team 2">
+                <input type="text" id="team3" placeholder="Team 3 Name" value="Team 3">
+            </div>
+            <button id="start-game" class="btn">Start Game</button>
+        </div>
+        
+        <!-- Game Board -->
+        <div id="game-board">
+            <div class="scoreboard" id="scoreboard">
+                <!-- Team scores will be here -->
+            </div>
+            <div class="board" id="board">
+                <!-- Game cells will be here -->
+            </div>
+        </div>
+        
+        <!-- Report Button -->
+        <div id="report-panel">
+            <button id="show-report" class="btn" style="display: none;">Show Report</button>
+        </div>
+    </div>
+    
+    <!-- Question Screen -->
+    <div id="question-screen">
+        <div class="timer" id="timer">30</div>
+        <div class="question-content">
+            <div id="daily-double-text" class="daily-double" style="display: none;">DAILY DOUBLE!</div>
+            <div class="question-text" id="question-text"></div>
+            <img id="question-image" class="question-image" style="display: none;">
+            <div class="answers" id="answers-container" style="display: none;">
+                <!-- Answers will be here -->
+            </div>
+            <div class="team-selection" id="team-selection" style="display: none;">
+                <h3 id="selection-text">Team selected to answer:</h3>
+                <div class="team-buttons" id="team-buttons">
+                    <!-- Team buttons will be here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Game Report -->
+    <div id="report-container">
+        <div class="report" id="report">
+            <div class="report-header">
+                <h2>Jeopardy Game Report</h2>
+                <p id="report-date"></p>
+            </div>
+            <div class="report-section">
+                <h3>Teams</h3>
+                <div id="report-teams"></div>
+            </div>
+            <div class="report-section">
+                <h3>Questions Summary</h3>
+                <table class="report-table" id="report-questions">
+                    <thead>
+                        <tr>
+                            <th>Topic</th>
+                            <th>Value</th>
+                            <th>Question</th>
+                            <th>Answer</th>
+                            <th>Team</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Questions will be here -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="report-section">
+                <h3>Final Scores</h3>
+                <div id="report-scores"></div>
+            </div>
+            <div class="report-buttons">
+                <button id="print-report" class="btn">Print Report</button>
+                <button id="close-report" class="btn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Game data
+        let questions = [];
+        let allTopics = [];
+        let usedQuestions = []; // 🆕 Add this line
+        let teamsThatTried = []; // 🆕 Track who already answered this question
+
+        let selectedTopics = [];
+        let teams = [];
+        let currentQuestion = null;
+        let currentCell = null;
+        let currentTeamIndex = -1;
+        let timerInterval = null;
+        let timerValue = 30;
+        let dailyDoublePositions = [];
+        let gameHistory = [];
+        
+        // Fetch questions from JSON file
+        async function fetchQuestions() {
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/onteachingmath/tic-tac-toe-full/main/questions.json');
+
+                const data = await response.json();
+                questions = Array.isArray(data) ? data : [];
+                
+                // Extract unique topics
+                const topicsSet = new Set();
+                questions.forEach(q => {
+                    if (q.topic) topicsSet.add(q.topic);
+                });
+                allTopics = Array.from(topicsSet);
+                
+                // Populate topics
+                populateTopics();
+            } catch (error) {
+                console.error('Error fetching questions:', error);
+                // For demo purposes, use sample data if fetch fails
+                useSampleData();
+            }
+        }
+
+        // Use sample data if fetch fails (for testing)
+        function useSampleData() {
+            allTopics = ['Functions', 'Calculus', 'Vectors', 'Probability', 'Statistics', 'Geometry', 'Algebra', 'Number Theory'];
+            populateTopics();
+        }
+        
+        // Populate topics list
+        function populateTopics() {
+            const topicsList = document.getElementById('topics-list');
+            topicsList.innerHTML = '';
+            
+            allTopics.forEach(topic => {
+                const topicItem = document.createElement('div');
+                topicItem.className = 'topic-item';
+                topicItem.textContent = topic;
+                topicItem.dataset.topic = topic;
+                
+                topicItem.addEventListener('click', () => {
+                    toggleTopic(topicItem, topic);
+                });
+                
+                topicsList.appendChild(topicItem);
+            });
+        }
+        
+        // Toggle topic selection
+        function toggleTopic(element, topic) {
+            if (element.classList.contains('selected')) {
+                element.classList.remove('selected');
+                selectedTopics = selectedTopics.filter(t => t !== topic);
+            } else {
+                if (selectedTopics.length < 5) {
+                    element.classList.add('selected');
+                    selectedTopics.push(topic);
+                }
+            }
+            
+            document.getElementById('topic-error').style.display = 'none';
+        }
+        
+        // Move to team setup screen
+        document.getElementById('next-to-teams').addEventListener('click', () => {
+            if (selectedTopics.length !== 5) {
+                document.getElementById('topic-error').style.display = 'block';
+                return;
+            }
+            
+            document.getElementById('topic-selection').style.display = 'none';
+            document.getElementById('team-setup').style.display = 'flex';
+        });
+        
+        // Start the game
+        document.getElementById('start-game').addEventListener('click', () => {
+            // Get team names
+            const team1Name = document.getElementById('team1').value.trim() || 'Team 1';
+            const team2Name = document.getElementById('team2').value.trim() || 'Team 2';
+            const team3Name = document.getElementById('team3').value.trim() || 'Team 3';
+            
+            teams = [
+                { name: team1Name, score: 0 },
+                { name: team2Name, score: 0 },
+                { name: team3Name, score: 0 }
+            ];
+            
+            // Set up the game
+            setupGameBoard();
+            updateScoreboard();
+            
+            document.getElementById('team-setup').style.display = 'none';
+            document.getElementById('game-board').style.display = 'flex';
+            document.getElementById('show-report').style.display = 'block';
+        });
+        
+        // Set up the game board
+        function setupGameBoard() {
+            const board = document.getElementById('board');
+            board.innerHTML = '';
+            
+            // Set daily double positions (random cells, not in the header row)
+            const possiblePositions = [];
+            for (let col = 0; col < 5; col++) {
+                for (let row = 1; row < 6; row++) {
+                    possiblePositions.push({ col, row });
+                }
+            }
+            shuffleArray(possiblePositions);
+            dailyDoublePositions = [
+                possiblePositions[0],
+                possiblePositions[1]
+            ];
+            
+            // Create column headers (topics)
+            selectedTopics.forEach((topic, col) => {
+                const headerCell = document.createElement('div');
+                headerCell.className = 'cell header';
+                headerCell.textContent = topic;
+                board.appendChild(headerCell);
+            });
+            
+            // Create point cells
+            const pointValues = [100, 200, 300, 400, 500];
+            for (let row = 0; row < 5; row++) {
+                const pointValue = pointValues[row];
+                for (let col = 0; col < 5; col++) {
+                    const cell = document.createElement('div');
+                    cell.className = 'cell';
+                    cell.textContent = pointValue;
+                    cell.dataset.row = row + 1; // +1 because headers are at row 0
+                    cell.dataset.col = col;
+                    cell.dataset.points = pointValue;
+                    cell.dataset.topic = selectedTopics[col];
+                    
+                    // Determine difficulty based on point value
+                    let difficulty;
+                    if (pointValue <= 200) difficulty = 'easy';
+                    else if (pointValue <= 400) difficulty = 'medium';
+                    else difficulty = 'hard';
+                    cell.dataset.difficulty = difficulty;
+                    
+                    cell.addEventListener('click', () => selectCell(cell));
+                    
+                    board.appendChild(cell);
+                }
+            }
+        }
+        
+        // Update the scoreboard
+        function updateScoreboard() {
+            const scoreboard = document.getElementById('scoreboard');
+            scoreboard.innerHTML = '';
+            
+            teams.forEach((team, index) => {
+                const teamElement = document.createElement('div');
+                teamElement.className = 'team-score';
+                teamElement.dataset.team = index;
+                
+                if (index === currentTeamIndex) {
+                    teamElement.classList.add('active');
+                }
+                
+                teamElement.innerHTML = `
+                    <div class="team-name">${team.name}</div>
+                    <div class="score">$${team.score}</div>
+                `;
+                
+                scoreboard.appendChild(teamElement);
+            });
+        }
+        
+        // Select a cell on the board
+        function selectCell(cell) {
+            if (cell.classList.contains('answered')) {
+                return;
+            }
+            
+            currentCell = cell;
+            const topic = cell.dataset.topic;
+            const difficulty = cell.dataset.difficulty;
+            const points = parseInt(cell.dataset.points);
+            const row = parseInt(cell.dataset.row);
+            const col = parseInt(cell.dataset.col);
+            
+            // Check if daily double
+            const isDailyDouble = dailyDoublePositions.some(pos => 
+                pos.col === parseInt(col) && pos.row === row
+            );
+            
+            // Filter questions by topic and difficulty
+            const filteredQuestions = questions.filter(q => 
+    q.topic === topic && 
+    q.difficulty === difficulty &&
+    !usedQuestions.includes(q)
+);
+
+            
+            if (filteredQuestions.length === 0) {
+                // If no exact match, try to find any question with matching topic
+                const topicQuestions = questions.filter(q => q.topic === topic);
+                if (topicQuestions.length > 0) {
+                    currentQuestion = topicQuestions[Math.floor(Math.random() * topicQuestions.length)];
+                } else {
+                    alert('No questions available for this topic!');
+                    return;
+                }
+            } else {
+                // Select a random question from the filtered list
+                currentQuestion = filteredQuestions[Math.floor(Math.random() * filteredQuestions.length)];
+                usedQuestions.push(currentQuestion);     // ✅ log it as used
+teamsThatTried = [];                     // 🆕 reset for current question
+
+            }
+            
+            // Set up the question display
+            const questionElement = document.getElementById('question-text');
+questionElement.innerHTML = currentQuestion.question_latex || 'No question available';
+MathJax.typeset();
+
+
+
+
+
+
+            
+            // Handle image if present
+            const questionImage = document.getElementById('question-image');
+            if (currentQuestion.image) {
+                questionImage.src = currentQuestion.image;
+                questionImage.style.display = 'block';
+            } else {
+                questionImage.style.display = 'none';
+            }
+            
+            // Reset timer and team selection
+            timerValue = 30;
+            document.getElementById('timer').textContent = timerValue;
+            document.getElementById('team-selection').style.display = 'none';
+            document.getElementById('answers-container').style.display = 'none';
+            
+            // Show daily double if applicable
+            document.getElementById('daily-double-text').style.display = isDailyDouble ? 'block' : 'none';
+            
+            // Store question data
+            currentQuestion.pointValue = isDailyDouble ? points * 2 : points;
+            currentQuestion.topic = topic;
+            
+            // Show the question screen
+            document.getElementById('question-screen').style.display = 'flex';
+            
+            // Start the timer
+            startTimer();
+            
+            // Mark cell as answered
+            cell.classList.add('answered');
+        }
+        
+        // Start the question timer
+        function startTimer() {
+            clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                timerValue--;
+                document.getElementById('timer').textContent = timerValue;
+                
+                if (timerValue <= 0) {
+                    clearInterval(timerInterval);
+                    timeUp();
+                }
+            }, 1000);
+        }
+        
+        // Timer ran out
+        function timeUp() {
+            document.getElementById('team-selection').style.display = 'block';
+            
+            // Select a random team to answer
+            selectRandomTeam();
+        }
+        
+        // Select a random team to answer
+        function selectRandomTeam(excludeTeam = -1) {
+            let availableTeams = [0, 1, 2].filter(i => !teamsThatTried.includes(i));
+
+            
+            if (availableTeams.length === 0) {
+                endQuestion(false);
+                return;
+            }
+            
+            const randomIndex = Math.floor(Math.random() * availableTeams.length);
+            currentTeamIndex = availableTeams[randomIndex];
+            teamsThatTried.push(currentTeamIndex); // 🆕 record their attempt
+
+            
+            // Show team selection UI
+            const teamButtonsContainer = document.getElementById('team-buttons');
+            teamButtonsContainer.innerHTML = '';
+            
+            const teamButton = document.createElement('button');
+            teamButton.className = 'btn';
+            teamButton.textContent = teams[currentTeamIndex].name;
+            
+            teamButton.addEventListener('click', () => {
+                showAnswers();
+            });
+            
+            teamButtonsContainer.appendChild(teamButton);
+            document.getElementById('selection-text').textContent = 'Team selected to answer:';
+        }
+        
+        // Show the answer options
+        // Show the answer options
+        function showAnswers() {
+    document.getElementById('team-selection').style.display = 'none';
+    
+    const answersContainer = document.getElementById('answers-container');
+    answersContainer.innerHTML = '';
+    answersContainer.style.display = 'flex';
+
+    const allAnswers = [
+        { text: currentQuestion.correct_answer, correct: true },
+        ...(currentQuestion.incorrect_answers || []).map(a => ({ text: a, correct: false }))
+    ];
+
+    shuffleArray(allAnswers);
+
+    const answerElements = [];
+    allAnswers.forEach((answer, index) => {
+    const div = document.createElement('div');
+    div.className = 'answer-btn';
+
+    // ✅ Wrap LaTeX properly
+    div.innerHTML = `<span class="math-answer">\\(${answer.text}\\)</span>`;
+
+    div.addEventListener('click', () => {
+        processAnswer(answer.correct);
+    });
+
+    answersContainer.appendChild(div);
+});
+
+// ✅ After DOM update, trigger typeset
+if (window.MathJax) {
+    MathJax.typesetPromise()
+        .catch(err => console.warn("MathJax typeset error:", err));
+}
+
+
+
+// Now run MathJax typesetting
+if (window.MathJax && MathJax.typesetPromise) {
+    MathJax.typesetPromise().catch((err) => console.warn("MathJax typeset failed:", err));
+}
+
+
+    // Now typeset the newly added answer buttons
+    if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise(answerElements).catch((err) => console.warn("MathJax typeset failed:", err));
+    }
+}
+
+
+
+        
+        
+        // Process the team's answer
+        function processAnswer(isCorrect) {
+            // Record this question in history
+            gameHistory.push({
+                topic: currentQuestion.topic,
+                value: currentQuestion.pointValue,
+                question: currentQuestion.question_latex,
+                answer: currentQuestion.correct_answer,
+                team: teams[currentTeamIndex].name,
+                result: isCorrect ? 'Correct' : 'Incorrect'
+            });
+            
+            // Update score
+            if (isCorrect) {
+                teams[currentTeamIndex].score += currentQuestion.pointValue;
+                endQuestion(true);
+            } else {
+                teams[currentTeamIndex].score -= currentQuestion.pointValue;
+                
+                // Get another team to try
+                const previousTeam = currentTeamIndex;
+                document.getElementById('team-selection').style.display = 'block';
+                document.getElementById('answers-container').style.display = 'none';
+                
+                selectRandomTeam(previousTeam);
+            }
+            
+            updateScoreboard();
+        }
+        
+        // End the current question
+        function endQuestion(wasAnswered) {
+            clearInterval(timerInterval);
+            
+            // Hide question screen
+            document.getElementById('question-screen').style.display = 'none';
+            
+            // If no team answered correctly, add to history
+            if (!wasAnswered && currentQuestion) {
+                gameHistory.push({
+                    topic: currentQuestion.topic,
+                    value: currentQuestion.pointValue,
+                    question: currentQuestion.question_latex,
+                    answer: currentQuestion.correct_answer,
+                    team: 'None',
+                    result: 'Unanswered'
+                });
+            }
+            
+            // Reset for next question
+            currentQuestion = null;
+            currentTeamIndex = -1;
+            
+            // Check if game is over (all cells answered)
+            const unansweredCells = document.querySelectorAll('.cell:not(.header):not(.answered)');
+            if (unansweredCells.length === 0) {
+                setTimeout(() => {
+                    alert('Game Over!');
+                    showReport();
+                }, 500);
+            }
+        }
+        
+        // Show the game report
+        document.getElementById('show-report').addEventListener('click', showReport);
+        function showReport() {
+            const reportContainer = document.getElementById('report-container');
+            reportContainer.style.display = 'flex';
+            
+            // Set report date
+            const now = new Date();
+            document.getElementById('report-date').textContent = `${now.toLocaleDateString()} ${now.toLocaleTimeString()}`;
+            
+            // Fill teams section
+            const teamsSection = document.getElementById('report-teams');
+            teamsSection.innerHTML = teams.map(team => 
+                `<p><strong>${team.name}</strong>: $${team.score}</p>`
+            ).join('');
+            
+            // Fill questions table
+            const questionsTable = document.getElementById('report-questions').querySelector('tbody');
+            questionsTable.innerHTML = gameHistory.map(item => `
+                <tr>
+                    <td>${item.topic}</td>
+                    <td>$${item.value}</td>
+                    <td>${item.question}</td>
+                    <td>${item.answer}</td>
+                    <td>${item.team}</td>
+                    <td>${item.result}</td>
+                </tr>
+            `).join('');
+            
+            // Fill final scores
+            const scoresSection = document.getElementById('report-scores');
+            const sortedTeams = [...teams].sort((a, b) => b.score - a.score);
+            scoresSection.innerHTML = sortedTeams.map((team, index) => 
+                `<p>${index + 1}. <strong>${team.name}</strong>: $${team.score}</p>`
+            ).join('');
+        }
+        
+        // Print the report
+        document.getElementById('print-report').addEventListener('click', () => {
+            window.print();
+        });
+        
+        // Close the report
+        document.getElementById('close-report').addEventListener('click', () => {
+            document.getElementById('report-container').style.display = 'none';
+        });
+        
+        // Helper function to shuffle an array
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+        
+        // Initialize the game
+        document.addEventListener('DOMContentLoaded', fetchQuestions);
+    </script>
+</body>
+</html>
