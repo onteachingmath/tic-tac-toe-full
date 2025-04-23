@@ -8366,5 +8366,509 @@
       "x - 3",
       "7x - 7"
     ]
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "easy",
+    "question_latex": "\\int 3x^2 \\, dx",
+    "correct_answer": "x^3 + C",
+    "incorrect_answers": ["3x^3 + C", "\\frac{3}{2}x^2 + C", "x^2 + C"],
+    "hint": "Use the power rule: ∫xⁿ dx = xⁿ⁺¹/(n+1) + C",
+    "explanation": "The integral of x^2 is x^3/3, and 3·(x^3/3) = x^3."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "easy",
+    "question_latex": "\\int 5x^3 \\, dx",
+    "correct_answer": "\\frac{5}{4}x^4 + C",
+    "incorrect_answers": ["5x^4 + C", "\\frac{5}{3}x^3 + C", "\\frac{4}{5}x^5 + C"],
+    "hint": "Add 1 to the exponent, divide the coefficient by new exponent.",
+    "explanation": "Raise the power to 4 and divide 5 by 4."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "easy",
+    "question_latex": "\\int 7x \\, dx",
+    "correct_answer": "\\frac{7}{2}x^2 + C",
+    "incorrect_answers": ["7x^2 + C", "\\frac{7}{3}x^3 + C", "x^2 + C"],
+    "hint": "x becomes x^2/2 when integrated.",
+    "explanation": "∫x dx = x^2/2; 7 times that is 7/2 x^2."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "easy",
+    "question_latex": "\\int x^5 \\, dx",
+    "correct_answer": "\\frac{1}{6}x^6 + C",
+    "incorrect_answers": ["x^6 + C", "\\frac{1}{5}x^5 + C", "\\frac{5}{6}x^6 + C"],
+    "hint": "Raise the exponent, divide by the new one.",
+    "explanation": "Power rule: n=5 → n+1=6 → x^6/6."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "easy",
+    "question_latex": "\\int 4x^4 \\, dx",
+    "correct_answer": "x^5 + C",
+    "incorrect_answers": ["4x^5 + C", "\\frac{4}{3}x^3 + C", "\\frac{5}{4}x^4 + C"],
+    "hint": "Divide 4 by 5 after increasing exponent.",
+    "explanation": "4x^5/5 = x^5."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "easy",
+    "question_latex": "\\int x \\, dx",
+    "correct_answer": "\\frac{1}{2}x^2 + C",
+    "incorrect_answers": ["x^2 + C", "\\frac{1}{3}x^3 + C", "2x^2 + C"],
+    "hint": "x becomes x^2/2.",
+    "explanation": "Standard power rule: ∫x dx = x^2/2."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "easy",
+    "question_latex": "\\int 2x^6 \\, dx",
+    "correct_answer": "\\frac{2}{7}x^7 + C",
+    "incorrect_answers": ["2x^7 + C", "\\frac{6}{7}x^7 + C", "\\frac{7}{2}x^7 + C"],
+    "hint": "Raise the power and divide.",
+    "explanation": "∫x^n dx = x^(n+1)/(n+1); 2x^7/7."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "easy",
+    "question_latex": "\\int 9x^3 \\, dx",
+    "correct_answer": "\\frac{9}{4}x^4 + C",
+    "incorrect_answers": ["9x^4 + C", "\\frac{4}{9}x^4 + C", "\\frac{9}{2}x^2 + C"],
+    "hint": "Power up, then divide.",
+    "explanation": "9x^4/4 is the correct integral."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "easy",
+    "question_latex": "\\int 6x^7 \\, dx",
+    "correct_answer": "\\frac{6}{8}x^8 + C",
+    "incorrect_answers": ["\\frac{8}{6}x^8 + C", "6x^8 + C", "\\frac{6}{7}x^7 + C"],
+    "hint": "Power rule: n becomes n+1, then divide.",
+    "explanation": "6x^8/8 simplifies to 3x^8/4."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "easy",
+    "question_latex": "\\int x^0 \\, dx",
+    "correct_answer": "x + C",
+    "incorrect_answers": ["1 + C", "x^2 + C", "0 + C"],
+    "hint": "x⁰ = 1, so ∫1 dx = x + C.",
+    "explanation": "The integral of a constant is the variable times the constant."
+  },{
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "medium",
+    "question_latex": "\\int x^{1/2} \\, dx",
+    "correct_answer": "\\frac{2}{3}x^{3/2} + C",
+    "incorrect_answers": ["x^{3/2} + C", "\\frac{3}{2}x^{2/3} + C", "\\frac{1}{3}x^{3/2} + C"],
+    "hint": "Use power rule: add 1 to the exponent.",
+    "explanation": "1/2 + 1 = 3/2. Then divide by 3/2 = multiply by 2/3."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "medium",
+    "question_latex": "\\int 3x^{1/3} \\, dx",
+    "correct_answer": "\\frac{9}{4}x^{4/3} + C",
+    "incorrect_answers": ["3x^{4/3} + C", "\\frac{3}{4}x^{4/3} + C", "\\frac{4}{3}x^{3/4} + C"],
+    "hint": "Increase exponent, then divide coefficient.",
+    "explanation": "1/3 + 1 = 4/3 → 3 ÷ 4/3 = 9/4."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "medium",
+    "question_latex": "\\int 5x^{2/3} \\, dx",
+    "correct_answer": "\\frac{15}{5}x^{5/3} + C",
+    "incorrect_answers": ["5x^{5/3} + C", "\\frac{2}{3}x^{5/3} + C", "\\frac{5}{2}x^{3/5} + C"],
+    "hint": "Raise power to 5/3, divide 5 by 5/3.",
+    "explanation": "5 ÷ (5/3) = 3 → 3x^{5/3} = (15/5)x^{5/3}."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "medium",
+    "question_latex": "\\int 2\\sqrt[3]{x} \\, dx",
+    "correct_answer": "\\frac{6}{4}x^{4/3} + C",
+    "incorrect_answers": ["\\frac{2}{4}x^{4/3} + C", "x^{3/2} + C", "2x^{1/3} + C"],
+    "hint": "Convert root to fractional exponent.",
+    "explanation": "√[3]{x} = x^{1/3} → x^{4/3}/(4/3) × 2 = 6/4 x^{4/3}."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "medium",
+    "question_latex": "\\int 4x^{3/2} \\, dx",
+    "correct_answer": "\\frac{8}{5}x^{5/2} + C",
+    "incorrect_answers": ["4x^{5/2} + C", "\\frac{4}{5}x^{5/2} + C", "\\frac{5}{4}x^{5/2} + C"],
+    "hint": "Use exponent rules.",
+    "explanation": "3/2 + 1 = 5/2 → 4 ÷ 5/2 = 8/5."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "hard",
+    "question_latex": "\\int \\frac{x^3 + 2x}{x} \\, dx",
+    "correct_answer": "\\int (x^2 + 2) \\, dx = \\frac{1}{3}x^3 + 2x + C",
+    "incorrect_answers": ["\\frac{1}{4}x^4 + x + C", "x^3 + x + C", "2x^2 + x + C"],
+    "hint": "Simplify before integrating.",
+    "explanation": "Split terms: (x^3/x) + (2x/x) = x^2 + 2."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "hard",
+    "question_latex": "\\int \\frac{6x^2 + 3x}{x} \\, dx",
+    "correct_answer": "3x^2 + 3x + C",
+    "incorrect_answers": ["\\frac{3}{2}x^2 + x + C", "2x^3 + C", "x^2 + 3 + C"],
+    "hint": "Divide each term by x first.",
+    "explanation": "6x^2/x = 6x, 3x/x = 3 → integrate separately."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "hard",
+    "question_latex": "\\int \\frac{2x + 4}{\\sqrt{x}} \\, dx",
+    "correct_answer": "\\int (2x^{1/2} + 4x^{-1/2}) \\, dx = \\frac{4}{3}x^{3/2} + 8x^{1/2} + C",
+    "incorrect_answers": ["2x^{3/2} + 4x + C", "4x + x^{1/2} + C", "x + 2x^{1/2} + C"],
+    "hint": "Rewrite radicals as exponents.",
+    "explanation": "Convert: x/√x = x^{1/2}, 4/√x = 4x^{-1/2}."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "hard",
+    "question_latex": "\\int \\frac{x^2 + x}{x^{1/2}} \\, dx",
+    "correct_answer": "\\int (x^{3/2} + x^{1/2}) \\, dx = \\frac{2}{5}x^{5/2} + \\frac{2}{3}x^{3/2} + C",
+    "incorrect_answers": ["x^2 + x + C", "x^{5/2} + x^{3/2} + C", "\\frac{5}{2}x^2 + \\frac{3}{2}x + C"],
+    "hint": "Divide powers: x^2 / x^{1/2} = x^{3/2}.",
+    "explanation": "Split and simplify each term before integrating."
+  },
+  {
+    "subject": "Calculus",
+    "topic": "Integrals",
+    "difficulty": "hard",
+    "question_latex": "\\int \\frac{5x^4 + x^2}{x^2} \\, dx",
+    "correct_answer": "\\int (5x^2 + 1) \\, dx = \\frac{5}{3}x^3 + x + C",
+    "incorrect_answers": ["x^5 + x^3 + C", "5x^3 + x^2 + C", "3x^2 + 2x + C"],
+    "hint": "Break apart the fraction.",
+    "explanation": "Divide: 5x^4/x^2 = 5x^2, x^2/x^2 = 1."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "easy",
+    "question_latex": "Convert \\( 180^\\circ \\) to radians.",
+    "correct_answer": "\\pi",
+    "incorrect_answers": ["\\frac{\\pi}{2}", "2\\pi", "\\frac{3\\pi}{2}"],
+    "hint": "Multiply degrees by \\( \\frac{\\pi}{180} \\).",
+    "explanation": "180° × π/180 = π radians."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "easy",
+    "question_latex": "Convert \\( \\frac{\\pi}{3} \\) radians to degrees.",
+    "correct_answer": "60^\\circ",
+    "incorrect_answers": ["30^\\circ", "90^\\circ", "120^\\circ"],
+    "hint": "Multiply radians by \\( \\frac{180}{\\pi} \\).",
+    "explanation": "π/3 × 180/π = 60°."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "easy",
+    "question_latex": "Convert \\( 270^\\circ \\) to radians.",
+    "correct_answer": "\\frac{3\\pi}{2}",
+    "incorrect_answers": ["\\pi", "2\\pi", "\\frac{\\pi}{2}"],
+    "hint": "Use the formula θ rad = θ° × π/180.",
+    "explanation": "270 × π/180 = 3π/2 radians."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "easy",
+    "question_latex": "Convert \\( \\frac{2\\pi}{3} \\) to degrees.",
+    "correct_answer": "120^\\circ",
+    "incorrect_answers": ["60^\\circ", "90^\\circ", "150^\\circ"],
+    "hint": "Multiply by 180/π.",
+    "explanation": "2π/3 × 180/π = 120°."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "easy",
+    "question_latex": "Convert \\( 45^\\circ \\) to radians.",
+    "correct_answer": "\\frac{\\pi}{4}",
+    "incorrect_answers": ["\\frac{\\pi}{6}", "\\frac{\\pi}{3}", "\\pi"],
+    "hint": "θ rad = θ° × π/180.",
+    "explanation": "45° = π/4."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "easy",
+    "question_latex": "Convert \\( \\frac{5\\pi}{6} \\) to degrees.",
+    "correct_answer": "150^\\circ",
+    "incorrect_answers": ["120^\\circ", "135^\\circ", "60^\\circ"],
+    "hint": "θ° = radians × 180/π.",
+    "explanation": "5π/6 × 180/π = 150°."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "easy",
+    "question_latex": "Convert \\( 90^\\circ \\) to radians.",
+    "correct_answer": "\\frac{\\pi}{2}",
+    "incorrect_answers": ["\\pi", "2\\pi", "\\frac{3\\pi}{2}"],
+    "hint": "π/2 is 90° on the unit circle.",
+    "explanation": "90° × π/180 = π/2."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "easy",
+    "question_latex": "Convert \\( \\frac{\\pi}{6} \\) radians to degrees.",
+    "correct_answer": "30^\\circ",
+    "incorrect_answers": ["60^\\circ", "45^\\circ", "90^\\circ"],
+    "hint": "Multiply radians by 180/π.",
+    "explanation": "π/6 × 180/π = 30°."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "easy",
+    "question_latex": "Convert \\( 300^\\circ \\) to radians.",
+    "correct_answer": "\\frac{5\\pi}{3}",
+    "incorrect_answers": ["\\frac{7\\pi}{6}", "\\frac{3\\pi}{2}", "\\pi"],
+    "hint": "Multiply degrees by π/180.",
+    "explanation": "300 × π/180 = 5π/3."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "easy",
+    "question_latex": "Convert \\( \\frac{7\\pi}{6} \\) radians to degrees.",
+    "correct_answer": "210^\\circ",
+    "incorrect_answers": ["150^\\circ", "180^\\circ", "240^\\circ"],
+    "hint": "Multiply by 180/π.",
+    "explanation": "7π/6 × 180/π = 210°."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "medium",
+    "question_latex": "\\sin\\left(\\frac{\\pi}{2}\\right)",
+    "correct_answer": "1",
+    "incorrect_answers": ["0", "-1", "\\frac{\\sqrt{2}}{2}"],
+    "hint": "Think: y-coordinate on the unit circle.",
+    "explanation": "sin(π/2) = 1 (point (0, 1))."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "medium",
+    "question_latex": "\\cos\\left(\\pi\\right)",
+    "correct_answer": "-1",
+    "incorrect_answers": ["1", "0", "-\\frac{1}{2}"],
+    "hint": "Cosine = x-coordinate.",
+    "explanation": "cos(π) = -1 (point (-1, 0))."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "medium",
+    "question_latex": "\\tan\\left(\\frac{\\pi}{4}\\right)",
+    "correct_answer": "1",
+    "incorrect_answers": ["0", "2", "\\sqrt{2}"],
+    "hint": "tan = sin/cos. Both are \\( \\frac{\\sqrt{2}}{2} \\).",
+    "explanation": "tan(π/4) = 1."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "medium",
+    "question_latex": "\\sin\\left(\\pi\\right)",
+    "correct_answer": "0",
+    "incorrect_answers": ["1", "-1", "\\frac{1}{2}"],
+    "hint": "y-coordinate of (–1, 0).",
+    "explanation": "sin(π) = 0."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "medium",
+    "question_latex": "\\cos\\left(\\frac{2\\pi}{3}\\right)",
+    "correct_answer": "-\\frac{1}{2}",
+    "incorrect_answers": ["\\frac{1}{2}", "-\\frac{\\sqrt{3}}{2}", "0"],
+    "hint": "It’s in Quadrant II.",
+    "explanation": "cos(120°) = –1/2."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "medium",
+    "question_latex": "\\tan\\left(\\pi\\right)",
+    "correct_answer": "0",
+    "incorrect_answers": ["1", "undefined", "-1"],
+    "hint": "tan = sin/cos → 0/–1 = 0",
+    "explanation": "tan(π) = 0."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "medium",
+    "question_latex": "\\sin\\left(\\frac{5\\pi}{6}\\right)",
+    "correct_answer": "\\frac{1}{2}",
+    "incorrect_answers": ["\\frac{\\sqrt{3}}{2}", "-\\frac{1}{2}", "0"],
+    "hint": "Quadrant II has positive sine.",
+    "explanation": "sin(150°) = 1/2."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "medium",
+    "question_latex": "\\cos\\left(\\frac{7\\pi}{6}\\right)",
+    "correct_answer": "-\\frac{\\sqrt{3}}{2}",
+    "incorrect_answers": ["\\frac{1}{2}", "-1", "0"],
+    "hint": "Quadrant III, cosine is negative.",
+    "explanation": "cos(210°) = -√3/2."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "medium",
+    "question_latex": "\\tan\\left(\\frac{3\\pi}{4}\\right)",
+    "correct_answer": "-1",
+    "incorrect_answers": ["1", "0", "undefined"],
+    "hint": "sin and cos are same magnitude, different signs.",
+    "explanation": "tan(135°) = –1."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "medium",
+    "question_latex": "\\cos\\left(0\\right)",
+    "correct_answer": "1",
+    "incorrect_answers": ["0", "-1", "\\frac{1}{2}"],
+    "hint": "Cosine of 0 rad = x-value at (1, 0).",
+    "explanation": "cos(0) = 1."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "hard",
+    "question_latex": "\\arcsin\\left(\\frac{1}{2}\\right)",
+    "correct_answer": "\\frac{\\pi}{6}",
+    "incorrect_answers": ["\\frac{\\pi}{3}", "\\frac{\\pi}{2}", "0"],
+    "hint": "Find angle where sin = 1/2.",
+    "explanation": "sin(π/6) = 1/2, so arcsin(1/2) = π/6."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "hard",
+    "question_latex": "\\arccos\\left(-1\\right)",
+    "correct_answer": "\\pi",
+    "incorrect_answers": ["0", "\\frac{\\pi}{2}", "\\frac{3\\pi}{2}"],
+    "hint": "Where is x = –1 on the unit circle?",
+    "explanation": "cos(π) = –1 → arccos(–1) = π."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "hard",
+    "question_latex": "\\arctan\\left(1\\right)",
+    "correct_answer": "\\frac{\\pi}{4}",
+    "incorrect_answers": ["\\frac{\\pi}{2}", "\\frac{3\\pi}{4}", "\\pi"],
+    "hint": "Where is tan = 1?",
+    "explanation": "tan(π/4) = 1 → arctan(1) = π/4."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "hard",
+    "question_latex": "\\arcsin\\left(0\\right)",
+    "correct_answer": "0",
+    "incorrect_answers": ["\\frac{\\pi}{2}", "\\pi", "\\frac{3\\pi}{2}"],
+    "hint": "When does sine equal 0?",
+    "explanation": "sin(0) = 0 → arcsin(0) = 0."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "hard",
+    "question_latex": "\\arccos\\left(\\frac{1}{2}\\right)",
+    "correct_answer": "\\frac{\\pi}{3}",
+    "incorrect_answers": ["\\frac{\\pi}{6}", "\\pi", "\\frac{2\\pi}{3}"],
+    "hint": "cos(π/3) = 1/2.",
+    "explanation": "arccos(1/2) = π/3."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "hard",
+    "question_latex": "\\arctan(\\sqrt{3})",
+    "correct_answer": "\\frac{\\pi}{3}",
+    "incorrect_answers": ["\\frac{\\pi}{6}", "1", "\\pi"],
+    "hint": "Think tan(π/3) = √3.",
+    "explanation": "arctan(√3) = π/3."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "hard",
+    "question_latex": "\\arcsin\\left(-\\frac{\\sqrt{2}}{2}\\right)",
+    "correct_answer": "-\\frac{\\pi}{4}",
+    "incorrect_answers": ["\\frac{\\pi}{4}", "-\\frac{\\pi}{6}", "-\\frac{\\pi}{2}"],
+    "hint": "Arcsin outputs from –π/2 to π/2.",
+    "explanation": "sin(–π/4) = –√2/2 → arcsin(–√2/2) = –π/4."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "hard",
+    "question_latex": "\\arccos\\left(0\\right)",
+    "correct_answer": "\\frac{\\pi}{2}",
+    "incorrect_answers": ["0", "\\pi", "\\frac{3\\pi}{2}"],
+    "hint": "Cosine is 0 at π/2.",
+    "explanation": "arccos(0) = π/2."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "hard",
+    "question_latex": "\\arctan\\left(0\\right)",
+    "correct_answer": "0",
+    "incorrect_answers": ["\\frac{\\pi}{2}", "\\pi", "\\frac{3\\pi}{4}"],
+    "hint": "tan(0) = 0.",
+    "explanation": "arctan(0) = 0."
+  },
+  {
+    "subject": "Trigonometry",
+    "topic": "Unit Circle - Radians",
+    "difficulty": "hard",
+    "question_latex": "\\arcsin\\left(-1\\right)",
+    "correct_answer": "-\\frac{\\pi}{2}",
+    "incorrect_answers": ["\\frac{\\pi}{2}", "0", "-\\pi"],
+    "hint": "Range of arcsin is [–π/2, π/2].",
+    "explanation": "arcsin(–1) = –π/2."
   }
+  
+  
+  
+  
+  
 ]
