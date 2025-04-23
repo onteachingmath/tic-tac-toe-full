@@ -1863,7 +1863,7 @@
     "subject": "Algebra 1",
     "topic": "Slope",
     "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 1)",
+    "question_latex": "What is the slope between (1,2) and (3,6)?",
     "correct_answer": "2",
     "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
     "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
@@ -1877,7 +1877,7 @@
     "subject": "Algebra 1",
     "topic": "Slope",
     "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 2)",
+    "question_latex": "What is the slope between (1,2) and (3,6)?",
     "correct_answer": "2",
     "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
     "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
@@ -1891,7 +1891,7 @@
     "subject": "Algebra 1",
     "topic": "Slope",
     "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 3)",
+    "question_latex": "What is the slope between (1,2) and (3,6)?",
     "correct_answer": "2",
     "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
     "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
@@ -1905,7 +1905,7 @@
     "subject": "Algebra 1",
     "topic": "Slope",
     "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 4)",
+    "question_latex": "What is the slope between (1,2) and (3,6)?",
     "correct_answer": "2",
     "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
     "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
@@ -1919,7 +1919,7 @@
     "subject": "Algebra 1",
     "topic": "Slope",
     "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 5)",
+    "question_latex": "What is the slope between (1,2) and (3,6)?",
     "correct_answer": "2",
     "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
     "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
@@ -1933,7 +1933,7 @@
     "subject": "Algebra 1",
     "topic": "Slope",
     "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 6)",
+    "question_latex": "What is the slope between (1,2) and (3,6)?",
     "correct_answer": "2",
     "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
     "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
@@ -1947,7 +1947,7 @@
     "subject": "Algebra 1",
     "topic": "Slope",
     "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 7)",
+    "question_latex": "What is the slope between (1,2) and (3,6)?",
     "correct_answer": "2",
     "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
     "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
@@ -1961,7 +1961,7 @@
     "subject": "Algebra 1",
     "topic": "Slope",
     "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 8)",
+    "question_latex": "What is the slope between (1,2) and (3,6)?",
     "correct_answer": "2",
     "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
     "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
@@ -1976,7 +1976,7 @@
     "subject": "Geometry",
     "topic": "Special Right Triangles",
     "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 1)",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5?",
     "correct_answer": "10",
     "hint": "Use the ratio 1:\u221a3:2",
     "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
@@ -1990,7 +1990,7 @@
     "subject": "Geometry",
     "topic": "Special Right Triangles",
     "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 2)",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5?",
     "correct_answer": "10",
     "hint": "Use the ratio 1:\u221a3:2",
     "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
@@ -2004,7 +2004,7 @@
     "subject": "Geometry",
     "topic": "Special Right Triangles",
     "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 3)",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5?",
     "correct_answer": "10",
     "hint": "Use the ratio 1:\u221a3:2",
     "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
@@ -2018,7 +2018,7 @@
     "subject": "Geometry",
     "topic": "Special Right Triangles",
     "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 4)",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5?",
     "correct_answer": "10",
     "hint": "Use the ratio 1:\u221a3:2",
     "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
@@ -2032,7 +2032,7 @@
     "subject": "Geometry",
     "topic": "Special Right Triangles",
     "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 5)",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5?",
     "correct_answer": "10",
     "hint": "Use the ratio 1:\u221a3:2",
     "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
@@ -2042,25 +2042,11 @@
       "11.0"
     ]
   },
-  {
+    {
     "subject": "Geometry",
     "topic": "Special Right Triangles",
     "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 6)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "11.0",
-      "12.0",
-      "9.0"
-    ]
-  },
-  {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 7)",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5?",
     "correct_answer": "10",
     "hint": "Use the ratio 1:\u221a3:2",
     "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
@@ -2070,166 +2056,27 @@
       "12.0"
     ]
   },
+   
   {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 8)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
+    "subject": "Statistics",
+    "topic": "Measures of Central Tendency",
+    "difficulty": "easy",
+    "question_latex": "What is the mean of 4, 6, 8, 10?",
+    "correct_answer": "7",
+    "hint": "Add them and divide by the number of values",
+    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
     "incorrect_answers": [
-      "11.0",
-      "12.0",
-      "9.0"
+      "9.0",
+      "8.0",
+      "6.0"
     ]
   },
   
   {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 1)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "9.0",
-      "8.0",
-      "6.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 2)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "6.0",
-      "9.0",
-      "8.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 3)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "9.0",
-      "6.0",
-      "8.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 4)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "9.0",
-      "8.0",
-      "6.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 5)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "9.0",
-      "8.0",
-      "6.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 6)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "9.0",
-      "8.0",
-      "6.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 7)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "8.0",
-      "9.0",
-      "6.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 8)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "6.0",
-      "8.0",
-      "9.0"
-    ]
-  },
-  {
     "subject": "Math Facts",
     "topic": "Fraction Arithmetic",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 1)",
-    "correct_answer": "\\frac{3}{4}",
-    "hint": "Convert to a common denominator",
-    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
-    "incorrect_answers": [
-      "\\frac{2}{4}",
-      "\\frac{1}{6}",
-      "\\frac{5}{8}"
-    ]
-  },
-  {
-    "subject": "Math Facts",
-    "topic": "Fraction Arithmetic",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 2)",
-    "correct_answer": "\\frac{3}{4}",
-    "hint": "Convert to a common denominator",
-    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
-    "incorrect_answers": [
-      "\\frac{5}{8}",
-      "\\frac{1}{6}",
-      "\\frac{2}{4}"
-    ]
-  },
-  {
-    "subject": "Math Facts",
-    "topic": "Fraction Arithmetic",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 3)",
+    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? ",
     "correct_answer": "\\frac{3}{4}",
     "hint": "Convert to a common denominator",
     "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
@@ -2239,76 +2086,9 @@
       "\\frac{2}{4}"
     ]
   },
-  {
-    "subject": "Math Facts",
-    "topic": "Fraction Arithmetic",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 4)",
-    "correct_answer": "\\frac{3}{4}",
-    "hint": "Convert to a common denominator",
-    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
-    "incorrect_answers": [
-      "\\frac{2}{4}",
-      "\\frac{5}{8}",
-      "\\frac{1}{6}"
-    ]
-  },
-  {
-    "subject": "Math Facts",
-    "topic": "Fraction Arithmetic",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 5)",
-    "correct_answer": "\\frac{3}{4}",
-    "hint": "Convert to a common denominator",
-    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
-    "incorrect_answers": [
-      "\\frac{5}{8}",
-      "\\frac{2}{4}",
-      "\\frac{1}{6}"
-    ]
-  },
-  {
-    "subject": "Math Facts",
-    "topic": "Fraction Arithmetic",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 6)",
-    "correct_answer": "\\frac{3}{4}",
-    "hint": "Convert to a common denominator",
-    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
-    "incorrect_answers": [
-      "\\frac{1}{6}",
-      "\\frac{2}{4}",
-      "\\frac{5}{8}"
-    ]
-  },
-  {
-    "subject": "Math Facts",
-    "topic": "Fraction Arithmetic",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 7)",
-    "correct_answer": "\\frac{3}{4}",
-    "hint": "Convert to a common denominator",
-    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
-    "incorrect_answers": [
-      "\\frac{2}{4}",
-      "\\frac{1}{6}",
-      "\\frac{5}{8}"
-    ]
-  },
-  {
-    "subject": "Math Facts",
-    "topic": "Fraction Arithmetic",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 8)",
-    "correct_answer": "\\frac{3}{4}",
-    "hint": "Convert to a common denominator",
-    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
-    "incorrect_answers": [
-      "\\frac{5}{8}",
-      "\\frac{1}{6}",
-      "\\frac{2}{4}"
-    ]
-  },
+  
+ 
+  
   {
     "subject": "Algebra 1",
     "topic": "Slope",
@@ -2477,7 +2257,7 @@
     "subject": "Algebra 1",
     "topic": "Slope",
     "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 1)",
+    "question_latex": "What is the slope between (1,2) and (3,6)?",
     "correct_answer": "2",
     "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
     "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
@@ -2487,207 +2267,12 @@
       "1.0"
     ]
   },
-  {
-    "subject": "Algebra 1",
-    "topic": "Slope",
-    "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 2)",
-    "correct_answer": "2",
-    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
-    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
-    "incorrect_answers": [
-      "1.0",
-      "4.0",
-      "3.0"
-    ]
-  },
-  {
-    "subject": "Algebra 1",
-    "topic": "Slope",
-    "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 3)",
-    "correct_answer": "2",
-    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
-    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
-    "incorrect_answers": [
-      "4.0",
-      "3.0",
-      "1.0"
-    ]
-  },
-  {
-    "subject": "Algebra 1",
-    "topic": "Slope",
-    "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 4)",
-    "correct_answer": "2",
-    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
-    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
-    "incorrect_answers": [
-      "3.0",
-      "1.0",
-      "4.0"
-    ]
-  },
-  {
-    "subject": "Algebra 1",
-    "topic": "Slope",
-    "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 5)",
-    "correct_answer": "2",
-    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
-    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
-    "incorrect_answers": [
-      "3.0",
-      "1.0",
-      "4.0"
-    ]
-  },
-  {
-    "subject": "Algebra 1",
-    "topic": "Slope",
-    "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 6)",
-    "correct_answer": "2",
-    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
-    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
-    "incorrect_answers": [
-      "4.0",
-      "3.0",
-      "1.0"
-    ]
-  },
-  {
-    "subject": "Algebra 1",
-    "topic": "Slope",
-    "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 7)",
-    "correct_answer": "2",
-    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
-    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
-    "incorrect_answers": [
-      "1.0",
-      "3.0",
-      "4.0"
-    ]
-  },
-  {
-    "subject": "Algebra 1",
-    "topic": "Slope",
-    "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 8)",
-    "correct_answer": "2",
-    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
-    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
-    "incorrect_answers": [
-      "4.0",
-      "1.0",
-      "3.0"
-    ]
-  },
+  
   {
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 1)",
-    "correct_answer": "\\frac{1}{2}",
-    "hint": "Use the unit circle.",
-    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
-    "incorrect_answers": [
-      "\\frac{\\sqrt{2}}{2}",
-      "\\frac{\\sqrt{3}}{2}",
-      "1"
-    ]
-  },
-  {
-    "subject": "Trigonometry",
-    "topic": "Unit Circle",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 2)",
-    "correct_answer": "\\frac{1}{2}",
-    "hint": "Use the unit circle.",
-    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
-    "incorrect_answers": [
-      "1",
-      "\\frac{\\sqrt{2}}{2}",
-      "\\frac{\\sqrt{3}}{2}"
-    ]
-  },
-  {
-    "subject": "Trigonometry",
-    "topic": "Unit Circle",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 3)",
-    "correct_answer": "\\frac{1}{2}",
-    "hint": "Use the unit circle.",
-    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
-    "incorrect_answers": [
-      "\\frac{\\sqrt{3}}{2}",
-      "1",
-      "\\frac{\\sqrt{2}}{2}"
-    ]
-  },
-  {
-    "subject": "Trigonometry",
-    "topic": "Unit Circle",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 4)",
-    "correct_answer": "\\frac{1}{2}",
-    "hint": "Use the unit circle.",
-    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
-    "incorrect_answers": [
-      "1",
-      "\\frac{\\sqrt{3}}{2}",
-      "\\frac{\\sqrt{2}}{2}"
-    ]
-  },
-  {
-    "subject": "Trigonometry",
-    "topic": "Unit Circle",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 5)",
-    "correct_answer": "\\frac{1}{2}",
-    "hint": "Use the unit circle.",
-    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
-    "incorrect_answers": [
-      "\\frac{\\sqrt{3}}{2}",
-      "\\frac{\\sqrt{2}}{2}",
-      "1"
-    ]
-  },
-  {
-    "subject": "Trigonometry",
-    "topic": "Unit Circle",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 6)",
-    "correct_answer": "\\frac{1}{2}",
-    "hint": "Use the unit circle.",
-    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
-    "incorrect_answers": [
-      "\\frac{\\sqrt{2}}{2}",
-      "1",
-      "\\frac{\\sqrt{3}}{2}"
-    ]
-  },
-  {
-    "subject": "Trigonometry",
-    "topic": "Unit Circle",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 7)",
-    "correct_answer": "\\frac{1}{2}",
-    "hint": "Use the unit circle.",
-    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
-    "incorrect_answers": [
-      "1",
-      "\\frac{\\sqrt{2}}{2}",
-      "\\frac{\\sqrt{3}}{2}"
-    ]
-  },
-  {
-    "subject": "Trigonometry",
-    "topic": "Unit Circle",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 8)",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)?",
     "correct_answer": "\\frac{1}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
@@ -2701,7 +2286,7 @@
     "subject": "Geometry",
     "topic": "Special Right Triangles",
     "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 1)",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5?",
     "correct_answer": "10",
     "hint": "Use the ratio 1:\u221a3:2",
     "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
@@ -2709,191 +2294,24 @@
       "12.0",
       "9.0",
       "11.0"
-    ]
-  },
-  {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 2)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "12.0",
-      "11.0",
-      "9.0"
-    ]
-  },
-  {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 3)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "9.0",
-      "12.0",
-      "11.0"
-    ]
-  },
-  {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 4)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "9.0",
-      "12.0",
-      "11.0"
-    ]
-  },
-  {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 5)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "9.0",
-      "12.0",
-      "11.0"
-    ]
-  },
-  {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 6)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "11.0",
-      "12.0",
-      "9.0"
-    ]
-  },
-  {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 7)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "11.0",
-      "9.0",
-      "12.0"
-    ]
-  },
-  {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 8)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "11.0",
-      "12.0",
-      "9.0"
     ]
   },
   {
     "subject": "Calculus",
     "topic": "Derivatives",
     "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 1)",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\)",
     "correct_answer": "3x^2",
     "hint": "Use the power rule: \\( nx^{n-1} \\)",
     "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
     "incorrect_answers": ["x^2", "3x", "x^3"]
   },
-  {
-    "subject": "Calculus",
-    "topic": "Derivatives",
-    "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 2)",
-    "correct_answer": "3x^2",
-    "hint": "Use the power rule: \\( nx^{n-1} \\)",
-    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
-    "incorrect_answers": ["3x", "x^3", "x^2"]
-  },
-  {
-    "subject": "Calculus",
-    "topic": "Derivatives",
-    "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 3)",
-    "correct_answer": "3x^2",
-    "hint": "Use the power rule: \\( nx^{n-1} \\)",
-    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
-    "incorrect_answers": ["x^3", "x^2", "3x"]
-  },
-  {
-    "subject": "Calculus",
-    "topic": "Derivatives",
-    "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 4)",
-    "correct_answer": "3x^2",
-    "hint": "Use the power rule: \\( nx^{n-1} \\)",
-    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
-    "incorrect_answers": ["x^3", "3x", "x^2"]
-  },
-  {
-    "subject": "Calculus",
-    "topic": "Derivatives",
-    "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 5)",
-    "correct_answer": "3x^2",
-    "hint": "Use the power rule: \\( nx^{n-1} \\)",
-    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
-    "incorrect_answers": ["3x", "x^2", "x^3"]
-  },
-  {
-    "subject": "Calculus",
-    "topic": "Derivatives",
-    "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 6)",
-    "correct_answer": "3x^2",
-    "hint": "Use the power rule: \\( nx^{n-1} \\)",
-    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
-    "incorrect_answers": ["x^2", "x^3", "3x"]
-  },
-  {
-    "subject": "Calculus",
-    "topic": "Derivatives",
-    "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 7)",
-    "correct_answer": "3x^2",
-    "hint": "Use the power rule: \\( nx^{n-1} \\)",
-    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
-    "incorrect_answers": ["x^2", "3x", "x^3"]
-  },
-  {
-    "subject": "Calculus",
-    "topic": "Derivatives",
-    "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 8)",
-    "correct_answer": "3x^2",
-    "hint": "Use the power rule: \\( nx^{n-1} \\)",
-    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
-    "incorrect_answers": ["x^3", "x^2", "3x"]
-  },
+  
   {
     "subject": "Statistics",
     "topic": "Measures of Central Tendency",
     "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 1)",
+    "question_latex": "What is the mean of 4, 6, 8, 10? ",
     "correct_answer": "7",
     "hint": "Add them and divide by the number of values",
     "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
@@ -2903,104 +2321,7 @@
       "6.0"
     ]
   },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 2)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "6.0",
-      "9.0",
-      "8.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 3)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "9.0",
-      "6.0",
-      "8.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 4)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "9.0",
-      "8.0",
-      "6.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 5)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "9.0",
-      "8.0",
-      "6.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 6)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "9.0",
-      "8.0",
-      "6.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 7)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "8.0",
-      "9.0",
-      "6.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 8)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "6.0",
-      "8.0",
-      "9.0"
-    ]
-  },
+  
     {
     "subject": "Algebra 1",
     "topic": "Slope",
@@ -3166,7 +2487,7 @@
     "subject": "Algebra 1",
     "topic": "Slope",
     "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 1)",
+    "question_latex": "What is the slope between (1,2) and (3,6)?",
     "correct_answer": "2",
     "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
     "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
@@ -3176,109 +2497,12 @@
       "1.0"
     ]
   },
-  {
-    "subject": "Algebra 1",
-    "topic": "Slope",
-    "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 2)",
-    "correct_answer": "2",
-    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
-    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
-    "incorrect_answers": [
-      "1.0",
-      "4.0",
-      "3.0"
-    ]
-  },
-  {
-    "subject": "Algebra 1",
-    "topic": "Slope",
-    "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 3)",
-    "correct_answer": "2",
-    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
-    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
-    "incorrect_answers": [
-      "4.0",
-      "3.0",
-      "1.0"
-    ]
-  },
-  {
-    "subject": "Algebra 1",
-    "topic": "Slope",
-    "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 4)",
-    "correct_answer": "2",
-    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
-    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
-    "incorrect_answers": [
-      "3.0",
-      "1.0",
-      "4.0"
-    ]
-  },
-  {
-    "subject": "Algebra 1",
-    "topic": "Slope",
-    "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 5)",
-    "correct_answer": "2",
-    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
-    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
-    "incorrect_answers": [
-      "3.0",
-      "1.0",
-      "4.0"
-    ]
-  },
-  {
-    "subject": "Algebra 1",
-    "topic": "Slope",
-    "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 6)",
-    "correct_answer": "2",
-    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
-    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
-    "incorrect_answers": [
-      "4.0",
-      "3.0",
-      "1.0"
-    ]
-  },
-  {
-    "subject": "Algebra 1",
-    "topic": "Slope",
-    "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 7)",
-    "correct_answer": "2",
-    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
-    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
-    "incorrect_answers": [
-      "1.0",
-      "3.0",
-      "4.0"
-    ]
-  },
-  {
-    "subject": "Algebra 1",
-    "topic": "Slope",
-    "difficulty": "easy",
-    "question_latex": "What is the slope between (1,2) and (3,6)? (variant 8)",
-    "correct_answer": "2",
-    "hint": "Use \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)",
-    "explanation": "Slope = (6 - 2) / (3 - 1) = 4 / 2 = 2",
-    "incorrect_answers": [
-      "4.0",
-      "1.0",
-      "3.0"
-    ]
-  },
+  
   {
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 1)",
+    "question_latex": "What is \\( \\sin(30^\\circ) \\)?",
     "correct_answer": "\\frac{1}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
@@ -3288,207 +2512,12 @@
       "1"
     ]
   },
-  {
-    "subject": "Trigonometry",
-    "topic": "Unit Circle",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 2)",
-    "correct_answer": "\\frac{1}{2}",
-    "hint": "Use the unit circle.",
-    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
-    "incorrect_answers": [
-      "1",
-      "\\frac{\\sqrt{2}}{2}",
-      "\\frac{\\sqrt{3}}{2}"
-    ]
-  },
-  {
-    "subject": "Trigonometry",
-    "topic": "Unit Circle",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 3)",
-    "correct_answer": "\\frac{1}{2}",
-    "hint": "Use the unit circle.",
-    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
-    "incorrect_answers": [
-      "\\frac{\\sqrt{3}}{2}",
-      "1",
-      "\\frac{\\sqrt{2}}{2}"
-    ]
-  },
-  {
-    "subject": "Trigonometry",
-    "topic": "Unit Circle",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 4)",
-    "correct_answer": "\\frac{1}{2}",
-    "hint": "Use the unit circle.",
-    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
-    "incorrect_answers": [
-      "1",
-      "\\frac{\\sqrt{3}}{2}",
-      "\\frac{\\sqrt{2}}{2}"
-    ]
-  },
-  {
-    "subject": "Trigonometry",
-    "topic": "Unit Circle",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 5)",
-    "correct_answer": "\\frac{1}{2}",
-    "hint": "Use the unit circle.",
-    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
-    "incorrect_answers": [
-      "\\frac{\\sqrt{3}}{2}",
-      "\\frac{\\sqrt{2}}{2}",
-      "1"
-    ]
-  },
-  {
-    "subject": "Trigonometry",
-    "topic": "Unit Circle",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 6)",
-    "correct_answer": "\\frac{1}{2}",
-    "hint": "Use the unit circle.",
-    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
-    "incorrect_answers": [
-      "\\frac{\\sqrt{2}}{2}",
-      "1",
-      "\\frac{\\sqrt{3}}{2}"
-    ]
-  },
-  {
-    "subject": "Trigonometry",
-    "topic": "Unit Circle",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 7)",
-    "correct_answer": "\\frac{1}{2}",
-    "hint": "Use the unit circle.",
-    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
-    "incorrect_answers": [
-      "1",
-      "\\frac{\\sqrt{2}}{2}",
-      "\\frac{\\sqrt{3}}{2}"
-    ]
-  },
-  {
-    "subject": "Trigonometry",
-    "topic": "Unit Circle",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(30^\\circ) \\)? (variant 8)",
-    "correct_answer": "\\frac{1}{2}",
-    "hint": "Use the unit circle.",
-    "explanation": "\\( \\sin(30^\\circ) = \\frac{1}{2} \\)",
-    "incorrect_answers": [
-      "\\frac{\\sqrt{2}}{2}",
-      "\\frac{\\sqrt{3}}{2}",
-      "1"
-    ]
-  },
+  
   {
     "subject": "Geometry",
     "topic": "Special Right Triangles",
     "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 1)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "12.0",
-      "9.0",
-      "11.0"
-    ]
-  },
-  {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 2)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "12.0",
-      "11.0",
-      "9.0"
-    ]
-  },
-  {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 3)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "9.0",
-      "12.0",
-      "11.0"
-    ]
-  },
-  {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 4)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "9.0",
-      "12.0",
-      "11.0"
-    ]
-  },
-  {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 5)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "9.0",
-      "12.0",
-      "11.0"
-    ]
-  },
-  {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 6)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "11.0",
-      "12.0",
-      "9.0"
-    ]
-  },
-  {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 7)",
-    "correct_answer": "10",
-    "hint": "Use the ratio 1:\u221a3:2",
-    "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
-    "incorrect_answers": [
-      "11.0",
-      "9.0",
-      "12.0"
-    ]
-  },
-  {
-    "subject": "Geometry",
-    "topic": "Special Right Triangles",
-    "difficulty": "medium",
-    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5? (variant 8)",
+    "question_latex": "In a 30-60-90 triangle, what is the length of the hypotenuse if the short leg is 5?",
     "correct_answer": "10",
     "hint": "Use the ratio 1:\u221a3:2",
     "explanation": "The hypotenuse is 2 times the short leg: 5 \u00d7 2 = 10",
@@ -3502,7 +2531,7 @@
     "subject": "Calculus",
     "topic": "Derivatives",
     "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 1)",
+    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\)",
     "correct_answer": "3x^2",
     "hint": "Use the power rule: \\( nx^{n-1} \\)",
     "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
@@ -3512,109 +2541,11 @@
       "x^3"
     ]
   },
-  {
-    "subject": "Calculus",
-    "topic": "Derivatives",
-    "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 2)",
-    "correct_answer": "3x^2",
-    "hint": "Use the power rule: \\( nx^{n-1} \\)",
-    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
-    "incorrect_answers": [
-      "3x",
-      "x^3",
-      "x^2"
-    ]
-  },
-  {
-    "subject": "Calculus",
-    "topic": "Derivatives",
-    "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 3)",
-    "correct_answer": "3x^2",
-    "hint": "Use the power rule: \\( nx^{n-1} \\)",
-    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
-    "incorrect_answers": [
-      "x^3",
-      "x^2",
-      "3x"
-    ]
-  },
-  {
-    "subject": "Calculus",
-    "topic": "Derivatives",
-    "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 4)",
-    "correct_answer": "3x^2",
-    "hint": "Use the power rule: \\( nx^{n-1} \\)",
-    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
-    "incorrect_answers": [
-      "x^3",
-      "3x",
-      "x^2"
-    ]
-  },
-  {
-    "subject": "Calculus",
-    "topic": "Derivatives",
-    "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 5)",
-    "correct_answer": "3x^2",
-    "hint": "Use the power rule: \\( nx^{n-1} \\)",
-    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
-    "incorrect_answers": [
-      "3x",
-      "x^2",
-      "x^3"
-    ]
-  },
-  {
-    "subject": "Calculus",
-    "topic": "Derivatives",
-    "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 6)",
-    "correct_answer": "3x^2",
-    "hint": "Use the power rule: \\( nx^{n-1} \\)",
-    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
-    "incorrect_answers": [
-      "x^2",
-      "x^3",
-      "3x"
-    ]
-  },
-  {
-    "subject": "Calculus",
-    "topic": "Derivatives",
-    "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 7)",
-    "correct_answer": "3x^2",
-    "hint": "Use the power rule: \\( nx^{n-1} \\)",
-    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
-    "incorrect_answers": [
-      "x^2",
-      "3x",
-      "x^3"
-    ]
-  },
-  {
-    "subject": "Calculus",
-    "topic": "Derivatives",
-    "difficulty": "easy",
-    "question_latex": "Find \\( f'(x) \\) if \\( f(x) = x^3 \\) (variant 8)",
-    "correct_answer": "3x^2",
-    "hint": "Use the power rule: \\( nx^{n-1} \\)",
-    "explanation": "The derivative of \\( x^3 \\) is \\( 3x^2 \\)",
-    "incorrect_answers": [
-      "x^3",
-      "x^2",
-      "3x"
-    ]
-  },
-  {
+    {
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "medium",
-    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 1)",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\)",
     "correct_answer": "(x + 2)(x + 3)",
     "hint": "Look for two numbers that multiply to 6 and add to 5",
     "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
@@ -3624,328 +2555,9 @@
       "(x + 1)(x + 5)"
     ]
   },
-  {
-    "subject": "Algebra 2",
-    "topic": "Factoring Quadratics",
-    "difficulty": "medium",
-    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 2)",
-    "correct_answer": "(x + 2)(x + 3)",
-    "hint": "Look for two numbers that multiply to 6 and add to 5",
-    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
-    "incorrect_answers": [
-      "(x + 3)(x + 1)",
-      "(x + 1)(x + 6)",
-      "(x + 4)(x + 2)"
-    ]
-  },
-  {
-    "subject": "Algebra 2",
-    "topic": "Factoring Quadratics",
-    "difficulty": "medium",
-    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 3)",
-    "correct_answer": "(x + 2)(x + 3)",
-    "hint": "Look for two numbers that multiply to 6 and add to 5",
-    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
-    "incorrect_answers": [
-      "(x + 1)(x + 5)",
-      "(x + 2)(x + 2)",
-      "(x + 4)(x + 1)"
-    ]
-  },
-  {
-    "subject": "Algebra 2",
-    "topic": "Factoring Quadratics",
-    "difficulty": "medium",
-    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 4)",
-    "correct_answer": "(x + 2)(x + 3)",
-    "hint": "Look for two numbers that multiply to 6 and add to 5",
-    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
-    "incorrect_answers": [
-      "(x + 1)(x + 6)",
-      "(x + 3)(x + 2)",
-      "(x + 4)(x + 1)"
-    ]
-  },
-  {
-    "subject": "Algebra 2",
-    "topic": "Factoring Quadratics",
-    "difficulty": "medium",
-    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 5)",
-    "correct_answer": "(x + 2)(x + 3)",
-    "hint": "Look for two numbers that multiply to 6 and add to 5",
-    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
-    "incorrect_answers": [
-      "(x + 1)(x + 4)",
-      "(x + 2)(x + 2)",
-      "(x + 1)(x + 5)"
-    ]
-  },
-  {
-    "subject": "Algebra 2",
-    "topic": "Factoring Quadratics",
-    "difficulty": "medium",
-    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 6)",
-    "correct_answer": "(x + 2)(x + 3)",
-    "hint": "Look for two numbers that multiply to 6 and add to 5",
-    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
-    "incorrect_answers": [
-      "(x + 3)(x + 1)",
-      "(x + 4)(x + 2)",
-      "(x + 1)(x + 6)"
-    ]
-  },
-  {
-    "subject": "Algebra 2",
-    "topic": "Factoring Quadratics",
-    "difficulty": "medium",
-    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 7)",
-    "correct_answer": "(x + 2)(x + 3)",
-    "hint": "Look for two numbers that multiply to 6 and add to 5",
-    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
-    "incorrect_answers": [
-      "(x + 1)(x + 6)",
-      "(x + 4)(x + 2)",
-      "(x + 1)(x + 5)"
-    ]
-  },
-  {
-    "subject": "Algebra 2",
-    "topic": "Factoring Quadratics",
-    "difficulty": "medium",
-    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 8)",
-    "correct_answer": "(x + 2)(x + 3)",
-    "hint": "Look for two numbers that multiply to 6 and add to 5",
-    "explanation": "2 and 3 work: \\( (x + 2)(x + 3) \\)",
-    "incorrect_answers": [
-      "(x + 3)(x + 1)",
-      "(x + 2)(x + 2)",
-      "(x + 4)(x + 1)"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 1)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "9.0",
-      "8.0",
-      "6.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 2)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "6.0",
-      "9.0",
-      "8.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 3)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "9.0",
-      "6.0",
-      "8.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 4)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "9.0",
-      "8.0",
-      "6.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 5)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "9.0",
-      "8.0",
-      "6.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 6)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "9.0",
-      "8.0",
-      "6.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 7)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "8.0",
-      "9.0",
-      "6.0"
-    ]
-  },
-  {
-    "subject": "Statistics",
-    "topic": "Measures of Central Tendency",
-    "difficulty": "easy",
-    "question_latex": "What is the mean of 4, 6, 8, 10? (variant 8)",
-    "correct_answer": "7",
-    "hint": "Add them and divide by the number of values",
-    "explanation": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7",
-    "incorrect_answers": [
-      "6.0",
-      "8.0",
-      "9.0"
-    ]
-  },
-  {
-    "subject": "Math Facts",
-    "topic": "Fraction Arithmetic",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 1)",
-    "correct_answer": "\\frac{3}{4}",
-    "hint": "Convert to a common denominator",
-    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
-    "incorrect_answers": [
-      "\\frac{2}{4}",
-      "\\frac{1}{6}",
-      "\\frac{5}{8}"
-    ]
-  },
-  {
-    "subject": "Math Facts",
-    "topic": "Fraction Arithmetic",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 2)",
-    "correct_answer": "\\frac{3}{4}",
-    "hint": "Convert to a common denominator",
-    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
-    "incorrect_answers": [
-      "\\frac{5}{8}",
-      "\\frac{1}{6}",
-      "\\frac{2}{4}"
-    ]
-  },
-  {
-    "subject": "Math Facts",
-    "topic": "Fraction Arithmetic",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 3)",
-    "correct_answer": "\\frac{3}{4}",
-    "hint": "Convert to a common denominator",
-    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
-    "incorrect_answers": [
-      "\\frac{1}{6}",
-      "\\frac{5}{8}",
-      "\\frac{2}{4}"
-    ]
-  },
-  {
-    "subject": "Math Facts",
-    "topic": "Fraction Arithmetic",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 4)",
-    "correct_answer": "\\frac{3}{4}",
-    "hint": "Convert to a common denominator",
-    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
-    "incorrect_answers": [
-      "\\frac{2}{4}",
-      "\\frac{5}{8}",
-      "\\frac{1}{6}"
-    ]
-  },
-  {
-    "subject": "Math Facts",
-    "topic": "Fraction Arithmetic",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 5)",
-    "correct_answer": "\\frac{3}{4}",
-    "hint": "Convert to a common denominator",
-    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
-    "incorrect_answers": [
-      "\\frac{5}{8}",
-      "\\frac{2}{4}",
-      "\\frac{1}{6}"
-    ]
-  },
-  {
-    "subject": "Math Facts",
-    "topic": "Fraction Arithmetic",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 6)",
-    "correct_answer": "\\frac{3}{4}",
-    "hint": "Convert to a common denominator",
-    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
-    "incorrect_answers": [
-      "\\frac{1}{6}",
-      "\\frac{2}{4}",
-      "\\frac{5}{8}"
-    ]
-  },
-  {
-    "subject": "Math Facts",
-    "topic": "Fraction Arithmetic",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 7)",
-    "correct_answer": "\\frac{3}{4}",
-    "hint": "Convert to a common denominator",
-    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
-    "incorrect_answers": [
-      "\\frac{2}{4}",
-      "\\frac{1}{6}",
-      "\\frac{5}{8}"
-    ]
-  },
-  {
-    "subject": "Math Facts",
-    "topic": "Fraction Arithmetic",
-    "difficulty": "easy",
-    "question_latex": "What is \\( \\frac{1}{2} + \\frac{1}{4} \\)? (variant 8)",
-    "correct_answer": "\\frac{3}{4}",
-    "hint": "Convert to a common denominator",
-    "explanation": "\\( \\frac{1}{2} = \\frac{2}{4} \\), and \\( \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4} \\)",
-    "incorrect_answers": [
-      "\\frac{5}{8}",
-      "\\frac{1}{6}",
-      "\\frac{2}{4}"
-    ]
-  },
+  
+  
+  
   {
     "subject": "Algebra 1",
     "topic": "Slope",
@@ -6271,7 +4883,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\tan(45^\\circ) \\)? (variant 1)",
+    "question_latex": "What is \\( \\tan(45^\\circ) \\)?",
     "correct_answer": "1",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\tan(45^\\circ) = 1 \\)",
@@ -6285,7 +4897,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(330^\\circ) \\)? (variant 2)",
+    "question_latex": "What is \\( \\cos(330^\\circ) \\)?",
     "correct_answer": "\\frac{\\sqrt{3}}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(330^\\circ) = \\frac{\\sqrt{3}}{2} \\)",
@@ -6299,7 +4911,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(240^\\circ) \\)? (variant 3)",
+    "question_latex": "What is \\( \\cos(240^\\circ) \\)?",
     "correct_answer": "-\\frac{1}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(240^\\circ) = -\\frac{1}{2} \\)",
@@ -6313,7 +4925,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(30^\\circ) \\)? (variant 4)",
+    "question_latex": "What is \\( \\cos(30^\\circ) \\)?",
     "correct_answer": "\\frac{\\sqrt{3}}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(30^\\circ) = \\frac{\\sqrt{3}}{2} \\)",
@@ -6327,7 +4939,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(150^\\circ) \\)? (variant 5)",
+    "question_latex": "What is \\( \\cos(150^\\circ) \\)?",
     "correct_answer": "-\\frac{\\sqrt{3}}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(150^\\circ) = -\\frac{\\sqrt{3}}{2} \\)",
@@ -6341,7 +4953,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\tan(0^\\circ) \\)? (variant 6)",
+    "question_latex": "What is \\( \\tan(0^\\circ) \\)?",
     "correct_answer": "0",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\tan(0^\\circ) = 0 \\)",
@@ -6355,7 +4967,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\tan(180^\\circ) \\)? (variant 7)",
+    "question_latex": "What is \\( \\tan(180^\\circ) \\)?",
     "correct_answer": "0",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\tan(180^\\circ) = 0 \\)",
@@ -6369,7 +4981,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(210^\\circ) \\)? (variant 8)",
+    "question_latex": "What is \\( \\sin(210^\\circ) \\)?",
     "correct_answer": "-\\frac{1}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\sin(210^\\circ) = -\\frac{1}{2} \\)",
@@ -6383,7 +4995,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(270^\\circ) \\)? (variant 9)",
+    "question_latex": "What is \\( \\cos(270^\\circ) \\)?",
     "correct_answer": "0",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(270^\\circ) = 0 \\)",
@@ -6397,7 +5009,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(315^\\circ) \\)? (variant 10)",
+    "question_latex": "What is \\( \\sin(315^\\circ) \\)?",
     "correct_answer": "-\\frac{\\sqrt{2}}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\sin(315^\\circ) = -\\frac{\\sqrt{2}}{2} \\)",
@@ -6411,7 +5023,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(210^\\circ) \\)? (variant 11)",
+    "question_latex": "What is \\( \\cos(210^\\circ) \\)?",
     "correct_answer": "-\\frac{\\sqrt{3}}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(210^\\circ) = -\\frac{\\sqrt{3}}{2} \\)",
@@ -6425,7 +5037,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(210^\\circ) \\)? (variant 12)",
+    "question_latex": "What is \\( \\cos(210^\\circ) \\)?",
     "correct_answer": "-\\frac{\\sqrt{3}}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(210^\\circ) = -\\frac{\\sqrt{3}}{2} \\)",
@@ -6439,7 +5051,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(360^\\circ) \\)? (variant 13)",
+    "question_latex": "What is \\( \\cos(360^\\circ) \\)?",
     "correct_answer": "1",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(360^\\circ) = 1 \\)",
@@ -6453,7 +5065,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(0^\\circ) \\)? (variant 14)",
+    "question_latex": "What is \\( \\cos(0^\\circ) \\)?",
     "correct_answer": "1",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(0^\\circ) = 1 \\)",
@@ -6467,7 +5079,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(270^\\circ) \\)? (variant 15)",
+    "question_latex": "What is \\( \\sin(270^\\circ) \\)?",
     "correct_answer": "-1",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\sin(270^\\circ) = -1 \\)",
@@ -6481,7 +5093,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\tan(180^\\circ) \\)? (variant 16)",
+    "question_latex": "What is \\( \\tan(180^\\circ) \\)?",
     "correct_answer": "0",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\tan(180^\\circ) = 0 \\)",
@@ -6495,7 +5107,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\tan(60^\\circ) \\)? (variant 17)",
+    "question_latex": "What is \\( \\tan(60^\\circ) \\)?",
     "correct_answer": "\\sqrt{3}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\tan(60^\\circ) = \\sqrt{3} \\)",
@@ -6509,7 +5121,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\tan(225^\\circ) \\)? (variant 18)",
+    "question_latex": "What is \\( \\tan(225^\\circ) \\)?",
     "correct_answer": "1",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\tan(225^\\circ) = 1 \\)",
@@ -6523,7 +5135,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\tan(315^\\circ) \\)? (variant 19)",
+    "question_latex": "What is \\( \\tan(315^\\circ) \\)?",
     "correct_answer": "-1",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\tan(315^\\circ) = -1 \\)",
@@ -6537,7 +5149,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(240^\\circ) \\)? (variant 20)",
+    "question_latex": "What is \\( \\cos(240^\\circ) \\)?",
     "correct_answer": "-\\frac{1}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(240^\\circ) = -\\frac{1}{2} \\)",
@@ -6551,7 +5163,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\tan(270^\\circ) \\)? (variant 21)",
+    "question_latex": "What is \\( \\tan(270^\\circ) \\)?",
     "correct_answer": "undefined",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\tan(270^\\circ) = undefined \\)",
@@ -6565,7 +5177,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(90^\\circ) \\)? (variant 22)",
+    "question_latex": "What is \\( \\sin(90^\\circ) \\)?",
     "correct_answer": "1",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\sin(90^\\circ) = 1 \\)",
@@ -6579,7 +5191,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(225^\\circ) \\)? (variant 23)",
+    "question_latex": "What is \\( \\cos(225^\\circ) \\)?",
     "correct_answer": "-\\frac{\\sqrt{2}}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(225^\\circ) = -\\frac{\\sqrt{2}}{2} \\)",
@@ -6593,7 +5205,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\tan(30^\\circ) \\)? (variant 24)",
+    "question_latex": "What is \\( \\tan(30^\\circ) \\)?",
     "correct_answer": "\\frac{\\sqrt{3}}{3}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\tan(30^\\circ) = \\frac{\\sqrt{3}}{3} \\)",
@@ -6607,7 +5219,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\tan(90^\\circ) \\)? (variant 25)",
+    "question_latex": "What is \\( \\tan(90^\\circ) \\)?",
     "correct_answer": "undefined",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\tan(90^\\circ) = undefined \\)",
@@ -6621,7 +5233,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(330^\\circ) \\)? (variant 26)",
+    "question_latex": "What is \\( \\sin(330^\\circ) \\)?",
     "correct_answer": "-\\frac{1}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\sin(330^\\circ) = -\\frac{1}{2} \\)",
@@ -6635,7 +5247,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(330^\\circ) \\)? (variant 27)",
+    "question_latex": "What is \\( \\cos(330^\\circ) \\)?",
     "correct_answer": "\\frac{\\sqrt{3}}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(330^\\circ) = \\frac{\\sqrt{3}}{2} \\)",
@@ -6649,7 +5261,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(300^\\circ) \\)? (variant 28)",
+    "question_latex": "What is \\( \\sin(300^\\circ) \\)?",
     "correct_answer": "-\\frac{\\sqrt{3}}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\sin(300^\\circ) = -\\frac{\\sqrt{3}}{2} \\)",
@@ -6663,7 +5275,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(360^\\circ) \\)? (variant 29)",
+    "question_latex": "What is \\( \\sin(360^\\circ) \\)?",
     "correct_answer": "0",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\sin(360^\\circ) = 0 \\)",
@@ -6677,7 +5289,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(240^\\circ) \\)? (variant 30)",
+    "question_latex": "What is \\( \\sin(240^\\circ) \\)?",
     "correct_answer": "-\\frac{\\sqrt{3}}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\sin(240^\\circ) = -\\frac{\\sqrt{3}}{2} \\)",
@@ -6691,7 +5303,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(240^\\circ) \\)? (variant 31)",
+    "question_latex": "What is \\( \\cos(240^\\circ) \\)?",
     "correct_answer": "-\\frac{1}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(240^\\circ) = -\\frac{1}{2} \\)",
@@ -6705,7 +5317,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\tan(150^\\circ) \\)? (variant 32)",
+    "question_latex": "What is \\( \\tan(150^\\circ) \\)?",
     "correct_answer": "-\\frac{\\sqrt{3}}{3}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\tan(150^\\circ) = -\\frac{\\sqrt{3}}{3} \\)",
@@ -6719,7 +5331,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\tan(315^\\circ) \\)? (variant 33)",
+    "question_latex": "What is \\( \\tan(315^\\circ) \\)?",
     "correct_answer": "-1",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\tan(315^\\circ) = -1 \\)",
@@ -6733,7 +5345,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\tan(330^\\circ) \\)? (variant 34)",
+    "question_latex": "What is \\( \\tan(330^\\circ) \\)?",
     "correct_answer": "-\\frac{\\sqrt{3}}{3}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\tan(330^\\circ) = -\\frac{\\sqrt{3}}{3} \\)",
@@ -6747,7 +5359,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(240^\\circ) \\)? (variant 35)",
+    "question_latex": "What is \\( \\cos(240^\\circ) \\)?",
     "correct_answer": "-\\frac{1}{2}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(240^\\circ) = -\\frac{1}{2} \\)",
@@ -6761,7 +5373,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\sin(270^\\circ) \\)? (variant 36)",
+    "question_latex": "What is \\( \\sin(270^\\circ) \\)?",
     "correct_answer": "-1",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\sin(270^\\circ) = -1 \\)",
@@ -6775,7 +5387,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(180^\\circ) \\)? (variant 37)",
+    "question_latex": "What is \\( \\cos(180^\\circ) \\)?",
     "correct_answer": "-1",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(180^\\circ) = -1 \\)",
@@ -6789,7 +5401,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(180^\\circ) \\)? (variant 38)",
+    "question_latex": "What is \\( \\cos(180^\\circ) \\)?",
     "correct_answer": "-1",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(180^\\circ) = -1 \\)",
@@ -6803,7 +5415,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\cos(360^\\circ) \\)? (variant 39)",
+    "question_latex": "What is \\( \\cos(360^\\circ) \\)?",
     "correct_answer": "1",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\cos(360^\\circ) = 1 \\)",
@@ -6817,7 +5429,7 @@
     "subject": "Trigonometry",
     "topic": "Unit Circle",
     "difficulty": "easy",
-    "question_latex": "What is \\( \\tan(60^\\circ) \\)? (variant 40)",
+    "question_latex": "What is \\( \\tan(60^\\circ) \\)?",
     "correct_answer": "\\sqrt{3}",
     "hint": "Use the unit circle.",
     "explanation": "\\( \\tan(60^\\circ) = \\sqrt{3} \\)",
@@ -6831,7 +5443,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "easy",
-    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 1)",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\)",
     "correct_answer": "(x + 2)(x + 3)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( x^2 + 5x + 6 \\) is (x + 2)(x + 3).",
@@ -6845,7 +5457,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "easy",
-    "question_latex": "Factor \\( x^2 - 9 \\) (variant 2)",
+    "question_latex": "Factor \\( x^2 - 9 \\)",
     "correct_answer": "(x + 3)(x - 3)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( x^2 - 9 \\) is (x + 3)(x - 3).",
@@ -6859,7 +5471,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "easy",
-    "question_latex": "Factor \\( x^2 + 6x + 9 \\) (variant 3)",
+    "question_latex": "Factor \\( x^2 + 6x + 9 \\)",
     "correct_answer": "(x + 3)^2",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( x^2 + 6x + 9 \\) is (x + 3)^2.",
@@ -6873,7 +5485,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "medium",
-    "question_latex": "Factor \\( 2x^2 + 7x + 3 \\) (variant 4)",
+    "question_latex": "Factor \\( 2x^2 + 7x + 3 \\)",
     "correct_answer": "(2x + 1)(x + 3)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 2x^2 + 7x + 3 \\) is (2x + 1)(x + 3).",
@@ -6887,7 +5499,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "medium",
-    "question_latex": "Factor \\( 3x^2 - 12 \\) (variant 5)",
+    "question_latex": "Factor \\( 3x^2 - 12 \\)",
     "correct_answer": "3(x + 2)(x - 2)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 3x^2 - 12 \\) is 3(x + 2)(x - 2).",
@@ -6901,7 +5513,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "medium",
-    "question_latex": "Factor \\( 4x^2 - 25 \\) (variant 6)",
+    "question_latex": "Factor \\( 4x^2 - 25 \\)",
     "correct_answer": "(2x + 5)(2x - 5)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 4x^2 - 25 \\) is (2x + 5)(2x - 5).",
@@ -6915,7 +5527,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "hard",
-    "question_latex": "Factor \\( -x^2 + 2x + 3 \\) (variant 7)",
+    "question_latex": "Factor \\( -x^2 + 2x + 3 \\)",
     "correct_answer": "-(x - 3)(x + 1)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( -x^2 + 2x + 3 \\) is -(x - 3)(x + 1).",
@@ -6929,7 +5541,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "hard",
-    "question_latex": "Factor \\( 5x^2 + 11x + 2 \\) (variant 8)",
+    "question_latex": "Factor \\( 5x^2 + 11x + 2 \\)",
     "correct_answer": "(5x + 1)(x + 2)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 5x^2 + 11x + 2 \\) is (5x + 1)(x + 2).",
@@ -6943,7 +5555,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "hard",
-    "question_latex": "Factor \\( 6x^2 - 19x + 10 \\) (variant 9)",
+    "question_latex": "Factor \\( 6x^2 - 19x + 10 \\)",
     "correct_answer": "(3x - 2)(2x - 5)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 6x^2 - 19x + 10 \\) is (3x - 2)(2x - 5).",
@@ -6957,7 +5569,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "easy",
-    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 10)",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\)",
     "correct_answer": "(x + 2)(x + 3)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( x^2 + 5x + 6 \\) is (x + 2)(x + 3).",
@@ -6971,7 +5583,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "easy",
-    "question_latex": "Factor \\( x^2 - 9 \\) (variant 11)",
+    "question_latex": "Factor \\( x^2 - 9 \\)",
     "correct_answer": "(x + 3)(x - 3)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( x^2 - 9 \\) is (x + 3)(x - 3).",
@@ -6985,7 +5597,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "easy",
-    "question_latex": "Factor \\( x^2 + 6x + 9 \\) (variant 12)",
+    "question_latex": "Factor \\( x^2 + 6x + 9 \\)",
     "correct_answer": "(x + 3)^2",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( x^2 + 6x + 9 \\) is (x + 3)^2.",
@@ -6999,7 +5611,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "medium",
-    "question_latex": "Factor \\( 2x^2 + 7x + 3 \\) (variant 13)",
+    "question_latex": "Factor \\( 2x^2 + 7x + 3 \\)",
     "correct_answer": "(2x + 1)(x + 3)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 2x^2 + 7x + 3 \\) is (2x + 1)(x + 3).",
@@ -7013,7 +5625,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "medium",
-    "question_latex": "Factor \\( 3x^2 - 12 \\) (variant 14)",
+    "question_latex": "Factor \\( 3x^2 - 12 \\)",
     "correct_answer": "3(x + 2)(x - 2)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 3x^2 - 12 \\) is 3(x + 2)(x - 2).",
@@ -7027,7 +5639,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "medium",
-    "question_latex": "Factor \\( 4x^2 - 25 \\) (variant 15)",
+    "question_latex": "Factor \\( 4x^2 - 25 \\)",
     "correct_answer": "(2x + 5)(2x - 5)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 4x^2 - 25 \\) is (2x + 5)(2x - 5).",
@@ -7041,7 +5653,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "hard",
-    "question_latex": "Factor \\( -x^2 + 2x + 3 \\) (variant 16)",
+    "question_latex": "Factor \\( -x^2 + 2x + 3 \\)",
     "correct_answer": "-(x - 3)(x + 1)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( -x^2 + 2x + 3 \\) is -(x - 3)(x + 1).",
@@ -7055,7 +5667,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "hard",
-    "question_latex": "Factor \\( 5x^2 + 11x + 2 \\) (variant 17)",
+    "question_latex": "Factor \\( 5x^2 + 11x + 2 \\)",
     "correct_answer": "(5x + 1)(x + 2)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 5x^2 + 11x + 2 \\) is (5x + 1)(x + 2).",
@@ -7069,7 +5681,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "hard",
-    "question_latex": "Factor \\( 6x^2 - 19x + 10 \\) (variant 18)",
+    "question_latex": "Factor \\( 6x^2 - 19x + 10 \\)",
     "correct_answer": "(3x - 2)(2x - 5)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 6x^2 - 19x + 10 \\) is (3x - 2)(2x - 5).",
@@ -7083,7 +5695,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "easy",
-    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 19)",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\)",
     "correct_answer": "(x + 2)(x + 3)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( x^2 + 5x + 6 \\) is (x + 2)(x + 3).",
@@ -7097,7 +5709,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "easy",
-    "question_latex": "Factor \\( x^2 - 9 \\) (variant 20)",
+    "question_latex": "Factor \\( x^2 - 9 \\)",
     "correct_answer": "(x + 3)(x - 3)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( x^2 - 9 \\) is (x + 3)(x - 3).",
@@ -7111,7 +5723,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "easy",
-    "question_latex": "Factor \\( x^2 + 6x + 9 \\) (variant 21)",
+    "question_latex": "Factor \\( x^2 + 6x + 9 \\)",
     "correct_answer": "(x + 3)^2",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( x^2 + 6x + 9 \\) is (x + 3)^2.",
@@ -7125,7 +5737,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "medium",
-    "question_latex": "Factor \\( 2x^2 + 7x + 3 \\) (variant 22)",
+    "question_latex": "Factor \\( 2x^2 + 7x + 3 \\)",
     "correct_answer": "(2x + 1)(x + 3)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 2x^2 + 7x + 3 \\) is (2x + 1)(x + 3).",
@@ -7139,7 +5751,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "medium",
-    "question_latex": "Factor \\( 3x^2 - 12 \\) (variant 23)",
+    "question_latex": "Factor \\( 3x^2 - 12 \\)",
     "correct_answer": "3(x + 2)(x - 2)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 3x^2 - 12 \\) is 3(x + 2)(x - 2).",
@@ -7153,7 +5765,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "medium",
-    "question_latex": "Factor \\( 4x^2 - 25 \\) (variant 24)",
+    "question_latex": "Factor \\( 4x^2 - 25 \\)",
     "correct_answer": "(2x + 5)(2x - 5)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 4x^2 - 25 \\) is (2x + 5)(2x - 5).",
@@ -7167,7 +5779,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "hard",
-    "question_latex": "Factor \\( -x^2 + 2x + 3 \\) (variant 25)",
+    "question_latex": "Factor \\( -x^2 + 2x + 3 \\)",
     "correct_answer": "-(x - 3)(x + 1)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( -x^2 + 2x + 3 \\) is -(x - 3)(x + 1).",
@@ -7181,7 +5793,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "hard",
-    "question_latex": "Factor \\( 5x^2 + 11x + 2 \\) (variant 26)",
+    "question_latex": "Factor \\( 5x^2 + 11x + 2 \\)",
     "correct_answer": "(5x + 1)(x + 2)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 5x^2 + 11x + 2 \\) is (5x + 1)(x + 2).",
@@ -7195,7 +5807,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "hard",
-    "question_latex": "Factor \\( 6x^2 - 19x + 10 \\) (variant 27)",
+    "question_latex": "Factor \\( 6x^2 - 19x + 10 \\)",
     "correct_answer": "(3x - 2)(2x - 5)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 6x^2 - 19x + 10 \\) is (3x - 2)(2x - 5).",
@@ -7209,7 +5821,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "easy",
-    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 28)",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\)",
     "correct_answer": "(x + 2)(x + 3)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( x^2 + 5x + 6 \\) is (x + 2)(x + 3).",
@@ -7223,7 +5835,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "easy",
-    "question_latex": "Factor \\( x^2 - 9 \\) (variant 29)",
+    "question_latex": "Factor \\( x^2 - 9 \\)",
     "correct_answer": "(x + 3)(x - 3)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( x^2 - 9 \\) is (x + 3)(x - 3).",
@@ -7237,7 +5849,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "easy",
-    "question_latex": "Factor \\( x^2 + 6x + 9 \\) (variant 30)",
+    "question_latex": "Factor \\( x^2 + 6x + 9 \\)",
     "correct_answer": "(x + 3)^2",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( x^2 + 6x + 9 \\) is (x + 3)^2.",
@@ -7251,7 +5863,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "medium",
-    "question_latex": "Factor \\( 2x^2 + 7x + 3 \\) (variant 31)",
+    "question_latex": "Factor \\( 2x^2 + 7x + 3 \\)",
     "correct_answer": "(2x + 1)(x + 3)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 2x^2 + 7x + 3 \\) is (2x + 1)(x + 3).",
@@ -7265,7 +5877,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "medium",
-    "question_latex": "Factor \\( 3x^2 - 12 \\) (variant 32)",
+    "question_latex": "Factor \\( 3x^2 - 12 \\)",
     "correct_answer": "3(x + 2)(x - 2)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 3x^2 - 12 \\) is 3(x + 2)(x - 2).",
@@ -7279,7 +5891,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "medium",
-    "question_latex": "Factor \\( 4x^2 - 25 \\) (variant 33)",
+    "question_latex": "Factor \\( 4x^2 - 25 \\)",
     "correct_answer": "(2x + 5)(2x - 5)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 4x^2 - 25 \\) is (2x + 5)(2x - 5).",
@@ -7293,7 +5905,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "hard",
-    "question_latex": "Factor \\( -x^2 + 2x + 3 \\) (variant 34)",
+    "question_latex": "Factor \\( -x^2 + 2x + 3 \\)",
     "correct_answer": "-(x - 3)(x + 1)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( -x^2 + 2x + 3 \\) is -(x - 3)(x + 1).",
@@ -7307,7 +5919,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "hard",
-    "question_latex": "Factor \\( 5x^2 + 11x + 2 \\) (variant 35)",
+    "question_latex": "Factor \\( 5x^2 + 11x + 2 \\)",
     "correct_answer": "(5x + 1)(x + 2)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 5x^2 + 11x + 2 \\) is (5x + 1)(x + 2).",
@@ -7321,7 +5933,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "hard",
-    "question_latex": "Factor \\( 6x^2 - 19x + 10 \\) (variant 36)",
+    "question_latex": "Factor \\( 6x^2 - 19x + 10 \\)",
     "correct_answer": "(3x - 2)(2x - 5)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 6x^2 - 19x + 10 \\) is (3x - 2)(2x - 5).",
@@ -7335,7 +5947,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "easy",
-    "question_latex": "Factor \\( x^2 + 5x + 6 \\) (variant 37)",
+    "question_latex": "Factor \\( x^2 + 5x + 6 \\)",
     "correct_answer": "(x + 2)(x + 3)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( x^2 + 5x + 6 \\) is (x + 2)(x + 3).",
@@ -7349,7 +5961,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "easy",
-    "question_latex": "Factor \\( x^2 - 9 \\) (variant 38)",
+    "question_latex": "Factor \\( x^2 - 9 \\)",
     "correct_answer": "(x + 3)(x - 3)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( x^2 - 9 \\) is (x + 3)(x - 3).",
@@ -7363,7 +5975,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "easy",
-    "question_latex": "Factor \\( x^2 + 6x + 9 \\) (variant 39)",
+    "question_latex": "Factor \\( x^2 + 6x + 9 \\)",
     "correct_answer": "(x + 3)^2",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( x^2 + 6x + 9 \\) is (x + 3)^2.",
@@ -7377,7 +5989,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics",
     "difficulty": "medium",
-    "question_latex": "Factor \\( 2x^2 + 7x + 3 \\) (variant 40)",
+    "question_latex": "Factor \\( 2x^2 + 7x + 3 \\)",
     "correct_answer": "(2x + 1)(x + 3)",
     "hint": "Look for factoring patterns like perfect squares, difference of squares, or factoring out a constant.",
     "explanation": "The correct factorization of \\( 2x^2 + 7x + 3 \\) is (2x + 1)(x + 3).",
@@ -7391,7 +6003,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( x^3 + 3x^2 + 2x \\) (variant 1)",
+    "question_latex": "Factor \\( x^3 + 3x^2 + 2x \\)",
     "correct_answer": "x(x + 1)(x + 2)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( x^3 + 3x^2 + 2x \\) is x(x + 1)(x + 2).",
@@ -7405,7 +6017,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( 2x^3 + 4x^2 - 6x \\) (variant 2)",
+    "question_latex": "Factor \\( 2x^3 + 4x^2 - 6x \\)",
     "correct_answer": "2x(x + 3)(x - 1)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( 2x^3 + 4x^2 - 6x \\) is 2x(x + 3)(x - 1).",
@@ -7419,7 +6031,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( x^2 - x - 6 + 2x(x + 2) \\) (variant 3)",
+    "question_latex": "Factor \\( x^2 - x - 6 + 2x(x + 2) \\)",
     "correct_answer": "(x + 2)(3x - 3)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( x^2 - x - 6 + 2x(x + 2) \\) is (x + 2)(3x - 3).",
@@ -7433,7 +6045,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( x^2 + 4x + 4 - x^2 \\) (variant 4)",
+    "question_latex": "Factor \\( x^2 + 4x + 4 - x^2 \\)",
     "correct_answer": "(x + 2)^2",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( x^2 + 4x + 4 - x^2 \\) is (x + 2)^2.",
@@ -7447,7 +6059,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( x^4 - 16 \\) (variant 5)",
+    "question_latex": "Factor \\( x^4 - 16 \\)",
     "correct_answer": "(x^2 - 4)(x^2 + 4)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( x^4 - 16 \\) is (x^2 - 4)(x^2 + 4).",
@@ -7461,7 +6073,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( 3x^3 - 12x \\) (variant 6)",
+    "question_latex": "Factor \\( 3x^3 - 12x \\)",
     "correct_answer": "3x(x - 2)(x + 2)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( 3x^3 - 12x \\) is 3x(x - 2)(x + 2).",
@@ -7475,7 +6087,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( x^3 - 9x \\) (variant 7)",
+    "question_latex": "Factor \\( x^3 - 9x \\)",
     "correct_answer": "x(x - 3)(x + 3)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( x^3 - 9x \\) is x(x - 3)(x + 3).",
@@ -7489,7 +6101,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( x^3 + 3x^2 + 2x \\) (variant 8)",
+    "question_latex": "Factor \\( x^3 + 3x^2 + 2x \\)",
     "correct_answer": "x(x + 1)(x + 2)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( x^3 + 3x^2 + 2x \\) is x(x + 1)(x + 2).",
@@ -7503,7 +6115,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( 2x^3 + 4x^2 - 6x \\) (variant 9)",
+    "question_latex": "Factor \\( 2x^3 + 4x^2 - 6x \\)",
     "correct_answer": "2x(x + 3)(x - 1)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( 2x^3 + 4x^2 - 6x \\) is 2x(x + 3)(x - 1).",
@@ -7517,7 +6129,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( x^2 - x - 6 + 2x(x + 2) \\) (variant 10)",
+    "question_latex": "Factor \\( x^2 - x - 6 + 2x(x + 2) \\)",
     "correct_answer": "(x + 2)(3x - 3)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( x^2 - x - 6 + 2x(x + 2) \\) is (x + 2)(3x - 3).",
@@ -7531,7 +6143,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( x^2 + 4x + 4 - x^2 \\) (variant 11)",
+    "question_latex": "Factor \\( x^2 + 4x + 4 - x^2 \\)",
     "correct_answer": "(x + 2)^2",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( x^2 + 4x + 4 - x^2 \\) is (x + 2)^2.",
@@ -7545,7 +6157,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( x^4 - 16 \\) (variant 12)",
+    "question_latex": "Factor \\( x^4 - 16 \\)",
     "correct_answer": "(x^2 - 4)(x^2 + 4)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( x^4 - 16 \\) is (x^2 - 4)(x^2 + 4).",
@@ -7559,7 +6171,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( 3x^3 - 12x \\) (variant 13)",
+    "question_latex": "Factor \\( 3x^3 - 12x \\)",
     "correct_answer": "3x(x - 2)(x + 2)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( 3x^3 - 12x \\) is 3x(x - 2)(x + 2).",
@@ -7573,7 +6185,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( x^3 - 9x \\) (variant 14)",
+    "question_latex": "Factor \\( x^3 - 9x \\)",
     "correct_answer": "x(x - 3)(x + 3)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( x^3 - 9x \\) is x(x - 3)(x + 3).",
@@ -7587,7 +6199,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( x^3 + 3x^2 + 2x \\) (variant 15)",
+    "question_latex": "Factor \\( x^3 + 3x^2 + 2x \\)",
     "correct_answer": "x(x + 1)(x + 2)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( x^3 + 3x^2 + 2x \\) is x(x + 1)(x + 2).",
@@ -7601,7 +6213,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( 2x^3 + 4x^2 - 6x \\) (variant 16)",
+    "question_latex": "Factor \\( 2x^3 + 4x^2 - 6x \\)",
     "correct_answer": "2x(x + 3)(x - 1)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( 2x^3 + 4x^2 - 6x \\) is 2x(x + 3)(x - 1).",
@@ -7615,7 +6227,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( x^2 - x - 6 + 2x(x + 2) \\) (variant 17)",
+    "question_latex": "Factor \\( x^2 - x - 6 + 2x(x + 2) \\)",
     "correct_answer": "(x + 2)(3x - 3)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( x^2 - x - 6 + 2x(x + 2) \\) is (x + 2)(3x - 3).",
@@ -7629,7 +6241,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( x^2 + 4x + 4 - x^2 \\) (variant 18)",
+    "question_latex": "Factor \\( x^2 + 4x + 4 - x^2 \\)",
     "correct_answer": "(x + 2)^2",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( x^2 + 4x + 4 - x^2 \\) is (x + 2)^2.",
@@ -7643,7 +6255,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( x^4 - 16 \\) (variant 19)",
+    "question_latex": "Factor \\( x^4 - 16 \\)",
     "correct_answer": "(x^2 - 4)(x^2 + 4)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( x^4 - 16 \\) is (x^2 - 4)(x^2 + 4).",
@@ -7657,7 +6269,7 @@
     "subject": "Algebra 2",
     "topic": "Factoring Quadratics (Level 2)",
     "difficulty": "hard",
-    "question_latex": "Factor \\( 3x^3 - 12x \\) (variant 20)",
+    "question_latex": "Factor \\( 3x^3 - 12x \\)",
     "correct_answer": "3x(x - 2)(x + 2)",
     "hint": "Try factoring by grouping or using difference of squares.",
     "explanation": "The correct factorization of \\( 3x^3 - 12x \\) is 3x(x - 2)(x + 2).",
@@ -7671,7 +6283,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "hard",
-    "question_latex": "Simplify: \\( 3(x - 1) + 2(x + 2) \\) (variant 1)",
+    "question_latex": "Simplify: \\( 3(x - 1) + 2(x + 2) \\)",
     "correct_answer": "3x - 3 + 2x + 4",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 3(x - 1) + 2(x + 2) \\) is \\( 3x - 3 + 2x + 4 \\).",
@@ -7685,7 +6297,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( 3y + 2x - y \\) (variant 2)",
+    "question_latex": "Simplify: \\( 3y + 2x - y \\)",
     "correct_answer": "2y + 2x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 3y + 2x - y \\) is \\( 2y + 2x \\).",
@@ -7699,7 +6311,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( 3y + 2x - y \\) (variant 3)",
+    "question_latex": "Simplify: \\( 3y + 2x - y \\)",
     "correct_answer": "2y + 2x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 3y + 2x - y \\) is \\( 2y + 2x \\).",
@@ -7713,7 +6325,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( 6a - 2a + a \\) (variant 4)",
+    "question_latex": "Simplify: \\( 6a - 2a + a \\)",
     "correct_answer": "5a",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 6a - 2a + a \\) is \\( 5a \\).",
@@ -7727,7 +6339,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 7b - 3b \\) (variant 5)",
+    "question_latex": "Simplify: \\( 7b - 3b \\)",
     "correct_answer": "4b",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 7b - 3b \\) is \\( 4b \\).",
@@ -7741,7 +6353,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "hard",
-    "question_latex": "Simplify: \\( x^2 + 2x + 3x^2 - x \\) (variant 6)",
+    "question_latex": "Simplify: \\( x^2 + 2x + 3x^2 - x \\)",
     "correct_answer": "4x^2 + x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( x^2 + 2x + 3x^2 - x \\) is \\( 4x^2 + x \\).",
@@ -7755,7 +6367,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "hard",
-    "question_latex": "Simplify: \\( 2a + 3b - 4a + b \\) (variant 7)",
+    "question_latex": "Simplify: \\( 2a + 3b - 4a + b \\)",
     "correct_answer": "-2a + 4b",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 2a + 3b - 4a + b \\) is \\( -2a + 4b \\).",
@@ -7769,7 +6381,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 2m + 3m + m \\) (variant 8)",
+    "question_latex": "Simplify: \\( 2m + 3m + m \\)",
     "correct_answer": "6m",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 2m + 3m + m \\) is \\( 6m \\).",
@@ -7783,7 +6395,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 2m + 3m + m \\) (variant 9)",
+    "question_latex": "Simplify: \\( 2m + 3m + m \\)",
     "correct_answer": "6m",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 2m + 3m + m \\) is \\( 6m \\).",
@@ -7797,7 +6409,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( 3y + 2x - y \\) (variant 10)",
+    "question_latex": "Simplify: \\( 3y + 2x - y \\)",
     "correct_answer": "2y + 2x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 3y + 2x - y \\) is \\( 2y + 2x \\).",
@@ -7811,7 +6423,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( 2x + 3x - x \\) (variant 11)",
+    "question_latex": "Simplify: \\( 2x + 3x - x \\)",
     "correct_answer": "4x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 2x + 3x - x \\) is \\( 4x \\).",
@@ -7825,7 +6437,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "hard",
-    "question_latex": "Simplify: \\( 2(x + 3) + 4x \\) (variant 12)",
+    "question_latex": "Simplify: \\( 2(x + 3) + 4x \\)",
     "correct_answer": "2x + 6 + 4x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 2(x + 3) + 4x \\) is \\( 2x + 6 + 4x \\).",
@@ -7839,7 +6451,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 4y - y \\) (variant 13)",
+    "question_latex": "Simplify: \\( 4y - y \\)",
     "correct_answer": "3y",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 4y - y \\) is \\( 3y \\).",
@@ -7853,7 +6465,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( 6a - 2a + a \\) (variant 14)",
+    "question_latex": "Simplify: \\( 6a - 2a + a \\)",
     "correct_answer": "5a",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 6a - 2a + a \\) is \\( 5a \\).",
@@ -7867,7 +6479,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 3x + 2x \\) (variant 15)",
+    "question_latex": "Simplify: \\( 3x + 2x \\)",
     "correct_answer": "5x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 3x + 2x \\) is \\( 5x \\).",
@@ -7881,7 +6493,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "hard",
-    "question_latex": "Simplify: \\( 2a + 3b - 4a + b \\) (variant 16)",
+    "question_latex": "Simplify: \\( 2a + 3b - 4a + b \\)",
     "correct_answer": "-2a + 4b",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 2a + 3b - 4a + b \\) is \\( -2a + 4b \\).",
@@ -7895,7 +6507,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "hard",
-    "question_latex": "Simplify: \\( x + 2(x - 3) \\) (variant 17)",
+    "question_latex": "Simplify: \\( x + 2(x - 3) \\)",
     "correct_answer": "x + 2x - 6",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( x + 2(x - 3) \\) is \\( x + 2x - 6 \\).",
@@ -7909,7 +6521,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "hard",
-    "question_latex": "Simplify: \\( x^2 + 2x + 3x^2 - x \\) (variant 18)",
+    "question_latex": "Simplify: \\( x^2 + 2x + 3x^2 - x \\)",
     "correct_answer": "4x^2 + x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( x^2 + 2x + 3x^2 - x \\) is \\( 4x^2 + x \\).",
@@ -7923,7 +6535,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 7b - 3b \\) (variant 19)",
+    "question_latex": "Simplify: \\( 7b - 3b \\)",
     "correct_answer": "4b",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 7b - 3b \\) is \\( 4b \\).",
@@ -7937,7 +6549,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 3x + 2x \\) (variant 20)",
+    "question_latex": "Simplify: \\( 3x + 2x \\)",
     "correct_answer": "5x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 3x + 2x \\) is \\( 5x \\).",
@@ -7951,7 +6563,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 4y - y \\) (variant 21)",
+    "question_latex": "Simplify: \\( 4y - y \\)",
     "correct_answer": "3y",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 4y - y \\) is \\( 3y \\).",
@@ -7965,7 +6577,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 5a + 6a \\) (variant 22)",
+    "question_latex": "Simplify: \\( 5a + 6a \\)",
     "correct_answer": "11a",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 5a + 6a \\) is \\( 11a \\).",
@@ -7979,7 +6591,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( 6a - 2a + a \\) (variant 23)",
+    "question_latex": "Simplify: \\( 6a - 2a + a \\)",
     "correct_answer": "5a",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 6a - 2a + a \\) is \\( 5a \\).",
@@ -7993,7 +6605,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "hard",
-    "question_latex": "Simplify: \\( x + 2(x - 3) \\) (variant 24)",
+    "question_latex": "Simplify: \\( x + 2(x - 3) \\)",
     "correct_answer": "x + 2x - 6",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( x + 2(x - 3) \\) is \\( x + 2x - 6 \\).",
@@ -8007,7 +6619,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "hard",
-    "question_latex": "Simplify: \\( x^2 + 2x + 3x^2 - x \\) (variant 25)",
+    "question_latex": "Simplify: \\( x^2 + 2x + 3x^2 - x \\)",
     "correct_answer": "4x^2 + x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( x^2 + 2x + 3x^2 - x \\) is \\( 4x^2 + x \\).",
@@ -8021,7 +6633,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "hard",
-    "question_latex": "Simplify: \\( 3(x - 1) + 2(x + 2) \\) (variant 26)",
+    "question_latex": "Simplify: \\( 3(x - 1) + 2(x + 2) \\)",
     "correct_answer": "3x - 3 + 2x + 4",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 3(x - 1) + 2(x + 2) \\) is \\( 3x - 3 + 2x + 4 \\).",
@@ -8035,7 +6647,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "hard",
-    "question_latex": "Simplify: \\( 3(x - 1) + 2(x + 2) \\) (variant 27)",
+    "question_latex": "Simplify: \\( 3(x - 1) + 2(x + 2) \\)",
     "correct_answer": "3x - 3 + 2x + 4",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 3(x - 1) + 2(x + 2) \\) is \\( 3x - 3 + 2x + 4 \\).",
@@ -8049,7 +6661,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "hard",
-    "question_latex": "Simplify: \\( 2a + 3b - 4a + b \\) (variant 28)",
+    "question_latex": "Simplify: \\( 2a + 3b - 4a + b \\)",
     "correct_answer": "-2a + 4b",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 2a + 3b - 4a + b \\) is \\( -2a + 4b \\).",
@@ -8063,7 +6675,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "hard",
-    "question_latex": "Simplify: \\( 2(x + 3) + 4x \\) (variant 29)",
+    "question_latex": "Simplify: \\( 2(x + 3) + 4x \\)",
     "correct_answer": "2x + 6 + 4x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 2(x + 3) + 4x \\) is \\( 2x + 6 + 4x \\).",
@@ -8077,7 +6689,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 5a + 6a \\) (variant 30)",
+    "question_latex": "Simplify: \\( 5a + 6a \\)",
     "correct_answer": "11a",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 5a + 6a \\) is \\( 11a \\).",
@@ -8091,7 +6703,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( x + y \\) (variant 31)",
+    "question_latex": "Simplify: \\( x + y \\)",
     "correct_answer": "x + y",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( x + y \\) is \\( x + y \\).",
@@ -8105,7 +6717,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 4y - y \\) (variant 32)",
+    "question_latex": "Simplify: \\( 4y - y \\)",
     "correct_answer": "3y",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 4y - y \\) is \\( 3y \\).",
@@ -8119,7 +6731,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 5a + 6a \\) (variant 33)",
+    "question_latex": "Simplify: \\( 5a + 6a \\)",
     "correct_answer": "11a",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 5a + 6a \\) is \\( 11a \\).",
@@ -8133,7 +6745,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 5a + 6a \\) (variant 34)",
+    "question_latex": "Simplify: \\( 5a + 6a \\)",
     "correct_answer": "11a",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 5a + 6a \\) is \\( 11a \\).",
@@ -8147,7 +6759,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( 6a - 2a + a \\) (variant 35)",
+    "question_latex": "Simplify: \\( 6a - 2a + a \\)",
     "correct_answer": "5a",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 6a - 2a + a \\) is \\( 5a \\).",
@@ -8161,7 +6773,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "hard",
-    "question_latex": "Simplify: \\( 2a + 3b - 4a + b \\) (variant 36)",
+    "question_latex": "Simplify: \\( 2a + 3b - 4a + b \\)",
     "correct_answer": "-2a + 4b",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 2a + 3b - 4a + b \\) is \\( -2a + 4b \\).",
@@ -8175,7 +6787,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 7b - 3b \\) (variant 37)",
+    "question_latex": "Simplify: \\( 7b - 3b \\)",
     "correct_answer": "4b",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 7b - 3b \\) is \\( 4b \\).",
@@ -8189,7 +6801,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( 3y + 2x - y \\) (variant 38)",
+    "question_latex": "Simplify: \\( 3y + 2x - y \\)",
     "correct_answer": "2y + 2x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 3y + 2x - y \\) is \\( 2y + 2x \\).",
@@ -8203,7 +6815,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 5a + 6a \\) (variant 39)",
+    "question_latex": "Simplify: \\( 5a + 6a \\)",
     "correct_answer": "11a",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 5a + 6a \\) is \\( 11a \\).",
@@ -8217,7 +6829,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( 3y + 2x - y \\) (variant 40)",
+    "question_latex": "Simplify: \\( 3y + 2x - y \\)",
     "correct_answer": "2y + 2x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 3y + 2x - y \\) is \\( 2y + 2x \\).",
@@ -8231,7 +6843,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 4y - y \\) (variant 41)",
+    "question_latex": "Simplify: \\( 4y - y \\)",
     "correct_answer": "3y",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 4y - y \\) is \\( 3y \\).",
@@ -8245,7 +6857,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 4y - y \\) (variant 42)",
+    "question_latex": "Simplify: \\( 4y - y \\)",
     "correct_answer": "3y",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 4y - y \\) is \\( 3y \\).",
@@ -8259,7 +6871,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( 2x + 3x - x \\) (variant 43)",
+    "question_latex": "Simplify: \\( 2x + 3x - x \\)",
     "correct_answer": "4x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 2x + 3x - x \\) is \\( 4x \\).",
@@ -8273,7 +6885,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( x + y \\) (variant 44)",
+    "question_latex": "Simplify: \\( x + y \\)",
     "correct_answer": "x + y",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( x + y \\) is \\( x + y \\).",
@@ -8287,7 +6899,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 7b - 3b \\) (variant 45)",
+    "question_latex": "Simplify: \\( 7b - 3b \\)",
     "correct_answer": "4b",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 7b - 3b \\) is \\( 4b \\).",
@@ -8301,7 +6913,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( 4x + 2 + 3x - 5 \\) (variant 46)",
+    "question_latex": "Simplify: \\( 4x + 2 + 3x - 5 \\)",
     "correct_answer": "7x - 3",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 4x + 2 + 3x - 5 \\) is \\( 7x - 3 \\).",
@@ -8315,7 +6927,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "easy",
-    "question_latex": "Simplify: \\( 4y - y \\) (variant 47)",
+    "question_latex": "Simplify: \\( 4y - y \\)",
     "correct_answer": "3y",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 4y - y \\) is \\( 3y \\).",
@@ -8329,7 +6941,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "hard",
-    "question_latex": "Simplify: \\( 2(x + 3) + 4x \\) (variant 48)",
+    "question_latex": "Simplify: \\( 2(x + 3) + 4x \\)",
     "correct_answer": "2x + 6 + 4x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 2(x + 3) + 4x \\) is \\( 2x + 6 + 4x \\).",
@@ -8343,7 +6955,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( 2x + 3x - x \\) (variant 49)",
+    "question_latex": "Simplify: \\( 2x + 3x - x \\)",
     "correct_answer": "4x",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 2x + 3x - x \\) is \\( 4x \\).",
@@ -8357,7 +6969,7 @@
     "subject": "Algebra 1",
     "topic": "Combining Like Terms",
     "difficulty": "medium",
-    "question_latex": "Simplify: \\( 4x + 2 + 3x - 5 \\) (variant 50)",
+    "question_latex": "Simplify: \\( 4x + 2 + 3x - 5 \\)",
     "correct_answer": "7x - 3",
     "hint": "Group and combine like terms (same variable and exponent).",
     "explanation": "The simplified expression for \\( 4x + 2 + 3x - 5 \\) is \\( 7x - 3 \\).",
@@ -8866,9 +7478,5 @@
     "hint": "Range of arcsin is [–π/2, π/2].",
     "explanation": "arcsin(–1) = –π/2."
   }
-  
-  
-  
-  
-  
+    
 ]
