@@ -2089,21 +2089,7 @@
   
  
   
-  {
-    "subject": "Algebra 1",
-    "topic": "Slope",
-    "difficulty": "easy",
-    "question_latex": "What is the slope of the red line shown in the image?",
-    "image": "images/find_slope_example.jpg",
-    "correct_answer": "2",
-    "incorrect_answers": [
-      "1",
-      "4",
-      "1/2"
-    ],
-    "hint": "Count rise over run using points on the red line.",
-    "explanation": "From the graph, rise = 2 and run = 1, so slope = 2/1 = 2."
-  },
+  
   {
     "subject": "Algebra 1",
     "topic": "Slope",
